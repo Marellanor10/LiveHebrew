@@ -1,0 +1,913 @@
+[
+  {
+    "id": "r101",
+    "level": 1,
+    "title": "Salmo 23 · verso 1",
+    "reference": "Psalm 23:1",
+    "hebrew": "מִזְמוֹר לְדָוִד יְהוָה רֹעִי לֹא אֶחְסָר",
+    "translation": "Salmo de David. El SEÑOR es mi pastor; no me faltará.",
+    "question": "¿Quién es el pastor en el versículo?",
+    "answer": "El SEÑOR",
+    "note": "Lectura inicial: reconoce nombres, negación y una frase nominal.",
+    "order": 1,
+    "tokens": [
+      {
+        "text": "מִזְמוֹר",
+        "vocab_id": "v062"
+      },
+      {
+        "text": "לְדָוִד",
+        "vocab_id": "v063"
+      },
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "רֹעִי",
+        "vocab_id": "v060"
+      },
+      {
+        "text": "לֹא",
+        "vocab_id": "v029"
+      },
+      {
+        "text": "אֶחְסָר",
+        "vocab_id": "v061"
+      }
+    ]
+  },
+  {
+    "id": "r102",
+    "level": 1,
+    "title": "Salmo 121 · verso 2",
+    "reference": "Psalm 121:2",
+    "hebrew": "עֶזְרִי מֵעִם יְהוָה עֹשֵׂה שָׁמַיִם וָאָרֶץ",
+    "translation": "Mi ayuda viene del SEÑOR, hacedor de los cielos y de la tierra.",
+    "question": "¿De dónde viene la ayuda?",
+    "answer": "מֵעִם יְהוָה",
+    "note": "Lectura inicial con preposición y vocabulario frecuente.",
+    "order": 2,
+    "tokens": [
+      {
+        "text": "עֶזְרִי",
+        "vocab_id": "v125"
+      },
+      {
+        "text": "מֵעִם",
+        "vocab_id": "v126"
+      },
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "עֹשֵׂה",
+        "vocab_id": "v127"
+      },
+      {
+        "text": "שָׁמַיִם",
+        "vocab_id": "v004"
+      },
+      {
+        "text": "וָאָרֶץ",
+        "vocab_id": "v003"
+      }
+    ]
+  },
+  {
+    "id": "r103",
+    "level": 1,
+    "title": "Salmo 1 · verso 1 (fragmento)",
+    "reference": "Psalm 1:1",
+    "hebrew": "אַשְׁרֵי הָאִישׁ אֲשֶׁר לֹא הָלַךְ",
+    "translation": "Dichoso el hombre que no caminó…",
+    "question": "¿Qué acción aparece negada?",
+    "answer": "הָלַךְ",
+    "note": "Primera lectura de relativo y negación.",
+    "order": 3,
+    "tokens": [
+      {
+        "text": "אַשְׁרֵי",
+        "vocab_id": "v094"
+      },
+      {
+        "text": "הָאִישׁ",
+        "vocab_id": "v095"
+      },
+      {
+        "text": "אֲשֶׁר",
+        "vocab_id": "v096"
+      },
+      {
+        "text": "לֹא",
+        "vocab_id": "v029"
+      },
+      {
+        "text": "הָלַךְ",
+        "vocab_id": "v097"
+      }
+    ]
+  },
+  {
+    "id": "r201",
+    "level": 2,
+    "title": "Salmo 23 · verso 2",
+    "reference": "Psalm 23:2",
+    "hebrew": "בִּנְאוֹת דֶּשֶׁא יַרְבִּיצֵנִי עַל־מֵי מְנֻחוֹת יְנַהֲלֵנִי",
+    "translation": "En pastos de hierba me hace recostar; junto a aguas de reposo me guía.",
+    "question": "¿Qué dos acciones realiza el sujeto con el hablante?",
+    "answer": "יַרְבִּיצֵנִי / יְנַהֲלֵנִי",
+    "note": "Empieza la lectura verbal: reconoce formas con sufijo de primera persona.",
+    "order": 4,
+    "tokens": [
+      {
+        "text": "בִּנְאוֹת",
+        "vocab_id": "v064"
+      },
+      {
+        "text": "דֶּשֶׁא",
+        "vocab_id": "v065"
+      },
+      {
+        "text": "יַרְבִּיצֵנִי",
+        "vocab_id": "v066"
+      },
+      {
+        "text": "עַל־מֵי",
+        "vocab_id": "v005"
+      },
+      {
+        "text": "מְנֻחוֹת",
+        "vocab_id": "v067"
+      },
+      {
+        "text": "יְנַהֲלֵנִי",
+        "vocab_id": "v068"
+      }
+    ]
+  },
+  {
+    "id": "r202",
+    "level": 2,
+    "title": "Salmo 121 · verso 1",
+    "reference": "Psalm 121:1",
+    "hebrew": "אֶשָּׂא עֵינַי אֶל־הֶהָרִים מֵאַיִן יָבוֹא עֶזְרִי",
+    "translation": "Alzo mis ojos a los montes; ¿de dónde vendrá mi ayuda?",
+    "question": "¿Qué se alza y hacia dónde?",
+    "answer": "עֵינַי → אֶל־הֶהָרִים",
+    "note": "Pregunta, movimiento y posesión.",
+    "order": 5,
+    "tokens": [
+      {
+        "text": "אֶשָּׂא",
+        "vocab_id": "v120"
+      },
+      {
+        "text": "עֵינַי",
+        "vocab_id": "v121"
+      },
+      {
+        "text": "אֶל־הֶהָרִים",
+        "vocab_id": "v122"
+      },
+      {
+        "text": "מֵאַיִן",
+        "vocab_id": "v123"
+      },
+      {
+        "text": "יָבוֹא",
+        "vocab_id": "v124"
+      },
+      {
+        "text": "עֶזְרִי",
+        "vocab_id": "v125"
+      }
+    ]
+  },
+  {
+    "id": "r203",
+    "level": 2,
+    "title": "Salmo 1 · verso 2",
+    "reference": "Psalm 1:2",
+    "hebrew": "כִּי אִם־בְּתוֹרַת יְהוָה חֶפְצוֹ וּבְתוֹרָתוֹ יֶהְגֶּה יוֹמָם וָלָיְלָה",
+    "translation": "Sino que en la enseñanza del SEÑOR está su deleite, y en su enseñanza medita día y noche.",
+    "question": "¿Cuándo medita?",
+    "answer": "יוֹמָם וָלָיְלָה",
+    "note": "Contraste, posesión y expresión temporal.",
+    "order": 6,
+    "tokens": [
+      {
+        "text": "כִּי",
+        "vocab_id": "v030"
+      },
+      {
+        "text": "אִם־בְּתוֹרַת",
+        "vocab_id": "v106"
+      },
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "חֶפְצוֹ",
+        "vocab_id": "v107"
+      },
+      {
+        "text": "וּבְתוֹרָתוֹ",
+        "vocab_id": "v106"
+      },
+      {
+        "text": "יֶהְגֶּה",
+        "vocab_id": "v108"
+      },
+      {
+        "text": "יוֹמָם",
+        "vocab_id": "v109"
+      },
+      {
+        "text": "וָלָיְלָה",
+        "vocab_id": "v110"
+      }
+    ]
+  },
+  {
+    "id": "r301",
+    "level": 3,
+    "title": "Salmo 23 · verso 3",
+    "reference": "Psalm 23:3",
+    "hebrew": "נַפְשִׁי יְשׁוֹבֵב יַנְחֵנִי בְּמַעְגְּלֵי־צֶדֶק לְמַעַן שְׁמוֹ",
+    "translation": "Restaura mi vida; me guía por senderos de justicia por amor de su nombre.",
+    "question": "¿Qué guía el sujeto y por qué?",
+    "answer": "יַנְחֵנִי … לְמַעַן שְׁמוֹ",
+    "note": "Ya no traduzcas palabra por palabra: identifica verbo, objeto y propósito.",
+    "order": 7,
+    "tokens": [
+      {
+        "text": "נַפְשִׁי",
+        "vocab_id": "v069"
+      },
+      {
+        "text": "יְשׁוֹבֵב",
+        "vocab_id": "v070"
+      },
+      {
+        "text": "יַנְחֵנִי",
+        "vocab_id": "v071"
+      },
+      {
+        "text": "בְּמַעְגְּלֵי־צֶדֶק",
+        "vocab_id": "v073"
+      },
+      {
+        "text": "לְמַעַן",
+        "vocab_id": "v074"
+      },
+      {
+        "text": "שְׁמוֹ",
+        "vocab_id": "v075"
+      }
+    ]
+  },
+  {
+    "id": "r302",
+    "level": 3,
+    "title": "Salmo 121 · versos 3–4",
+    "reference": "Psalm 121:3–4",
+    "hebrew": "אַל־יִתֵּן לַמּוֹט רַגְלֶךָ אַל־יָנוּם שֹׁמְרֶךָ הִנֵּה לֹא־יָנוּם וְלֹא יִישָׁן שֹׁמֵר יִשְׂרָאֵל",
+    "translation": "No permitirá que tu pie resbale; no se adormecerá tu guardián. He aquí, no se adormece ni duerme el guardián de Israel.",
+    "question": "¿Qué dos cosas no hace el guardián?",
+    "answer": "לֹא־יָנוּם / וְלֹא יִישָׁן",
+    "note": "Negación repetida y formas verbales en contexto.",
+    "order": 8,
+    "tokens": [
+      {
+        "text": "אַל־יִתֵּן",
+        "vocab_id": "v130"
+      },
+      {
+        "text": "לַמּוֹט",
+        "vocab_id": "v131"
+      },
+      {
+        "text": "רַגְלֶךָ",
+        "vocab_id": "v132"
+      },
+      {
+        "text": "אַל־יָנוּם",
+        "vocab_id": "v133"
+      },
+      {
+        "text": "שֹׁמְרֶךָ",
+        "vocab_id": "v134"
+      },
+      {
+        "text": "הִנֵּה",
+        "vocab_id": "v096"
+      },
+      {
+        "text": "לֹא־יָנוּם",
+        "vocab_id": "v133"
+      },
+      {
+        "text": "וְלֹא",
+        "vocab_id": "v029"
+      },
+      {
+        "text": "יִישָׁן",
+        "vocab_id": "v135"
+      },
+      {
+        "text": "שֹׁמֵר",
+        "vocab_id": "v059"
+      },
+      {
+        "text": "יִשְׂרָאֵל",
+        "vocab_id": "v136"
+      }
+    ]
+  },
+  {
+    "id": "r303",
+    "level": 3,
+    "title": "Salmo 1 · verso 3",
+    "reference": "Psalm 1:3",
+    "hebrew": "וְהָיָה כְּעֵץ שָׁתוּל עַל־פַּלְגֵי־מָיִם אֲשֶׁר פִּרְיוֹ יִתֵּן בְּעִתּוֹ",
+    "translation": "Será como árbol plantado junto a corrientes de agua, que da su fruto a su tiempo.",
+    "question": "¿A qué se compara la persona?",
+    "answer": "כְּעֵץ",
+    "note": "Comparación, participio y relativo.",
+    "order": 9,
+    "tokens": [
+      {
+        "text": "וְהָיָה",
+        "vocab_id": "v047"
+      },
+      {
+        "text": "כְּעֵץ",
+        "vocab_id": "v111"
+      },
+      {
+        "text": "שָׁתוּל",
+        "vocab_id": "v112"
+      },
+      {
+        "text": "עַל־פַּלְגֵי־מָיִם",
+        "vocab_id": "v113"
+      },
+      {
+        "text": "אֲשֶׁר",
+        "vocab_id": "v096"
+      },
+      {
+        "text": "פִּרְיוֹ",
+        "vocab_id": "v114"
+      },
+      {
+        "text": "יִתֵּן",
+        "vocab_id": "v130"
+      },
+      {
+        "text": "בְּעִתּוֹ",
+        "vocab_id": "v116"
+      }
+    ]
+  },
+  {
+    "id": "r401",
+    "level": 4,
+    "title": "Salmo 23 · verso 4",
+    "reference": "Psalm 23:4",
+    "hebrew": "גַּם כִּי־אֵלֵךְ בְּגֵיא צַלְמָוֶת לֹא־אִירָא רָע כִּי־אַתָּה עִמָּדִי",
+    "translation": "Aunque camine por valle de sombra de muerte, no temeré mal, porque tú estás conmigo.",
+    "question": "¿Qué motivo da el hablante para no temer?",
+    "answer": "כִּי־אַתָּה עִמָּדִי",
+    "note": "Lectura auténtica con subordinación y pronombres.",
+    "order": 10,
+    "tokens": [
+      {
+        "text": "גַּם",
+        "vocab_id": "v033"
+      },
+      {
+        "text": "כִּי־אֵלֵךְ",
+        "vocab_id": "v076"
+      },
+      {
+        "text": "בְּגֵיא",
+        "vocab_id": "v077"
+      },
+      {
+        "text": "צַלְמָוֶת",
+        "vocab_id": "v078"
+      },
+      {
+        "text": "לֹא־אִירָא",
+        "vocab_id": "v079"
+      },
+      {
+        "text": "רָע",
+        "vocab_id": "v146"
+      },
+      {
+        "text": "כִּי־אַתָּה",
+        "vocab_id": "v043"
+      },
+      {
+        "text": "עִמָּדִי",
+        "vocab_id": "v080"
+      }
+    ]
+  },
+  {
+    "id": "r402",
+    "level": 4,
+    "title": "Salmo 23 · verso 6",
+    "reference": "Psalm 23:6",
+    "hebrew": "אַךְ טוֹב וָחֶסֶד יִרְדְּפוּנִי כָּל־יְמֵי חַיָּי",
+    "translation": "Ciertamente el bien y el amor leal me seguirán todos los días de mi vida.",
+    "question": "¿Qué seguirá al hablante?",
+    "answer": "טוֹב וָחֶסֶד",
+    "note": "Coordinación, futuro y posesión.",
+    "order": 11,
+    "tokens": [
+      {
+        "text": "אַךְ",
+        "vocab_id": "v169"
+      },
+      {
+        "text": "טוֹב",
+        "vocab_id": "v018"
+      },
+      {
+        "text": "וָחֶסֶד",
+        "vocab_id": "v085"
+      },
+      {
+        "text": "יִרְדְּפוּנִי",
+        "vocab_id": "v086"
+      },
+      {
+        "text": "כָּל־יְמֵי",
+        "vocab_id": "v088"
+      },
+      {
+        "text": "חַיָּי",
+        "vocab_id": "v089"
+      }
+    ]
+  },
+  {
+    "id": "r403",
+    "level": 4,
+    "title": "Salmo 121 · versos 5–6",
+    "reference": "Psalm 121:5–6",
+    "hebrew": "יְהוָה שֹׁמְרֶךָ יְהוָה צִלְּךָ עַל־יַד יְמִינֶךָ יוֹמָם הַשֶּׁמֶשׁ לֹא־יַכֶּכָּה וְיָרֵחַ בַּלַּיְלָה",
+    "translation": "El SEÑOR es tu guardián; el SEÑOR es tu sombra a tu mano derecha. De día el sol no te herirá, ni la luna de noche.",
+    "question": "¿Dónde está la sombra?",
+    "answer": "עַל־יַד יְמִינֶךָ",
+    "note": "Atención a posesivos, ubicación y paralelismo.",
+    "order": 12,
+    "tokens": [
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "שֹׁמְרֶךָ",
+        "vocab_id": "v134"
+      },
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "צִלְּךָ",
+        "vocab_id": "v137"
+      },
+      {
+        "text": "עַל־יַד",
+        "vocab_id": "v138"
+      },
+      {
+        "text": "יְמִינֶךָ",
+        "vocab_id": "v139"
+      },
+      {
+        "text": "יוֹמָם",
+        "vocab_id": "v109"
+      },
+      {
+        "text": "הַשֶּׁמֶשׁ",
+        "vocab_id": "v141"
+      },
+      {
+        "text": "לֹא־יַכֶּכָּה",
+        "vocab_id": "v142"
+      },
+      {
+        "text": "וְיָרֵחַ",
+        "vocab_id": "v143"
+      },
+      {
+        "text": "בַּלַּיְלָה",
+        "vocab_id": "v017"
+      }
+    ]
+  },
+  {
+    "id": "r501",
+    "level": 5,
+    "title": "Salmo 23 · versos 5–6",
+    "reference": "Psalm 23:5–6",
+    "hebrew": "תַּעֲרֹךְ לְפָנַי שֻׁלְחָן נֶגֶד צֹרְרָי דִּשַּׁנְתָּ בַשֶּׁמֶן רֹאשִׁי כּוֹסִי רְוָיָה אַךְ טוֹב וָחֶסֶד יִרְדְּפוּנִי כָּל־יְמֵי חַיָּי וְשַׁבְתִּי בְּבֵית־יְהוָה לְאֹרֶךְ יָמִים",
+    "translation": "Preparas delante de mí una mesa frente a mis adversarios; unges con aceite mi cabeza; mi copa rebosa. Ciertamente el bien y el amor leal me seguirán todos los días de mi vida, y habitaré en la casa del SEÑOR por largos días.",
+    "question": "¿Qué tres imágenes aparecen antes de la afirmación final?",
+    "answer": "mesa / aceite / copa",
+    "note": "Lectura extensa: primero comprende la escena completa; después analiza.",
+    "order": 13,
+    "tokens": [
+      {
+        "text": "תַּעֲרֹךְ",
+        "vocab_id": "v049"
+      },
+      {
+        "text": "לְפָנַי",
+        "vocab_id": "v038"
+      },
+      {
+        "text": "שֻׁלְחָן",
+        "vocab_id": "v153"
+      },
+      {
+        "text": "נֶגֶד",
+        "vocab_id": "v154"
+      },
+      {
+        "text": "צֹרְרָי",
+        "vocab_id": "v155"
+      },
+      {
+        "text": "דִּשַּׁנְתָּ",
+        "vocab_id": "v156"
+      },
+      {
+        "text": "בַשֶּׁמֶן",
+        "vocab_id": "v157"
+      },
+      {
+        "text": "רֹאשִׁי",
+        "vocab_id": "v158"
+      },
+      {
+        "text": "כּוֹסִי",
+        "vocab_id": "v159"
+      },
+      {
+        "text": "רְוָיָה",
+        "vocab_id": "v160"
+      },
+      {
+        "text": "אַךְ",
+        "vocab_id": "v169"
+      },
+      {
+        "text": "טוֹב",
+        "vocab_id": "v018"
+      },
+      {
+        "text": "וָחֶסֶד",
+        "vocab_id": "v085"
+      },
+      {
+        "text": "יִרְדְּפוּנִי",
+        "vocab_id": "v086"
+      },
+      {
+        "text": "כָּל־יְמֵי",
+        "vocab_id": "v088"
+      },
+      {
+        "text": "חַיָּי",
+        "vocab_id": "v089"
+      },
+      {
+        "text": "וְשַׁבְתִּי",
+        "vocab_id": "v090"
+      },
+      {
+        "text": "בְּבֵית־יְהוָה",
+        "vocab_id": "v091"
+      },
+      {
+        "text": "לְאֹרֶךְ",
+        "vocab_id": "v092"
+      },
+      {
+        "text": "יָמִים",
+        "vocab_id": "v093"
+      }
+    ]
+  },
+  {
+    "id": "r502",
+    "level": 5,
+    "title": "Salmo 121 · versos 7–8",
+    "reference": "Psalm 121:7–8",
+    "hebrew": "יְהוָה יִשְׁמָרְךָ מִכָּל־רָע יִשְׁמֹר אֶת־נַפְשֶׁךָ יְהוָה יִשְׁמָר־צֵאתְךָ וּבוֹאֶךָ מֵעַתָּה וְעַד־עוֹלָם",
+    "translation": "El SEÑOR te guardará de todo mal; guardará tu vida. El SEÑOR guardará tu salida y tu entrada, desde ahora y para siempre.",
+    "question": "¿Qué abarca la protección?",
+    "answer": "צֵאתְךָ וּבוֹאֶךָ … מֵעַתָּה וְעַד־עוֹלָם",
+    "note": "Paralelismo y formas con sufijos: lectura casi independiente.",
+    "order": 14,
+    "tokens": [
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "יִשְׁמָרְךָ",
+        "vocab_id": "v144"
+      },
+      {
+        "text": "מִכָּל־רָע",
+        "vocab_id": "v146"
+      },
+      {
+        "text": "יִשְׁמֹר",
+        "vocab_id": "v059"
+      },
+      {
+        "text": "אֶת־נַפְשֶׁךָ",
+        "vocab_id": "v147"
+      },
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "יִשְׁמָר־צֵאתְךָ",
+        "vocab_id": "v148"
+      },
+      {
+        "text": "וּבוֹאֶךָ",
+        "vocab_id": "v149"
+      },
+      {
+        "text": "מֵעַתָּה",
+        "vocab_id": "v150"
+      },
+      {
+        "text": "וְעַד־עוֹלָם",
+        "vocab_id": "v151"
+      }
+    ]
+  },
+  {
+    "id": "r503",
+    "level": 5,
+    "title": "Salmo 1 · versos 4–6",
+    "reference": "Psalm 1:4–6",
+    "hebrew": "לֹא־כֵן הָרְשָׁעִים כִּי אִם־כַּמֹּץ אֲשֶׁר תִּדְּפֶנּוּ רוּחַ עַל־כֵּן לֹא־יָקֻמוּ רְשָׁעִים בַּמִּשְׁפָּט וְחַטָּאִים בַּעֲדַת צַדִּיקִים כִּי־יוֹדֵעַ יְהוָה דֶּרֶךְ צַדִּיקִים וְדֶרֶךְ רְשָׁעִים תֹּאבֵד",
+    "translation": "No así los malvados: son como paja que el viento dispersa. Por eso los malvados no se levantarán en el juicio, ni los pecadores en la asamblea de los justos; porque el SEÑOR conoce el camino de los justos, pero el camino de los malvados perecerá.",
+    "question": "¿Qué contraste organiza todo el cierre del salmo?",
+    "answer": "צַדִּיקִים ↔ רְשָׁעִים",
+    "note": "Lectura independiente: contraste, relativas, coordinación y vocabulario abstracto.",
+    "order": 15,
+    "tokens": [
+      {
+        "text": "לֹא־כֵן",
+        "vocab_id": "v032"
+      },
+      {
+        "text": "הָרְשָׁעִים",
+        "vocab_id": "v099"
+      },
+      {
+        "text": "כִּי",
+        "vocab_id": "v030"
+      },
+      {
+        "text": "אִם־כַּמֹּץ",
+        "vocab_id": "v161"
+      },
+      {
+        "text": "אֲשֶׁר",
+        "vocab_id": "v096"
+      },
+      {
+        "text": "תִּדְּפֶנּוּ",
+        "vocab_id": "v162"
+      },
+      {
+        "text": "רוּחַ",
+        "vocab_id": "v163"
+      },
+      {
+        "text": "עַל־כֵּן",
+        "vocab_id": "v034"
+      },
+      {
+        "text": "לֹא־יָקֻמוּ",
+        "vocab_id": "v164"
+      },
+      {
+        "text": "רְשָׁעִים",
+        "vocab_id": "v099"
+      },
+      {
+        "text": "בַּמִּשְׁפָּט",
+        "vocab_id": "v165"
+      },
+      {
+        "text": "וְחַטָּאִים",
+        "vocab_id": "v101"
+      },
+      {
+        "text": "בַּעֲדַת",
+        "vocab_id": "v166"
+      },
+      {
+        "text": "צַדִּיקִים",
+        "vocab_id": "v167"
+      },
+      {
+        "text": "כִּי־יוֹדֵעַ",
+        "vocab_id": "v053"
+      },
+      {
+        "text": "יְהוָה",
+        "vocab_id": "v152"
+      },
+      {
+        "text": "דֶּרֶךְ",
+        "vocab_id": "v015"
+      },
+      {
+        "text": "צַדִּיקִים",
+        "vocab_id": "v167"
+      },
+      {
+        "text": "וְדֶרֶךְ",
+        "vocab_id": "v015"
+      },
+      {
+        "text": "רְשָׁעִים",
+        "vocab_id": "v099"
+      },
+      {
+        "text": "תֹּאבֵד",
+        "vocab_id": "v168"
+      }
+    ]
+  },
+  {
+    "id": "r401-2",
+    "level": 4,
+    "title": "Salmo 19 · verso 2",
+    "reference": "Psalm 19:2",
+    "hebrew": "הַשָּׁמַיִם מְסַפְּרִים כְּבוֹד־אֵל וּמַעֲשֵׂה יָדָיו מַגִּיד הָרָקִיעַ",
+    "translation": "Los cielos cuentan la gloria de Dios, y el firmamento proclama la obra de sus manos.",
+    "question": "¿Qué proclama el firmamento?",
+    "answer": "La obra de sus manos.",
+    "note": "Lectura progresiva con ayuda contextual y reconocimiento morfológico inicial.",
+    "order": 101,
+    "tokens": [
+      {
+        "text": "הַשָּׁמַיִם"
+      },
+      {
+        "text": "מְסַפְּרִים"
+      },
+      {
+        "text": "כְּבוֹד־אֵל"
+      },
+      {
+        "text": "וּמַעֲשֵׂה"
+      },
+      {
+        "text": "יָדָיו"
+      },
+      {
+        "text": "מַגִּיד"
+      },
+      {
+        "text": "הָרָקִיעַ"
+      }
+    ]
+  },
+  {
+    "id": "r402-2",
+    "level": 4,
+    "title": "Salmo 27 · verso 1",
+    "reference": "Psalm 27:1",
+    "hebrew": "יְהוָה אוֹרִי וְיִשְׁעִי מִמִּי אִירָא יְהוָה מָעוֹז־חַיַּי מִמִּי אֶפְחָד",
+    "translation": "El SEÑOR es mi luz y mi salvación; ¿de quién temeré? El SEÑOR es la fortaleza de mi vida; ¿de quién tendré miedo?",
+    "question": "¿Qué dos imágenes se usan para el SEÑOR?",
+    "answer": "Luz/salvación y fortaleza.",
+    "note": "Lectura progresiva con ayuda contextual y reconocimiento morfológico inicial.",
+    "order": 102,
+    "tokens": [
+      {
+        "text": "יְהוָה"
+      },
+      {
+        "text": "אוֹרִי"
+      },
+      {
+        "text": "וְיִשְׁעִי"
+      },
+      {
+        "text": "מִמִּי"
+      },
+      {
+        "text": "אִירָא"
+      },
+      {
+        "text": "יְהוָה"
+      },
+      {
+        "text": "מָעוֹז־חַיַּי"
+      },
+      {
+        "text": "מִמִּי"
+      },
+      {
+        "text": "אֶפְחָד"
+      }
+    ]
+  },
+  {
+    "id": "r501-2",
+    "level": 5,
+    "title": "Salmo 8 · versos 4–5",
+    "reference": "Psalm 8:4-5",
+    "hebrew": "כִּי־אֶרְאֶה שָׁמֶיךָ מַעֲשֵׂי אֶצְבְּעֹתֶיךָ יָרֵחַ וְכוֹכָבִים אֲשֶׁר כּוֹנָנְתָּה",
+    "translation": "Cuando contemplo tus cielos, obra de tus dedos, la luna y las estrellas que estableciste.",
+    "question": "¿Qué elementos contempla el hablante?",
+    "answer": "Los cielos, la luna y las estrellas.",
+    "note": "Lectura progresiva con ayuda contextual y reconocimiento morfológico inicial.",
+    "order": 103,
+    "tokens": [
+      {
+        "text": "כִּי־אֶרְאֶה"
+      },
+      {
+        "text": "שָׁמֶיךָ"
+      },
+      {
+        "text": "מַעֲשֵׂי"
+      },
+      {
+        "text": "אֶצְבְּעֹתֶיךָ"
+      },
+      {
+        "text": "יָרֵחַ"
+      },
+      {
+        "text": "וְכוֹכָבִים"
+      },
+      {
+        "text": "אֲשֶׁר"
+      },
+      {
+        "text": "כּוֹנָנְתָּה"
+      }
+    ]
+  },
+  {
+    "id": "r502-2",
+    "level": 5,
+    "title": "Salmo 103 · verso 1",
+    "reference": "Psalm 103:1",
+    "hebrew": "לְדָוִד בָּרֲכִי נַפְשִׁי אֶת־יְהוָה וְכָל־קְרָבַי אֶת־שֵׁם קָדְשׁוֹ",
+    "translation": "De David. Bendice, alma mía, al SEÑOR; y todo mi interior, su santo nombre.",
+    "question": "¿Quién es llamado a bendecir?",
+    "answer": "El alma del hablante y todo su interior.",
+    "note": "Lectura progresiva con ayuda contextual y reconocimiento morfológico inicial.",
+    "order": 104,
+    "tokens": [
+      {
+        "text": "לְדָוִד"
+      },
+      {
+        "text": "בָּרֲכִי"
+      },
+      {
+        "text": "נַפְשִׁי"
+      },
+      {
+        "text": "אֶת־יְהוָה"
+      },
+      {
+        "text": "וְכָל־קְרָבַי"
+      },
+      {
+        "text": "אֶת־שֵׁם"
+      },
+      {
+        "text": "קָדְשׁוֹ"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1695 @@
+[
+  {
+    "id": "v001",
+    "hebrew": "אֱלֹהִים",
+    "translit": "ʾelohim",
+    "meaning": "Dios",
+    "category": "sustantivo",
+    "root": "אלהים",
+    "level": 1,
+    "frequency_rank": 1
+  },
+  {
+    "id": "v002",
+    "hebrew": "אֱלֹהַּ",
+    "translit": "ʾeloah",
+    "meaning": "Dios",
+    "category": "sustantivo",
+    "root": "אלה",
+    "level": 1,
+    "frequency_rank": 2
+  },
+  {
+    "id": "v003",
+    "hebrew": "אֶרֶץ",
+    "translit": "ʾereṣ",
+    "meaning": "tierra",
+    "category": "sustantivo",
+    "root": "ארץ",
+    "level": 1,
+    "frequency_rank": 3
+  },
+  {
+    "id": "v004",
+    "hebrew": "שָׁמַיִם",
+    "translit": "šāmayim",
+    "meaning": "cielos",
+    "category": "sustantivo",
+    "root": "שמים",
+    "level": 1,
+    "frequency_rank": 4
+  },
+  {
+    "id": "v005",
+    "hebrew": "מַיִם",
+    "translit": "mayim",
+    "meaning": "agua",
+    "category": "sustantivo",
+    "root": "מים",
+    "level": 1,
+    "frequency_rank": 5
+  },
+  {
+    "id": "v006",
+    "hebrew": "אָדָם",
+    "translit": "ʾadam",
+    "meaning": "ser humano / Adán",
+    "category": "sustantivo",
+    "root": "אדם",
+    "level": 1,
+    "frequency_rank": 6
+  },
+  {
+    "id": "v007",
+    "hebrew": "אִישׁ",
+    "translit": "ʾiš",
+    "meaning": "hombre",
+    "category": "sustantivo",
+    "root": "איש",
+    "level": 1,
+    "frequency_rank": 7
+  },
+  {
+    "id": "v008",
+    "hebrew": "אִשָּׁה",
+    "translit": "ʾiššâ",
+    "meaning": "mujer",
+    "category": "sustantivo",
+    "root": "אשה",
+    "level": 1,
+    "frequency_rank": 8
+  },
+  {
+    "id": "v009",
+    "hebrew": "בֵּן",
+    "translit": "ben",
+    "meaning": "hijo",
+    "category": "sustantivo",
+    "root": "בן",
+    "level": 1,
+    "frequency_rank": 9
+  },
+  {
+    "id": "v010",
+    "hebrew": "בַּת",
+    "translit": "bat",
+    "meaning": "hija",
+    "category": "sustantivo",
+    "root": "בת",
+    "level": 1,
+    "frequency_rank": 10
+  },
+  {
+    "id": "v011",
+    "hebrew": "אָב",
+    "translit": "ʾav",
+    "meaning": "padre",
+    "category": "sustantivo",
+    "root": "אב",
+    "level": 1,
+    "frequency_rank": 11
+  },
+  {
+    "id": "v012",
+    "hebrew": "אֵם",
+    "translit": "ʾem",
+    "meaning": "madre",
+    "category": "sustantivo",
+    "root": "אם",
+    "level": 1,
+    "frequency_rank": 12
+  },
+  {
+    "id": "v013",
+    "hebrew": "מֶלֶךְ",
+    "translit": "melekh",
+    "meaning": "rey",
+    "category": "sustantivo",
+    "root": "מלך",
+    "level": 1,
+    "frequency_rank": 13
+  },
+  {
+    "id": "v014",
+    "hebrew": "בַּיִת",
+    "translit": "bayit",
+    "meaning": "casa",
+    "category": "sustantivo",
+    "root": "בית",
+    "level": 1,
+    "frequency_rank": 14
+  },
+  {
+    "id": "v015",
+    "hebrew": "דֶּרֶךְ",
+    "translit": "derekh",
+    "meaning": "camino",
+    "category": "sustantivo",
+    "root": "דרך",
+    "level": 1,
+    "frequency_rank": 15
+  },
+  {
+    "id": "v016",
+    "hebrew": "יוֹם",
+    "translit": "yom",
+    "meaning": "día",
+    "category": "sustantivo",
+    "root": "יום",
+    "level": 1,
+    "frequency_rank": 16
+  },
+  {
+    "id": "v017",
+    "hebrew": "לַיְלָה",
+    "translit": "laylah",
+    "meaning": "noche",
+    "category": "sustantivo",
+    "root": "לילה",
+    "level": 1,
+    "frequency_rank": 17
+  },
+  {
+    "id": "v018",
+    "hebrew": "טוֹב",
+    "translit": "tov",
+    "meaning": "bueno",
+    "category": "adjetivo",
+    "root": "טוב",
+    "level": 1,
+    "frequency_rank": 18
+  },
+  {
+    "id": "v019",
+    "hebrew": "גָּדוֹל",
+    "translit": "gadol",
+    "meaning": "grande",
+    "category": "adjetivo",
+    "root": "גדל",
+    "level": 1,
+    "frequency_rank": 19
+  },
+  {
+    "id": "v020",
+    "hebrew": "קָטָן",
+    "translit": "qatan",
+    "meaning": "pequeño",
+    "category": "adjetivo",
+    "root": "קטן",
+    "level": 1,
+    "frequency_rank": 20
+  },
+  {
+    "id": "v021",
+    "hebrew": "חָכָם",
+    "translit": "ḥakham",
+    "meaning": "sabio",
+    "category": "adjetivo",
+    "root": "חכם",
+    "level": 1,
+    "frequency_rank": 21
+  },
+  {
+    "id": "v022",
+    "hebrew": "רַע",
+    "translit": "raʿ",
+    "meaning": "malo",
+    "category": "adjetivo",
+    "root": "רע",
+    "level": 1,
+    "frequency_rank": 22
+  },
+  {
+    "id": "v023",
+    "hebrew": "זֶה",
+    "translit": "zeh",
+    "meaning": "este / esto",
+    "category": "demostrativo",
+    "root": "זה",
+    "level": 1,
+    "frequency_rank": 23
+  },
+  {
+    "id": "v024",
+    "hebrew": "זֹאת",
+    "translit": "zot",
+    "meaning": "esta",
+    "category": "demostrativo",
+    "root": "זאת",
+    "level": 1,
+    "frequency_rank": 24
+  },
+  {
+    "id": "v025",
+    "hebrew": "מַה",
+    "translit": "mah",
+    "meaning": "qué",
+    "category": "interrogativo",
+    "root": "מה",
+    "level": 1,
+    "frequency_rank": 25
+  },
+  {
+    "id": "v026",
+    "hebrew": "מִי",
+    "translit": "mi",
+    "meaning": "quién",
+    "category": "interrogativo",
+    "root": "מי",
+    "level": 1,
+    "frequency_rank": 26
+  },
+  {
+    "id": "v027",
+    "hebrew": "אֵיךְ",
+    "translit": "ekh",
+    "meaning": "cómo",
+    "category": "interrogativo",
+    "root": "איך",
+    "level": 1,
+    "frequency_rank": 27
+  },
+  {
+    "id": "v028",
+    "hebrew": "אֵיפֹה",
+    "translit": "eifo",
+    "meaning": "dónde",
+    "category": "interrogativo",
+    "root": "איפה",
+    "level": 1,
+    "frequency_rank": 28
+  },
+  {
+    "id": "v029",
+    "hebrew": "לֹא",
+    "translit": "lo",
+    "meaning": "no",
+    "category": "partícula",
+    "root": "לא",
+    "level": 1,
+    "frequency_rank": 29
+  },
+  {
+    "id": "v030",
+    "hebrew": "כִּי",
+    "translit": "ki",
+    "meaning": "porque / que",
+    "category": "partícula",
+    "root": "כי",
+    "level": 1,
+    "frequency_rank": 30
+  },
+  {
+    "id": "v031",
+    "hebrew": "אִם",
+    "translit": "im",
+    "meaning": "si",
+    "category": "partícula",
+    "root": "אם",
+    "level": 1,
+    "frequency_rank": 31
+  },
+  {
+    "id": "v032",
+    "hebrew": "כֵּן",
+    "translit": "ken",
+    "meaning": "así / sí",
+    "category": "adverbio",
+    "root": "כן",
+    "level": 1,
+    "frequency_rank": 32
+  },
+  {
+    "id": "v033",
+    "hebrew": "גַּם",
+    "translit": "gam",
+    "meaning": "también",
+    "category": "adverbio",
+    "root": "גם",
+    "level": 1,
+    "frequency_rank": 33
+  },
+  {
+    "id": "v034",
+    "hebrew": "עַל",
+    "translit": "ʿal",
+    "meaning": "sobre / contra",
+    "category": "preposición",
+    "root": "על",
+    "level": 1,
+    "frequency_rank": 34
+  },
+  {
+    "id": "v035",
+    "hebrew": "אֶל",
+    "translit": "ʾel",
+    "meaning": "hacia / a",
+    "category": "preposición",
+    "root": "אל",
+    "level": 1,
+    "frequency_rank": 35
+  },
+  {
+    "id": "v036",
+    "hebrew": "מִן",
+    "translit": "min",
+    "meaning": "de / desde",
+    "category": "preposición",
+    "root": "מן",
+    "level": 1,
+    "frequency_rank": 36
+  },
+  {
+    "id": "v037",
+    "hebrew": "בְּ",
+    "translit": "be-",
+    "meaning": "en / con / por",
+    "category": "prefijo",
+    "root": "ב",
+    "level": 1,
+    "frequency_rank": 37
+  },
+  {
+    "id": "v038",
+    "hebrew": "לְ",
+    "translit": "le-",
+    "meaning": "a / para",
+    "category": "prefijo",
+    "root": "ל",
+    "level": 1,
+    "frequency_rank": 38
+  },
+  {
+    "id": "v039",
+    "hebrew": "כְּ",
+    "translit": "ke-",
+    "meaning": "como / según",
+    "category": "prefijo",
+    "root": "כ",
+    "level": 1,
+    "frequency_rank": 39
+  },
+  {
+    "id": "v040",
+    "hebrew": "וְ",
+    "translit": "we-",
+    "meaning": "y",
+    "category": "prefijo",
+    "root": "ו",
+    "level": 1,
+    "frequency_rank": 40
+  },
+  {
+    "id": "v041",
+    "hebrew": "הַ",
+    "translit": "ha-",
+    "meaning": "el / la",
+    "category": "prefijo",
+    "root": "ה",
+    "level": 1,
+    "frequency_rank": 41
+  },
+  {
+    "id": "v042",
+    "hebrew": "אֲנִי",
+    "translit": "ani",
+    "meaning": "yo",
+    "category": "pronombre",
+    "root": "אנ",
+    "level": 1,
+    "frequency_rank": 42
+  },
+  {
+    "id": "v043",
+    "hebrew": "אַתָּה",
+    "translit": "attah",
+    "meaning": "tú (m.)",
+    "category": "pronombre",
+    "root": "את",
+    "level": 1,
+    "frequency_rank": 43
+  },
+  {
+    "id": "v044",
+    "hebrew": "הוּא",
+    "translit": "hu",
+    "meaning": "él",
+    "category": "pronombre",
+    "root": "הו",
+    "level": 1,
+    "frequency_rank": 44
+  },
+  {
+    "id": "v045",
+    "hebrew": "הִיא",
+    "translit": "hi",
+    "meaning": "ella",
+    "category": "pronombre",
+    "root": "הי",
+    "level": 1,
+    "frequency_rank": 45
+  },
+  {
+    "id": "v046",
+    "hebrew": "יֵשׁ",
+    "translit": "yesh",
+    "meaning": "hay / existe",
+    "category": "partícula",
+    "root": "יש",
+    "level": 1,
+    "frequency_rank": 46
+  },
+  {
+    "id": "v047",
+    "hebrew": "הָיָה",
+    "translit": "hayah",
+    "meaning": "fue / era / estuvo",
+    "category": "verbo",
+    "root": "היה",
+    "level": 2,
+    "frequency_rank": 47
+  },
+  {
+    "id": "v048",
+    "hebrew": "אָמַר",
+    "translit": "amar",
+    "meaning": "dijo",
+    "category": "verbo",
+    "root": "אמר",
+    "level": 2,
+    "frequency_rank": 48
+  },
+  {
+    "id": "v049",
+    "hebrew": "עָשָׂה",
+    "translit": "asah",
+    "meaning": "hizo",
+    "category": "verbo",
+    "root": "עשה",
+    "level": 2,
+    "frequency_rank": 49
+  },
+  {
+    "id": "v050",
+    "hebrew": "נָתַן",
+    "translit": "natan",
+    "meaning": "dio",
+    "category": "verbo",
+    "root": "נתן",
+    "level": 2,
+    "frequency_rank": 50
+  },
+  {
+    "id": "v051",
+    "hebrew": "רָאָה",
+    "translit": "raʾah",
+    "meaning": "vio",
+    "category": "verbo",
+    "root": "ראה",
+    "level": 2,
+    "frequency_rank": 51
+  },
+  {
+    "id": "v052",
+    "hebrew": "שָׁמַע",
+    "translit": "shamaʿ",
+    "meaning": "oyó / escuchó",
+    "category": "verbo",
+    "root": "שמע",
+    "level": 2,
+    "frequency_rank": 52
+  },
+  {
+    "id": "v053",
+    "hebrew": "יָדַע",
+    "translit": "yadaʿ",
+    "meaning": "conoció / supo",
+    "category": "verbo",
+    "root": "ידע",
+    "level": 2,
+    "frequency_rank": 53
+  },
+  {
+    "id": "v054",
+    "hebrew": "הָלַךְ",
+    "translit": "halakh",
+    "meaning": "fue / caminó",
+    "category": "verbo",
+    "root": "הלך",
+    "level": 2,
+    "frequency_rank": 54
+  },
+  {
+    "id": "v055",
+    "hebrew": "יָשַׁב",
+    "translit": "yashav",
+    "meaning": "se sentó / habitó",
+    "category": "verbo",
+    "root": "ישב",
+    "level": 2,
+    "frequency_rank": 55
+  },
+  {
+    "id": "v056",
+    "hebrew": "כָּתַב",
+    "translit": "katav",
+    "meaning": "escribió",
+    "category": "verbo",
+    "root": "כתב",
+    "level": 2,
+    "frequency_rank": 56
+  },
+  {
+    "id": "v057",
+    "hebrew": "לָקַח",
+    "translit": "laqakh",
+    "meaning": "tomó",
+    "category": "verbo",
+    "root": "לקח",
+    "level": 2,
+    "frequency_rank": 57
+  },
+  {
+    "id": "v058",
+    "hebrew": "אָכַל",
+    "translit": "akhal",
+    "meaning": "comió",
+    "category": "verbo",
+    "root": "אכל",
+    "level": 2,
+    "frequency_rank": 58
+  },
+  {
+    "id": "v059",
+    "hebrew": "שָׁמַר",
+    "translit": "shamar",
+    "meaning": "guardó",
+    "category": "verbo",
+    "root": "שמר",
+    "level": 2,
+    "frequency_rank": 59
+  },
+  {
+    "id": "v060",
+    "hebrew": "רֹעִי",
+    "translit": "roʿi",
+    "meaning": "mi pastor / mi pastor (sujeto posesivo)",
+    "category": "sustantivo",
+    "root": "רעה",
+    "level": 3,
+    "frequency_rank": 60
+  },
+  {
+    "id": "v061",
+    "hebrew": "אֶחְסָר",
+    "translit": "eḥsar",
+    "meaning": "me faltará / careceré",
+    "category": "verbo",
+    "root": "חסר",
+    "level": 4,
+    "frequency_rank": 61
+  },
+  {
+    "id": "v062",
+    "hebrew": "מִזְמוֹר",
+    "translit": "mizmor",
+    "meaning": "salmo / canto",
+    "category": "sustantivo",
+    "root": "זמר",
+    "level": 3,
+    "frequency_rank": 62
+  },
+  {
+    "id": "v063",
+    "hebrew": "לְדָוִד",
+    "translit": "le-David",
+    "meaning": "de David / para David",
+    "category": "expresión",
+    "root": "דוד",
+    "level": 3,
+    "frequency_rank": 63
+  },
+  {
+    "id": "v064",
+    "hebrew": "בִּנְאוֹת",
+    "translit": "binot",
+    "meaning": "en pastos / en moradas de pasto",
+    "category": "sustantivo",
+    "root": "נוה",
+    "level": 4,
+    "frequency_rank": 64
+  },
+  {
+    "id": "v065",
+    "hebrew": "דֶּשֶׁא",
+    "translit": "deshe",
+    "meaning": "hierba / pasto verde",
+    "category": "sustantivo",
+    "root": "דשא",
+    "level": 2,
+    "frequency_rank": 65
+  },
+  {
+    "id": "v066",
+    "hebrew": "יַרְבִּיצֵנִי",
+    "translit": "yarbitzeni",
+    "meaning": "me hace recostar",
+    "category": "verbo",
+    "root": "רבץ",
+    "level": 4,
+    "frequency_rank": 66
+  },
+  {
+    "id": "v067",
+    "hebrew": "מְנֻחוֹת",
+    "translit": "menuchot",
+    "meaning": "reposo / descanso",
+    "category": "sustantivo",
+    "root": "נוח",
+    "level": 4,
+    "frequency_rank": 67
+  },
+  {
+    "id": "v068",
+    "hebrew": "יְנַהֲלֵנִי",
+    "translit": "yenahaleni",
+    "meaning": "me guía / me conduce",
+    "category": "verbo",
+    "root": "נהל",
+    "level": 4,
+    "frequency_rank": 68
+  },
+  {
+    "id": "v069",
+    "hebrew": "נַפְשִׁי",
+    "translit": "nafshi",
+    "meaning": "mi alma / mi vida",
+    "category": "sustantivo",
+    "root": "נפש",
+    "level": 3,
+    "frequency_rank": 69
+  },
+  {
+    "id": "v070",
+    "hebrew": "יְשׁוֹבֵב",
+    "translit": "yeshovev",
+    "meaning": "restaura / hace volver",
+    "category": "verbo",
+    "root": "שוב",
+    "level": 4,
+    "frequency_rank": 70
+  },
+  {
+    "id": "v071",
+    "hebrew": "יַנְחֵנִי",
+    "translit": "yanheni",
+    "meaning": "me guía",
+    "category": "verbo",
+    "root": "נחה",
+    "level": 4,
+    "frequency_rank": 71
+  },
+  {
+    "id": "v072",
+    "hebrew": "מַעְגְּלֵי",
+    "translit": "maʿgelei",
+    "meaning": "senderos / caminos",
+    "category": "sustantivo",
+    "root": "מעגל",
+    "level": 4,
+    "frequency_rank": 72
+  },
+  {
+    "id": "v073",
+    "hebrew": "צֶדֶק",
+    "translit": "tsedeq",
+    "meaning": "justicia / rectitud",
+    "category": "sustantivo",
+    "root": "צדק",
+    "level": 3,
+    "frequency_rank": 73
+  },
+  {
+    "id": "v074",
+    "hebrew": "לְמַעַן",
+    "translit": "lemaʿan",
+    "meaning": "a causa de / por amor de",
+    "category": "conjunción",
+    "root": "מען",
+    "level": 4,
+    "frequency_rank": 74
+  },
+  {
+    "id": "v075",
+    "hebrew": "שְׁמוֹ",
+    "translit": "shemo",
+    "meaning": "su nombre",
+    "category": "sustantivo",
+    "root": "שם",
+    "level": 3,
+    "frequency_rank": 75
+  },
+  {
+    "id": "v076",
+    "hebrew": "אֵלֵךְ",
+    "translit": "elekh",
+    "meaning": "caminaré / iré",
+    "category": "verbo",
+    "root": "הלך",
+    "level": 4,
+    "frequency_rank": 76
+  },
+  {
+    "id": "v077",
+    "hebrew": "גֵיא",
+    "translit": "gei",
+    "meaning": "valle",
+    "category": "sustantivo",
+    "root": "גיא",
+    "level": 4,
+    "frequency_rank": 77
+  },
+  {
+    "id": "v078",
+    "hebrew": "צַלְמָוֶת",
+    "translit": "tsalmavet",
+    "meaning": "sombra de muerte / oscuridad profunda",
+    "category": "sustantivo",
+    "root": "צלמות",
+    "level": 5,
+    "frequency_rank": 78
+  },
+  {
+    "id": "v079",
+    "hebrew": "אִירָא",
+    "translit": "ira",
+    "meaning": "temeré",
+    "category": "verbo",
+    "root": "ירא",
+    "level": 4,
+    "frequency_rank": 79
+  },
+  {
+    "id": "v080",
+    "hebrew": "עִמָּדִי",
+    "translit": "immadi",
+    "meaning": "conmigo / junto a mí",
+    "category": "preposición",
+    "root": "עם",
+    "level": 4,
+    "frequency_rank": 80
+  },
+  {
+    "id": "v081",
+    "hebrew": "שִׁבְטְךָ",
+    "translit": "shivtekha",
+    "meaning": "tu vara",
+    "category": "sustantivo",
+    "root": "שבט",
+    "level": 4,
+    "frequency_rank": 81
+  },
+  {
+    "id": "v082",
+    "hebrew": "מִשְׁעַנְתֶּךָ",
+    "translit": "mishʿantekha",
+    "meaning": "tu cayado / tu apoyo",
+    "category": "sustantivo",
+    "root": "משען",
+    "level": 5,
+    "frequency_rank": 82
+  },
+  {
+    "id": "v083",
+    "hebrew": "יְנַחֲמֻנִי",
+    "translit": "yenahamuni",
+    "meaning": "me consuelan",
+    "category": "verbo",
+    "root": "נחם",
+    "level": 5,
+    "frequency_rank": 83
+  },
+  {
+    "id": "v084",
+    "hebrew": "טוֹב",
+    "translit": "tov",
+    "meaning": "bien / bueno",
+    "category": "adjetivo",
+    "root": "טוב",
+    "level": 1,
+    "frequency_rank": 84,
+    "deprecated": true
+  },
+  {
+    "id": "v085",
+    "hebrew": "חֶסֶד",
+    "translit": "ḥesed",
+    "meaning": "amor leal / misericordia",
+    "category": "sustantivo",
+    "root": "חסד",
+    "level": 3,
+    "frequency_rank": 85
+  },
+  {
+    "id": "v086",
+    "hebrew": "יִרְדְּפוּנִי",
+    "translit": "yirdefuni",
+    "meaning": "me perseguirán / me seguirán",
+    "category": "verbo",
+    "root": "רדף",
+    "level": 5,
+    "frequency_rank": 86
+  },
+  {
+    "id": "v087",
+    "hebrew": "כָּל",
+    "translit": "kol",
+    "meaning": "todo / cada",
+    "category": "cuantificador",
+    "root": "כל",
+    "level": 2,
+    "frequency_rank": 87
+  },
+  {
+    "id": "v088",
+    "hebrew": "יְמֵי",
+    "translit": "yemei",
+    "meaning": "días de",
+    "category": "sustantivo",
+    "root": "יום",
+    "level": 2,
+    "frequency_rank": 88
+  },
+  {
+    "id": "v089",
+    "hebrew": "חַיָּי",
+    "translit": "ḥayyai",
+    "meaning": "mi vida / mis días",
+    "category": "sustantivo",
+    "root": "חיה",
+    "level": 3,
+    "frequency_rank": 89
+  },
+  {
+    "id": "v090",
+    "hebrew": "וְשַׁבְתִּי",
+    "translit": "veshavti",
+    "meaning": "y habitaré / volveré",
+    "category": "verbo",
+    "root": "ישב/שוב",
+    "level": 5,
+    "frequency_rank": 90
+  },
+  {
+    "id": "v091",
+    "hebrew": "בֵּית",
+    "translit": "beit",
+    "meaning": "casa de",
+    "category": "sustantivo",
+    "root": "בית",
+    "level": 2,
+    "frequency_rank": 91
+  },
+  {
+    "id": "v092",
+    "hebrew": "לְאֹרֶךְ",
+    "translit": "leorekh",
+    "meaning": "por la duración de / a lo largo de",
+    "category": "expresión",
+    "root": "ארך",
+    "level": 5,
+    "frequency_rank": 92
+  },
+  {
+    "id": "v093",
+    "hebrew": "יָמִים",
+    "translit": "yamim",
+    "meaning": "días",
+    "category": "sustantivo",
+    "root": "יום",
+    "level": 2,
+    "frequency_rank": 93
+  },
+  {
+    "id": "v094",
+    "hebrew": "אַשְׁרֵי",
+    "translit": "ashrei",
+    "meaning": "dichoso / feliz es",
+    "category": "interjección",
+    "root": "אשר",
+    "level": 3,
+    "frequency_rank": 94
+  },
+  {
+    "id": "v095",
+    "hebrew": "הָאִישׁ",
+    "translit": "ha-ish",
+    "meaning": "el hombre / la persona",
+    "category": "sustantivo",
+    "root": "איש",
+    "level": 1,
+    "frequency_rank": 95
+  },
+  {
+    "id": "v096",
+    "hebrew": "אֲשֶׁר",
+    "translit": "asher",
+    "meaning": "que / quien / el cual",
+    "category": "relativo",
+    "root": "אשר",
+    "level": 2,
+    "frequency_rank": 96
+  },
+  {
+    "id": "v097",
+    "hebrew": "הָלַךְ",
+    "translit": "halakh",
+    "meaning": "caminó / anduvo",
+    "category": "verbo",
+    "root": "הלך",
+    "level": 2,
+    "frequency_rank": 97
+  },
+  {
+    "id": "v098",
+    "hebrew": "בַּעֲצַת",
+    "translit": "baʿatsat",
+    "meaning": "en el consejo de",
+    "category": "sustantivo",
+    "root": "עצה",
+    "level": 4,
+    "frequency_rank": 98
+  },
+  {
+    "id": "v099",
+    "hebrew": "רְשָׁעִים",
+    "translit": "reshaʿim",
+    "meaning": "malvados / impíos",
+    "category": "sustantivo",
+    "root": "רשע",
+    "level": 3,
+    "frequency_rank": 99
+  },
+  {
+    "id": "v100",
+    "hebrew": "בְּדֶרֶךְ",
+    "translit": "bederekh",
+    "meaning": "en el camino de",
+    "category": "sustantivo",
+    "root": "דרך",
+    "level": 2,
+    "frequency_rank": 100
+  },
+  {
+    "id": "v101",
+    "hebrew": "חַטָּאִים",
+    "translit": "ḥattaʾim",
+    "meaning": "pecadores",
+    "category": "sustantivo",
+    "root": "חטא",
+    "level": 3,
+    "frequency_rank": 101
+  },
+  {
+    "id": "v102",
+    "hebrew": "עָמָד",
+    "translit": "amad",
+    "meaning": "estuvo de pie / se detuvo",
+    "category": "verbo",
+    "root": "עמד",
+    "level": 3,
+    "frequency_rank": 102
+  },
+  {
+    "id": "v103",
+    "hebrew": "מוֹשַׁב",
+    "translit": "moshav",
+    "meaning": "asiento / compañía",
+    "category": "sustantivo",
+    "root": "ישב",
+    "level": 4,
+    "frequency_rank": 103
+  },
+  {
+    "id": "v104",
+    "hebrew": "לֵצִים",
+    "translit": "letsim",
+    "meaning": "burladores",
+    "category": "sustantivo",
+    "root": "לוץ",
+    "level": 4,
+    "frequency_rank": 104
+  },
+  {
+    "id": "v105",
+    "hebrew": "יָשָׁב",
+    "translit": "yashav",
+    "meaning": "se sentó / habitó",
+    "category": "verbo",
+    "root": "ישב",
+    "level": 2,
+    "frequency_rank": 105
+  },
+  {
+    "id": "v106",
+    "hebrew": "בְּתוֹרַת",
+    "translit": "betorat",
+    "meaning": "en la enseñanza / ley de",
+    "category": "sustantivo",
+    "root": "תורה",
+    "level": 3,
+    "frequency_rank": 106
+  },
+  {
+    "id": "v107",
+    "hebrew": "חֶפְצוֹ",
+    "translit": "ḥeftso",
+    "meaning": "su deleite",
+    "category": "sustantivo",
+    "root": "חפץ",
+    "level": 4,
+    "frequency_rank": 107
+  },
+  {
+    "id": "v108",
+    "hebrew": "יֶהְגֶּה",
+    "translit": "yehgeh",
+    "meaning": "medita / murmura",
+    "category": "verbo",
+    "root": "הגה",
+    "level": 4,
+    "frequency_rank": 108
+  },
+  {
+    "id": "v109",
+    "hebrew": "יוֹמָם",
+    "translit": "yomam",
+    "meaning": "de día",
+    "category": "adverbio",
+    "root": "יום",
+    "level": 3,
+    "frequency_rank": 109
+  },
+  {
+    "id": "v110",
+    "hebrew": "וָלָיְלָה",
+    "translit": "valayla",
+    "meaning": "y de noche",
+    "category": "adverbio",
+    "root": "לילה",
+    "level": 3,
+    "frequency_rank": 110
+  },
+  {
+    "id": "v111",
+    "hebrew": "כְּעֵץ",
+    "translit": "ke-ets",
+    "meaning": "como árbol",
+    "category": "comparativo",
+    "root": "עץ",
+    "level": 2,
+    "frequency_rank": 111
+  },
+  {
+    "id": "v112",
+    "hebrew": "שָׁתוּל",
+    "translit": "shatul",
+    "meaning": "plantado",
+    "category": "adjetivo",
+    "root": "שתל",
+    "level": 3,
+    "frequency_rank": 112
+  },
+  {
+    "id": "v113",
+    "hebrew": "פַּלְגֵי",
+    "translit": "palgei",
+    "meaning": "corrientes / canales",
+    "category": "sustantivo",
+    "root": "פלג",
+    "level": 4,
+    "frequency_rank": 113
+  },
+  {
+    "id": "v114",
+    "hebrew": "פִּרְיוֹ",
+    "translit": "piryo",
+    "meaning": "su fruto",
+    "category": "sustantivo",
+    "root": "פרי",
+    "level": 3,
+    "frequency_rank": 114
+  },
+  {
+    "id": "v115",
+    "hebrew": "יִתֵּן",
+    "translit": "yitten",
+    "meaning": "dará / produce",
+    "category": "verbo",
+    "root": "נתן",
+    "level": 2,
+    "frequency_rank": 115,
+    "deprecated": true
+  },
+  {
+    "id": "v116",
+    "hebrew": "בְּעִתּוֹ",
+    "translit": "be-itto",
+    "meaning": "a su tiempo",
+    "category": "expresión",
+    "root": "עת",
+    "level": 3,
+    "frequency_rank": 116
+  },
+  {
+    "id": "v117",
+    "hebrew": "וְעָלֵהוּ",
+    "translit": "ve-alehu",
+    "meaning": "y su follaje",
+    "category": "sustantivo",
+    "root": "עלה",
+    "level": 4,
+    "frequency_rank": 117
+  },
+  {
+    "id": "v118",
+    "hebrew": "יִבּוֹל",
+    "translit": "yibbol",
+    "meaning": "se marchitará",
+    "category": "verbo",
+    "root": "נבל",
+    "level": 4,
+    "frequency_rank": 118
+  },
+  {
+    "id": "v119",
+    "hebrew": "יַצְלִיחַ",
+    "translit": "yatsliaḥ",
+    "meaning": "prosperará / tendrá éxito",
+    "category": "verbo",
+    "root": "צלח",
+    "level": 4,
+    "frequency_rank": 119
+  },
+  {
+    "id": "v120",
+    "hebrew": "אֶשָּׂא",
+    "translit": "essa",
+    "meaning": "alzaré / levantaré",
+    "category": "verbo",
+    "root": "נשא",
+    "level": 3,
+    "frequency_rank": 120
+  },
+  {
+    "id": "v121",
+    "hebrew": "עֵינַי",
+    "translit": "einai",
+    "meaning": "mis ojos",
+    "category": "sustantivo",
+    "root": "עין",
+    "level": 2,
+    "frequency_rank": 121
+  },
+  {
+    "id": "v122",
+    "hebrew": "הֶהָרִים",
+    "translit": "he-harim",
+    "meaning": "los montes",
+    "category": "sustantivo",
+    "root": "הר",
+    "level": 2,
+    "frequency_rank": 122
+  },
+  {
+    "id": "v123",
+    "hebrew": "מֵאַיִן",
+    "translit": "me-ayin",
+    "meaning": "¿de dónde?",
+    "category": "adverbio",
+    "root": "אין",
+    "level": 3,
+    "frequency_rank": 123
+  },
+  {
+    "id": "v124",
+    "hebrew": "יָבוֹא",
+    "translit": "yavo",
+    "meaning": "vendrá",
+    "category": "verbo",
+    "root": "בוא",
+    "level": 2,
+    "frequency_rank": 124
+  },
+  {
+    "id": "v125",
+    "hebrew": "עֶזְרִי",
+    "translit": "ezri",
+    "meaning": "mi ayuda",
+    "category": "sustantivo",
+    "root": "עזר",
+    "level": 2,
+    "frequency_rank": 125
+  },
+  {
+    "id": "v126",
+    "hebrew": "מֵעִם",
+    "translit": "me-im",
+    "meaning": "de parte de / desde junto a",
+    "category": "preposición",
+    "root": "עם",
+    "level": 3,
+    "frequency_rank": 126
+  },
+  {
+    "id": "v127",
+    "hebrew": "עֹשֵׂה",
+    "translit": "oseh",
+    "meaning": "hacedor / el que hace",
+    "category": "participio",
+    "root": "עשה",
+    "level": 3,
+    "frequency_rank": 127
+  },
+  {
+    "id": "v128",
+    "hebrew": "הָאָרֶץ",
+    "translit": "ha-arets",
+    "meaning": "la tierra",
+    "category": "sustantivo",
+    "root": "ארץ",
+    "level": 1,
+    "frequency_rank": 128
+  },
+  {
+    "id": "v129",
+    "hebrew": "אַל",
+    "translit": "al",
+    "meaning": "no (prohibición)",
+    "category": "partícula",
+    "root": "אל",
+    "level": 2,
+    "frequency_rank": 129
+  },
+  {
+    "id": "v130",
+    "hebrew": "יִתֵּן",
+    "translit": "yitten",
+    "meaning": "dará / permitirá",
+    "category": "verbo",
+    "root": "נתן",
+    "level": 2,
+    "frequency_rank": 130
+  },
+  {
+    "id": "v131",
+    "hebrew": "לַמּוֹט",
+    "translit": "lammot",
+    "meaning": "al resbalar / al tambalearse",
+    "category": "verbo",
+    "root": "מוט",
+    "level": 4,
+    "frequency_rank": 131
+  },
+  {
+    "id": "v132",
+    "hebrew": "רַגְלֶךָ",
+    "translit": "raglekha",
+    "meaning": "tu pie",
+    "category": "sustantivo",
+    "root": "רגל",
+    "level": 3,
+    "frequency_rank": 132
+  },
+  {
+    "id": "v133",
+    "hebrew": "יָנוּם",
+    "translit": "yanum",
+    "meaning": "se adormecerá",
+    "category": "verbo",
+    "root": "נום",
+    "level": 4,
+    "frequency_rank": 133
+  },
+  {
+    "id": "v134",
+    "hebrew": "שֹׁמְרֶךָ",
+    "translit": "shomrekha",
+    "meaning": "tu guardián / el que te guarda",
+    "category": "participio",
+    "root": "שמר",
+    "level": 3,
+    "frequency_rank": 134
+  },
+  {
+    "id": "v135",
+    "hebrew": "יִישָׁן",
+    "translit": "yishan",
+    "meaning": "dormirá",
+    "category": "verbo",
+    "root": "ישן",
+    "level": 4,
+    "frequency_rank": 135
+  },
+  {
+    "id": "v136",
+    "hebrew": "יִשְׂרָאֵל",
+    "translit": "yisrael",
+    "meaning": "Israel",
+    "category": "nombre propio",
+    "root": "ישראל",
+    "level": 2,
+    "frequency_rank": 136
+  },
+  {
+    "id": "v137",
+    "hebrew": "צִלְּךָ",
+    "translit": "tsilkha",
+    "meaning": "tu sombra",
+    "category": "sustantivo",
+    "root": "צל",
+    "level": 4,
+    "frequency_rank": 137
+  },
+  {
+    "id": "v138",
+    "hebrew": "יַד",
+    "translit": "yad",
+    "meaning": "mano",
+    "category": "sustantivo",
+    "root": "יד",
+    "level": 2,
+    "frequency_rank": 138
+  },
+  {
+    "id": "v139",
+    "hebrew": "יְמִינֶךָ",
+    "translit": "yeminekha",
+    "meaning": "tu derecha",
+    "category": "sustantivo",
+    "root": "ימין",
+    "level": 4,
+    "frequency_rank": 139
+  },
+  {
+    "id": "v140",
+    "hebrew": "יוֹמָם",
+    "translit": "yomam",
+    "meaning": "de día",
+    "category": "adverbio",
+    "root": "יום",
+    "level": 3,
+    "frequency_rank": 140,
+    "deprecated": true
+  },
+  {
+    "id": "v141",
+    "hebrew": "הַשֶּׁמֶשׁ",
+    "translit": "ha-shemesh",
+    "meaning": "el sol",
+    "category": "sustantivo",
+    "root": "שמש",
+    "level": 2,
+    "frequency_rank": 141
+  },
+  {
+    "id": "v142",
+    "hebrew": "יַכֶּכָּה",
+    "translit": "yakkekha",
+    "meaning": "te herirá / te golpeará",
+    "category": "verbo",
+    "root": "נכה",
+    "level": 5,
+    "frequency_rank": 142
+  },
+  {
+    "id": "v143",
+    "hebrew": "וְיָרֵחַ",
+    "translit": "veyareach",
+    "meaning": "y la luna",
+    "category": "sustantivo",
+    "root": "ירח",
+    "level": 3,
+    "frequency_rank": 143
+  },
+  {
+    "id": "v144",
+    "hebrew": "יִשְׁמָרְךָ",
+    "translit": "yishmarkha",
+    "meaning": "te guardará",
+    "category": "verbo",
+    "root": "שמר",
+    "level": 3,
+    "frequency_rank": 144
+  },
+  {
+    "id": "v145",
+    "hebrew": "מִכָּל",
+    "translit": "mikkol",
+    "meaning": "de todo / de toda clase de",
+    "category": "cuantificador",
+    "root": "כל",
+    "level": 3,
+    "frequency_rank": 145
+  },
+  {
+    "id": "v146",
+    "hebrew": "רָע",
+    "translit": "ra",
+    "meaning": "mal / daño",
+    "category": "sustantivo/adjetivo",
+    "root": "רע",
+    "level": 2,
+    "frequency_rank": 146
+  },
+  {
+    "id": "v147",
+    "hebrew": "נַפְשֶׁךָ",
+    "translit": "nafshekha",
+    "meaning": "tu vida / tu alma",
+    "category": "sustantivo",
+    "root": "נפש",
+    "level": 3,
+    "frequency_rank": 147
+  },
+  {
+    "id": "v148",
+    "hebrew": "צֵאתְךָ",
+    "translit": "tsetekha",
+    "meaning": "tu salida / tu salir",
+    "category": "sustantivo",
+    "root": "יצא",
+    "level": 4,
+    "frequency_rank": 148
+  },
+  {
+    "id": "v149",
+    "hebrew": "וּבוֹאֶךָ",
+    "translit": "uvoekha",
+    "meaning": "y tu entrada / tu venir",
+    "category": "sustantivo",
+    "root": "בוא",
+    "level": 4,
+    "frequency_rank": 149
+  },
+  {
+    "id": "v150",
+    "hebrew": "מֵעַתָּה",
+    "translit": "me-attah",
+    "meaning": "desde ahora",
+    "category": "adverbio",
+    "root": "עתה",
+    "level": 3,
+    "frequency_rank": 150
+  },
+  {
+    "id": "v151",
+    "hebrew": "עוֹלָם",
+    "translit": "olam",
+    "meaning": "siempre / eternidad",
+    "category": "sustantivo",
+    "root": "עולם",
+    "level": 3,
+    "frequency_rank": 151
+  },
+  {
+    "id": "v152",
+    "hebrew": "יְהוָה",
+    "translit": "YHWH",
+    "meaning": "el SEÑOR (nombre divino)",
+    "category": "nombre divino",
+    "root": "היה",
+    "level": 1,
+    "frequency_rank": 1
+  },
+  {
+    "id": "v153",
+    "hebrew": "שֻׁלְחָן",
+    "translit": "shulḥan",
+    "meaning": "mesa",
+    "category": "sustantivo",
+    "root": "שלחן",
+    "level": 5,
+    "frequency_rank": 153
+  },
+  {
+    "id": "v154",
+    "hebrew": "נֶגֶד",
+    "translit": "neged",
+    "meaning": "frente a / delante de",
+    "category": "preposición",
+    "root": "נגד",
+    "level": 4,
+    "frequency_rank": 154
+  },
+  {
+    "id": "v155",
+    "hebrew": "צֹרְרָי",
+    "translit": "tsorerai",
+    "meaning": "mis adversarios",
+    "category": "sustantivo",
+    "root": "צרר",
+    "level": 5,
+    "frequency_rank": 155
+  },
+  {
+    "id": "v156",
+    "hebrew": "דִּשַּׁנְתָּ",
+    "translit": "dishanta",
+    "meaning": "has ungido / has hecho abundar",
+    "category": "verbo",
+    "root": "דשן",
+    "level": 5,
+    "frequency_rank": 156
+  },
+  {
+    "id": "v157",
+    "hebrew": "בַשֶּׁמֶן",
+    "translit": "vashemen",
+    "meaning": "con el aceite / en el aceite",
+    "category": "sustantivo",
+    "root": "שמן",
+    "level": 4,
+    "frequency_rank": 157
+  },
+  {
+    "id": "v158",
+    "hebrew": "רֹאשִׁי",
+    "translit": "roshi",
+    "meaning": "mi cabeza",
+    "category": "sustantivo",
+    "root": "ראש",
+    "level": 3,
+    "frequency_rank": 158
+  },
+  {
+    "id": "v159",
+    "hebrew": "כּוֹסִי",
+    "translit": "kosi",
+    "meaning": "mi copa",
+    "category": "sustantivo",
+    "root": "כוס",
+    "level": 4,
+    "frequency_rank": 159
+  },
+  {
+    "id": "v160",
+    "hebrew": "רְוָיָה",
+    "translit": "revayah",
+    "meaning": "abundancia / rebosante",
+    "category": "sustantivo",
+    "root": "רוה",
+    "level": 5,
+    "frequency_rank": 160
+  },
+  {
+    "id": "v161",
+    "hebrew": "כַּמֹּץ",
+    "translit": "kammots",
+    "meaning": "como paja / tamo",
+    "category": "comparativo",
+    "root": "מוץ",
+    "level": 5,
+    "frequency_rank": 161
+  },
+  {
+    "id": "v162",
+    "hebrew": "תִּדְּפֶנּוּ",
+    "translit": "tiddefennu",
+    "meaning": "la dispersa / lo ahuyenta",
+    "category": "verbo",
+    "root": "דוף",
+    "level": 5,
+    "frequency_rank": 162
+  },
+  {
+    "id": "v163",
+    "hebrew": "רוּחַ",
+    "translit": "ruaḥ",
+    "meaning": "viento / espíritu",
+    "category": "sustantivo",
+    "root": "רוח",
+    "level": 3,
+    "frequency_rank": 163
+  },
+  {
+    "id": "v164",
+    "hebrew": "לֹא־יָקֻמוּ",
+    "translit": "lo-yaqumu",
+    "meaning": "no se levantarán",
+    "category": "verbo",
+    "root": "קום",
+    "level": 5,
+    "frequency_rank": 164
+  },
+  {
+    "id": "v165",
+    "hebrew": "בַּמִּשְׁפָּט",
+    "translit": "bammishpat",
+    "meaning": "en el juicio",
+    "category": "sustantivo",
+    "root": "שפט",
+    "level": 5,
+    "frequency_rank": 165
+  },
+  {
+    "id": "v166",
+    "hebrew": "בַּעֲדַת",
+    "translit": "ba-adat",
+    "meaning": "en la asamblea de",
+    "category": "sustantivo",
+    "root": "עדה",
+    "level": 5,
+    "frequency_rank": 166
+  },
+  {
+    "id": "v167",
+    "hebrew": "צַדִּיקִים",
+    "translit": "tsaddiqim",
+    "meaning": "justos",
+    "category": "adjetivo",
+    "root": "צדק",
+    "level": 4,
+    "frequency_rank": 167
+  },
+  {
+    "id": "v168",
+    "hebrew": "תֹּאבֵד",
+    "translit": "toved",
+    "meaning": "perecerá",
+    "category": "verbo",
+    "root": "אבד",
+    "level": 5,
+    "frequency_rank": 168
+  },
+  {
+    "id": "v169",
+    "hebrew": "אַךְ",
+    "translit": "akh",
+    "meaning": "ciertamente / solamente",
+    "category": "partícula",
+    "root": "אך",
+    "level": 4,
+    "frequency_rank": 169
+  }
+]

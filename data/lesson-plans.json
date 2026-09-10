@@ -1,0 +1,2522 @@
+[
+  {
+    "day": 1,
+    "phase": 1,
+    "title": "Día 1 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "input",
+    "unit_ids": [
+      "v001",
+      "v002",
+      "v003",
+      "v004"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 2,
+    "phase": 1,
+    "title": "Día 2 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v003",
+      "v004",
+      "v005",
+      "v006"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 3,
+    "phase": 1,
+    "title": "Día 3 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v005",
+      "v006",
+      "v007",
+      "v008"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 4,
+    "phase": 1,
+    "title": "Día 4 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v007",
+      "v008",
+      "v009",
+      "v010"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 5,
+    "phase": 1,
+    "title": "Día 5 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v009",
+      "v010",
+      "v011",
+      "v012"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 6,
+    "phase": 1,
+    "title": "Día 6 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "input",
+    "unit_ids": [
+      "v011",
+      "v012",
+      "v013",
+      "v014"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 7,
+    "phase": 1,
+    "title": "Día 7 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v013",
+      "v014",
+      "v015",
+      "v016"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 8,
+    "phase": 1,
+    "title": "Día 8 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v015",
+      "v016",
+      "v017",
+      "v018"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 9,
+    "phase": 1,
+    "title": "Día 9 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v017",
+      "v018",
+      "v019",
+      "v020"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 10,
+    "phase": 1,
+    "title": "Día 10 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v019",
+      "v020",
+      "v021",
+      "v022"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 11,
+    "phase": 1,
+    "title": "Día 11 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "input",
+    "unit_ids": [
+      "v021",
+      "v022",
+      "v023",
+      "v024"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 12,
+    "phase": 1,
+    "title": "Día 12 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v023",
+      "v024",
+      "v025",
+      "v026"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 13,
+    "phase": 1,
+    "title": "Día 13 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v025",
+      "v026",
+      "v027",
+      "v028"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 14,
+    "phase": 1,
+    "title": "Día 14 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v027",
+      "v028",
+      "v029",
+      "v030"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 15,
+    "phase": 1,
+    "title": "Día 15 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v029",
+      "v030",
+      "v031",
+      "v032"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 16,
+    "phase": 1,
+    "title": "Día 16 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "input",
+    "unit_ids": [
+      "v031",
+      "v032",
+      "v033",
+      "v034"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 17,
+    "phase": 1,
+    "title": "Día 17 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v033",
+      "v034",
+      "v035",
+      "v036"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 18,
+    "phase": 1,
+    "title": "Día 18 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v035",
+      "v036",
+      "v037",
+      "v038"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 19,
+    "phase": 1,
+    "title": "Día 19 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v037",
+      "v038",
+      "v039",
+      "v040"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 20,
+    "phase": 1,
+    "title": "Día 20 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v039",
+      "v040",
+      "v041",
+      "v042"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 21,
+    "phase": 1,
+    "title": "Día 21 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "input",
+    "unit_ids": [
+      "v041",
+      "v042",
+      "v043",
+      "v044"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 22,
+    "phase": 1,
+    "title": "Día 22 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v043",
+      "v044",
+      "v045",
+      "v046"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 23,
+    "phase": 1,
+    "title": "Día 23 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v045",
+      "v046",
+      "v047",
+      "v048"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 24,
+    "phase": 1,
+    "title": "Día 24 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v047",
+      "v048",
+      "v049",
+      "v050"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 25,
+    "phase": 1,
+    "title": "Día 25 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v049",
+      "v050",
+      "v051",
+      "v052"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 26,
+    "phase": 1,
+    "title": "Día 26 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "input",
+    "unit_ids": [
+      "v051",
+      "v052",
+      "v053",
+      "v054"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 27,
+    "phase": 1,
+    "title": "Día 27 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v053",
+      "v054",
+      "v055",
+      "v056"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 28,
+    "phase": 1,
+    "title": "Día 28 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v055",
+      "v056",
+      "v057",
+      "v058"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 29,
+    "phase": 1,
+    "title": "Día 29 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v057",
+      "v058",
+      "v059",
+      "v001"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 30,
+    "phase": 1,
+    "title": "Día 30 · Fundamentos",
+    "objective": "Reconocer formas, leer con vocalización y relacionar palabras con significado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v059",
+      "v001",
+      "v002",
+      "v003"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 31,
+    "phase": 2,
+    "title": "Día 31 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "input",
+    "unit_ids": [
+      "v002",
+      "v003",
+      "v004",
+      "v005"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 32,
+    "phase": 2,
+    "title": "Día 32 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v004",
+      "v005",
+      "v006",
+      "v007"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 33,
+    "phase": 2,
+    "title": "Día 33 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v006",
+      "v007",
+      "v008",
+      "v009"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 34,
+    "phase": 2,
+    "title": "Día 34 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "producción",
+    "unit_ids": [
+      "v008",
+      "v009",
+      "v010",
+      "v011"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 35,
+    "phase": 2,
+    "title": "Día 35 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v010",
+      "v011",
+      "v012",
+      "v013"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 36,
+    "phase": 2,
+    "title": "Día 36 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "input",
+    "unit_ids": [
+      "v012",
+      "v013",
+      "v014",
+      "v015"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 37,
+    "phase": 2,
+    "title": "Día 37 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v014",
+      "v015",
+      "v016",
+      "v017"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 38,
+    "phase": 2,
+    "title": "Día 38 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v016",
+      "v017",
+      "v018",
+      "v019"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 39,
+    "phase": 2,
+    "title": "Día 39 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "producción",
+    "unit_ids": [
+      "v018",
+      "v019",
+      "v020",
+      "v021"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 40,
+    "phase": 2,
+    "title": "Día 40 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v020",
+      "v021",
+      "v022",
+      "v023"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 41,
+    "phase": 2,
+    "title": "Día 41 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "input",
+    "unit_ids": [
+      "v022",
+      "v023",
+      "v024",
+      "v025"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 42,
+    "phase": 2,
+    "title": "Día 42 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v024",
+      "v025",
+      "v026",
+      "v027"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 43,
+    "phase": 2,
+    "title": "Día 43 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v026",
+      "v027",
+      "v028",
+      "v029"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 44,
+    "phase": 2,
+    "title": "Día 44 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "producción",
+    "unit_ids": [
+      "v028",
+      "v029",
+      "v030",
+      "v031"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 45,
+    "phase": 2,
+    "title": "Día 45 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v030",
+      "v031",
+      "v032",
+      "v033"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 46,
+    "phase": 2,
+    "title": "Día 46 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "input",
+    "unit_ids": [
+      "v032",
+      "v033",
+      "v034",
+      "v035"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 47,
+    "phase": 2,
+    "title": "Día 47 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v034",
+      "v035",
+      "v036",
+      "v037"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 48,
+    "phase": 2,
+    "title": "Día 48 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v036",
+      "v037",
+      "v038",
+      "v039"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 49,
+    "phase": 2,
+    "title": "Día 49 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "producción",
+    "unit_ids": [
+      "v038",
+      "v039",
+      "v040",
+      "v041"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 50,
+    "phase": 2,
+    "title": "Día 50 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v040",
+      "v041",
+      "v042",
+      "v043"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 51,
+    "phase": 2,
+    "title": "Día 51 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "input",
+    "unit_ids": [
+      "v042",
+      "v043",
+      "v044",
+      "v045"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 52,
+    "phase": 2,
+    "title": "Día 52 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v044",
+      "v045",
+      "v046",
+      "v047"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 53,
+    "phase": 2,
+    "title": "Día 53 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v046",
+      "v047",
+      "v048",
+      "v049"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 54,
+    "phase": 2,
+    "title": "Día 54 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "producción",
+    "unit_ids": [
+      "v048",
+      "v049",
+      "v050",
+      "v051"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 55,
+    "phase": 2,
+    "title": "Día 55 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v050",
+      "v051",
+      "v052",
+      "v053"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 56,
+    "phase": 2,
+    "title": "Día 56 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "input",
+    "unit_ids": [
+      "v052",
+      "v053",
+      "v054",
+      "v055"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 57,
+    "phase": 2,
+    "title": "Día 57 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v054",
+      "v055",
+      "v056",
+      "v057"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 58,
+    "phase": 2,
+    "title": "Día 58 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v056",
+      "v057",
+      "v058",
+      "v059"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 59,
+    "phase": 2,
+    "title": "Día 59 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "producción",
+    "unit_ids": [
+      "v058",
+      "v059",
+      "v001",
+      "v002"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 60,
+    "phase": 2,
+    "title": "Día 60 · Lectura y patrones",
+    "objective": "Reconocer patrones frecuentes y comprender frases breves sin traducir palabra por palabra.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v001",
+      "v002",
+      "v003",
+      "v004"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 61,
+    "phase": 3,
+    "title": "Día 61 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "input",
+    "unit_ids": [
+      "v003",
+      "v004",
+      "v005",
+      "v006"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 62,
+    "phase": 3,
+    "title": "Día 62 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v005",
+      "v006",
+      "v007",
+      "v008"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 63,
+    "phase": 3,
+    "title": "Día 63 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v007",
+      "v008",
+      "v009",
+      "v010"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 64,
+    "phase": 3,
+    "title": "Día 64 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "producción",
+    "unit_ids": [
+      "v009",
+      "v010",
+      "v011",
+      "v012"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 65,
+    "phase": 3,
+    "title": "Día 65 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v011",
+      "v012",
+      "v013",
+      "v014"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 66,
+    "phase": 3,
+    "title": "Día 66 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "input",
+    "unit_ids": [
+      "v013",
+      "v014",
+      "v015",
+      "v016"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 67,
+    "phase": 3,
+    "title": "Día 67 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v015",
+      "v016",
+      "v017",
+      "v018"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 68,
+    "phase": 3,
+    "title": "Día 68 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v017",
+      "v018",
+      "v019",
+      "v020"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 69,
+    "phase": 3,
+    "title": "Día 69 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "producción",
+    "unit_ids": [
+      "v019",
+      "v020",
+      "v021",
+      "v022"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 70,
+    "phase": 3,
+    "title": "Día 70 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v021",
+      "v022",
+      "v023",
+      "v024"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 71,
+    "phase": 3,
+    "title": "Día 71 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "input",
+    "unit_ids": [
+      "v023",
+      "v024",
+      "v025",
+      "v026"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 72,
+    "phase": 3,
+    "title": "Día 72 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v025",
+      "v026",
+      "v027",
+      "v028"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 73,
+    "phase": 3,
+    "title": "Día 73 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v027",
+      "v028",
+      "v029",
+      "v030"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 74,
+    "phase": 3,
+    "title": "Día 74 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "producción",
+    "unit_ids": [
+      "v029",
+      "v030",
+      "v031",
+      "v032"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 75,
+    "phase": 3,
+    "title": "Día 75 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v031",
+      "v032",
+      "v033",
+      "v034"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 76,
+    "phase": 3,
+    "title": "Día 76 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "input",
+    "unit_ids": [
+      "v033",
+      "v034",
+      "v035",
+      "v036"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 77,
+    "phase": 3,
+    "title": "Día 77 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v035",
+      "v036",
+      "v037",
+      "v038"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 78,
+    "phase": 3,
+    "title": "Día 78 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v037",
+      "v038",
+      "v039",
+      "v040"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 79,
+    "phase": 3,
+    "title": "Día 79 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "producción",
+    "unit_ids": [
+      "v039",
+      "v040",
+      "v041",
+      "v042"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 80,
+    "phase": 3,
+    "title": "Día 80 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v041",
+      "v042",
+      "v043",
+      "v044"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 81,
+    "phase": 3,
+    "title": "Día 81 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "input",
+    "unit_ids": [
+      "v043",
+      "v044",
+      "v045",
+      "v046"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 82,
+    "phase": 3,
+    "title": "Día 82 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v045",
+      "v046",
+      "v047",
+      "v048"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 83,
+    "phase": 3,
+    "title": "Día 83 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v047",
+      "v048",
+      "v049",
+      "v050"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 84,
+    "phase": 3,
+    "title": "Día 84 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "producción",
+    "unit_ids": [
+      "v049",
+      "v050",
+      "v051",
+      "v052"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 85,
+    "phase": 3,
+    "title": "Día 85 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v051",
+      "v052",
+      "v053",
+      "v054"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 86,
+    "phase": 3,
+    "title": "Día 86 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "input",
+    "unit_ids": [
+      "v053",
+      "v054",
+      "v055",
+      "v056"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 87,
+    "phase": 3,
+    "title": "Día 87 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v055",
+      "v056",
+      "v057",
+      "v058"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 88,
+    "phase": 3,
+    "title": "Día 88 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v057",
+      "v058",
+      "v059",
+      "v001"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 89,
+    "phase": 3,
+    "title": "Día 89 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "producción",
+    "unit_ids": [
+      "v059",
+      "v001",
+      "v002",
+      "v003"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 90,
+    "phase": 3,
+    "title": "Día 90 · Comprensión bíblica",
+    "objective": "Comprender frases bíblicas sencillas, raíces frecuentes y función básica de partículas.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v002",
+      "v003",
+      "v004",
+      "v005"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 91,
+    "phase": 4,
+    "title": "Día 91 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "input",
+    "unit_ids": [
+      "v004",
+      "v005",
+      "v006",
+      "v007"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 92,
+    "phase": 4,
+    "title": "Día 92 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v006",
+      "v007",
+      "v008",
+      "v009"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 93,
+    "phase": 4,
+    "title": "Día 93 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v008",
+      "v009",
+      "v010",
+      "v011"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 94,
+    "phase": 4,
+    "title": "Día 94 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v010",
+      "v011",
+      "v012",
+      "v013"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 95,
+    "phase": 4,
+    "title": "Día 95 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v012",
+      "v013",
+      "v014",
+      "v015"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 96,
+    "phase": 4,
+    "title": "Día 96 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "input",
+    "unit_ids": [
+      "v014",
+      "v015",
+      "v016",
+      "v017"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 97,
+    "phase": 4,
+    "title": "Día 97 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v016",
+      "v017",
+      "v018",
+      "v019"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 98,
+    "phase": 4,
+    "title": "Día 98 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v018",
+      "v019",
+      "v020",
+      "v021"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 99,
+    "phase": 4,
+    "title": "Día 99 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v020",
+      "v021",
+      "v022",
+      "v023"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 100,
+    "phase": 4,
+    "title": "Día 100 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v022",
+      "v023",
+      "v024",
+      "v025"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 101,
+    "phase": 4,
+    "title": "Día 101 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "input",
+    "unit_ids": [
+      "v024",
+      "v025",
+      "v026",
+      "v027"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 102,
+    "phase": 4,
+    "title": "Día 102 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v026",
+      "v027",
+      "v028",
+      "v029"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 103,
+    "phase": 4,
+    "title": "Día 103 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v028",
+      "v029",
+      "v030",
+      "v031"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 104,
+    "phase": 4,
+    "title": "Día 104 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v030",
+      "v031",
+      "v032",
+      "v033"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 105,
+    "phase": 4,
+    "title": "Día 105 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v032",
+      "v033",
+      "v034",
+      "v035"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 106,
+    "phase": 4,
+    "title": "Día 106 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "input",
+    "unit_ids": [
+      "v034",
+      "v035",
+      "v036",
+      "v037"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 107,
+    "phase": 4,
+    "title": "Día 107 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v036",
+      "v037",
+      "v038",
+      "v039"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 108,
+    "phase": 4,
+    "title": "Día 108 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v038",
+      "v039",
+      "v040",
+      "v041"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 109,
+    "phase": 4,
+    "title": "Día 109 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v040",
+      "v041",
+      "v042",
+      "v043"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 110,
+    "phase": 4,
+    "title": "Día 110 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v042",
+      "v043",
+      "v044",
+      "v045"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 111,
+    "phase": 4,
+    "title": "Día 111 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "input",
+    "unit_ids": [
+      "v044",
+      "v045",
+      "v046",
+      "v047"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 112,
+    "phase": 4,
+    "title": "Día 112 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v046",
+      "v047",
+      "v048",
+      "v049"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 113,
+    "phase": 4,
+    "title": "Día 113 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v048",
+      "v049",
+      "v050",
+      "v051"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 114,
+    "phase": 4,
+    "title": "Día 114 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v050",
+      "v051",
+      "v052",
+      "v053"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 115,
+    "phase": 4,
+    "title": "Día 115 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v052",
+      "v053",
+      "v054",
+      "v055"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 116,
+    "phase": 4,
+    "title": "Día 116 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "input",
+    "unit_ids": [
+      "v054",
+      "v055",
+      "v056",
+      "v057"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 117,
+    "phase": 4,
+    "title": "Día 117 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v056",
+      "v057",
+      "v058",
+      "v059"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 118,
+    "phase": 4,
+    "title": "Día 118 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v058",
+      "v059",
+      "v001",
+      "v002"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 119,
+    "phase": 4,
+    "title": "Día 119 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "producción",
+    "unit_ids": [
+      "v001",
+      "v002",
+      "v003",
+      "v004"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 120,
+    "phase": 4,
+    "title": "Día 120 · Morfología con apoyo",
+    "objective": "Analizar formas con apoyo: raíz, prefijos, sufijos, género, número y estado.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v003",
+      "v004",
+      "v005",
+      "v006"
+    ],
+    "minutes": 15
+  },
+  {
+    "day": 121,
+    "phase": 5,
+    "title": "Día 121 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "input",
+    "unit_ids": [
+      "v005",
+      "v006",
+      "v007",
+      "v008"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 122,
+    "phase": 5,
+    "title": "Día 122 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v007",
+      "v008",
+      "v009",
+      "v010"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 123,
+    "phase": 5,
+    "title": "Día 123 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v009",
+      "v010",
+      "v011",
+      "v012"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 124,
+    "phase": 5,
+    "title": "Día 124 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "producción",
+    "unit_ids": [
+      "v011",
+      "v012",
+      "v013",
+      "v014"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 125,
+    "phase": 5,
+    "title": "Día 125 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v013",
+      "v014",
+      "v015",
+      "v016"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 126,
+    "phase": 5,
+    "title": "Día 126 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "input",
+    "unit_ids": [
+      "v015",
+      "v016",
+      "v017",
+      "v018"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 127,
+    "phase": 5,
+    "title": "Día 127 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v017",
+      "v018",
+      "v019",
+      "v020"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 128,
+    "phase": 5,
+    "title": "Día 128 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v019",
+      "v020",
+      "v021",
+      "v022"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 129,
+    "phase": 5,
+    "title": "Día 129 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "producción",
+    "unit_ids": [
+      "v021",
+      "v022",
+      "v023",
+      "v024"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 130,
+    "phase": 5,
+    "title": "Día 130 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v023",
+      "v024",
+      "v025",
+      "v026"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 131,
+    "phase": 5,
+    "title": "Día 131 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "input",
+    "unit_ids": [
+      "v025",
+      "v026",
+      "v027",
+      "v028"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 132,
+    "phase": 5,
+    "title": "Día 132 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v027",
+      "v028",
+      "v029",
+      "v030"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 133,
+    "phase": 5,
+    "title": "Día 133 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v029",
+      "v030",
+      "v031",
+      "v032"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 134,
+    "phase": 5,
+    "title": "Día 134 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "producción",
+    "unit_ids": [
+      "v031",
+      "v032",
+      "v033",
+      "v034"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 135,
+    "phase": 5,
+    "title": "Día 135 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v033",
+      "v034",
+      "v035",
+      "v036"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 136,
+    "phase": 5,
+    "title": "Día 136 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "input",
+    "unit_ids": [
+      "v035",
+      "v036",
+      "v037",
+      "v038"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 137,
+    "phase": 5,
+    "title": "Día 137 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v037",
+      "v038",
+      "v039",
+      "v040"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 138,
+    "phase": 5,
+    "title": "Día 138 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v039",
+      "v040",
+      "v041",
+      "v042"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 139,
+    "phase": 5,
+    "title": "Día 139 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "producción",
+    "unit_ids": [
+      "v041",
+      "v042",
+      "v043",
+      "v044"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 140,
+    "phase": 5,
+    "title": "Día 140 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v043",
+      "v044",
+      "v045",
+      "v046"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 141,
+    "phase": 5,
+    "title": "Día 141 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "input",
+    "unit_ids": [
+      "v045",
+      "v046",
+      "v047",
+      "v048"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 142,
+    "phase": 5,
+    "title": "Día 142 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v047",
+      "v048",
+      "v049",
+      "v050"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 143,
+    "phase": 5,
+    "title": "Día 143 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v049",
+      "v050",
+      "v051",
+      "v052"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 144,
+    "phase": 5,
+    "title": "Día 144 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "producción",
+    "unit_ids": [
+      "v051",
+      "v052",
+      "v053",
+      "v054"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 145,
+    "phase": 5,
+    "title": "Día 145 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v053",
+      "v054",
+      "v055",
+      "v056"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 146,
+    "phase": 5,
+    "title": "Día 146 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "input",
+    "unit_ids": [
+      "v055",
+      "v056",
+      "v057",
+      "v058"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 147,
+    "phase": 5,
+    "title": "Día 147 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v057",
+      "v058",
+      "v059",
+      "v001"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 148,
+    "phase": 5,
+    "title": "Día 148 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v059",
+      "v001",
+      "v002",
+      "v003"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 149,
+    "phase": 5,
+    "title": "Día 149 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "producción",
+    "unit_ids": [
+      "v002",
+      "v003",
+      "v004",
+      "v005"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 150,
+    "phase": 5,
+    "title": "Día 150 · Lectura con menos ayuda",
+    "objective": "Leer con menos ayuda y recuperar vocabulario a partir del contexto.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v004",
+      "v005",
+      "v006",
+      "v007"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 151,
+    "phase": 6,
+    "title": "Día 151 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "input",
+    "unit_ids": [
+      "v006",
+      "v007",
+      "v008",
+      "v009"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 152,
+    "phase": 6,
+    "title": "Día 152 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v008",
+      "v009",
+      "v010",
+      "v011"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 153,
+    "phase": 6,
+    "title": "Día 153 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v010",
+      "v011",
+      "v012",
+      "v013"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 154,
+    "phase": 6,
+    "title": "Día 154 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "producción",
+    "unit_ids": [
+      "v012",
+      "v013",
+      "v014",
+      "v015"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 155,
+    "phase": 6,
+    "title": "Día 155 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v014",
+      "v015",
+      "v016",
+      "v017"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 156,
+    "phase": 6,
+    "title": "Día 156 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "input",
+    "unit_ids": [
+      "v016",
+      "v017",
+      "v018",
+      "v019"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 157,
+    "phase": 6,
+    "title": "Día 157 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v018",
+      "v019",
+      "v020",
+      "v021"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 158,
+    "phase": 6,
+    "title": "Día 158 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v020",
+      "v021",
+      "v022",
+      "v023"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 159,
+    "phase": 6,
+    "title": "Día 159 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "producción",
+    "unit_ids": [
+      "v022",
+      "v023",
+      "v024",
+      "v025"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 160,
+    "phase": 6,
+    "title": "Día 160 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v024",
+      "v025",
+      "v026",
+      "v027"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 161,
+    "phase": 6,
+    "title": "Día 161 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "input",
+    "unit_ids": [
+      "v026",
+      "v027",
+      "v028",
+      "v029"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 162,
+    "phase": 6,
+    "title": "Día 162 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v028",
+      "v029",
+      "v030",
+      "v031"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 163,
+    "phase": 6,
+    "title": "Día 163 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v030",
+      "v031",
+      "v032",
+      "v033"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 164,
+    "phase": 6,
+    "title": "Día 164 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "producción",
+    "unit_ids": [
+      "v032",
+      "v033",
+      "v034",
+      "v035"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 165,
+    "phase": 6,
+    "title": "Día 165 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v034",
+      "v035",
+      "v036",
+      "v037"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 166,
+    "phase": 6,
+    "title": "Día 166 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "input",
+    "unit_ids": [
+      "v036",
+      "v037",
+      "v038",
+      "v039"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 167,
+    "phase": 6,
+    "title": "Día 167 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v038",
+      "v039",
+      "v040",
+      "v041"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 168,
+    "phase": 6,
+    "title": "Día 168 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v040",
+      "v041",
+      "v042",
+      "v043"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 169,
+    "phase": 6,
+    "title": "Día 169 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "producción",
+    "unit_ids": [
+      "v042",
+      "v043",
+      "v044",
+      "v045"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 170,
+    "phase": 6,
+    "title": "Día 170 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v044",
+      "v045",
+      "v046",
+      "v047"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 171,
+    "phase": 6,
+    "title": "Día 171 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "input",
+    "unit_ids": [
+      "v046",
+      "v047",
+      "v048",
+      "v049"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 172,
+    "phase": 6,
+    "title": "Día 172 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v048",
+      "v049",
+      "v050",
+      "v051"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 173,
+    "phase": 6,
+    "title": "Día 173 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v050",
+      "v051",
+      "v052",
+      "v053"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 174,
+    "phase": 6,
+    "title": "Día 174 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "producción",
+    "unit_ids": [
+      "v052",
+      "v053",
+      "v054",
+      "v055"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 175,
+    "phase": 6,
+    "title": "Día 175 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v054",
+      "v055",
+      "v056",
+      "v057"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 176,
+    "phase": 6,
+    "title": "Día 176 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "input",
+    "unit_ids": [
+      "v056",
+      "v057",
+      "v058",
+      "v059"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 177,
+    "phase": 6,
+    "title": "Día 177 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "lectura",
+    "unit_ids": [
+      "v058",
+      "v059",
+      "v001",
+      "v002"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 178,
+    "phase": 6,
+    "title": "Día 178 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "recuperación",
+    "unit_ids": [
+      "v001",
+      "v002",
+      "v003",
+      "v004"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 179,
+    "phase": 6,
+    "title": "Día 179 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "producción",
+    "unit_ids": [
+      "v003",
+      "v004",
+      "v005",
+      "v006"
+    ],
+    "minutes": 20
+  },
+  {
+    "day": 180,
+    "phase": 6,
+    "title": "Día 180 · Lectura independiente",
+    "objective": "Leer, analizar y comprender hebreo bíblico progresivamente con independencia.",
+    "focus": "repaso",
+    "unit_ids": [
+      "v005",
+      "v006",
+      "v007",
+      "v008"
+    ],
+    "minutes": 20
+  }
+]

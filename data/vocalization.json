@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pat",
+    "name": "pataḥ",
+    "mark": "ַ",
+    "example": "מַ",
+    "approx": "a",
+    "note": "Se enseña como referencia de lectura; la realización depende del contexto histórico y fonológico."
+  },
+  {
+    "id": "qam",
+    "name": "qameṣ",
+    "mark": "ָ",
+    "example": "מָ",
+    "approx": "a",
+    "note": "No debe reducirse a una equivalencia moderna única en todos los contextos."
+  },
+  {
+    "id": "seg",
+    "name": "segol",
+    "mark": "ֶ",
+    "example": "מֶ",
+    "approx": "e",
+    "note": "Vocal breve."
+  },
+  {
+    "id": "tsere",
+    "name": "ṣere",
+    "mark": "ֵ",
+    "example": "מֵ",
+    "approx": "e",
+    "note": "Vocal larga en la descripción tradicional."
+  },
+  {
+    "id": "hiriq",
+    "name": "ḥireq",
+    "mark": "ִ",
+    "example": "מִ",
+    "approx": "i",
+    "note": "Puede aparecer con o sin yod."
+  },
+  {
+    "id": "holem",
+    "name": "ḥolem",
+    "mark": "ֹ",
+    "example": "מֹ",
+    "approx": "o",
+    "note": "Puede escribirse con vav en ciertos patrones."
+  },
+  {
+    "id": "qibb",
+    "name": "qibbuṣ",
+    "mark": "ֻ",
+    "example": "מֻ",
+    "approx": "u",
+    "note": "Vocal posterior breve."
+  },
+  {
+    "id": "shur",
+    "name": "shureq",
+    "mark": "וּ",
+    "example": "מוּ",
+    "approx": "u",
+    "note": "Vav con punto interior."
+  },
+  {
+    "id": "shewa",
+    "name": "shewa",
+    "mark": "ְ",
+    "example": "מְ",
+    "approx": "ə / cero",
+    "note": "Su análisis depende del contexto; se introduce gradualmente."
+  },
+  {
+    "id": "dagesh",
+    "name": "dagesh",
+    "mark": "ּ",
+    "example": "בּ",
+    "approx": "marca consonántica",
+    "note": "Puede tener funciones distintas; aquí se reconoce antes de estudiar toda la teoría."
+  },
+  {
+    "id": "maqaf",
+    "name": "maqqef",
+    "mark": "־",
+    "example": "כָּל־הָאָרֶץ",
+    "approx": "unión",
+    "note": "Une palabras para ciertos efectos de acentuación y lectura."
+  },
+  {
+    "id": "mater",
+    "name": "mater lectionis",
+    "mark": "ו / י / ה / א",
+    "example": "תּוֹרָה",
+    "approx": "ayuda vocálica",
+    "note": "Consonantes usadas también para indicar vocales en la escritura."
+  }
+]

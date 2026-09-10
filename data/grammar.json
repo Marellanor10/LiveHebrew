@@ -1,0 +1,217 @@
+[
+  {
+    "id": "g01",
+    "title": "הַ־: el artículo definido",
+    "summary": "הַ־ suele marcar el artículo definido: «el/la/los/las». Se une gráficamente a la palabra siguiente y su vocalización puede variar según el entorno.",
+    "example": "מֶלֶךְ → הַמֶּלֶךְ",
+    "translation": "rey → el rey",
+    "note": "Empieza reconociendo הַ־ dentro de palabras completas. En הַמֶּלֶךְ, הַ־ es el artículo y מֶלֶךְ significa «rey». El dagesh en מ es parte de la vocalización de esta forma; no conviene memorizarlo como una regla aislada desde el primer día.",
+    "examples": [
+      {
+        "hebrew": "הַמֶּלֶךְ",
+        "meaning": "el rey",
+        "analysis": "הַ־ + מֶלֶךְ"
+      },
+      {
+        "hebrew": "הַבַּיִת",
+        "meaning": "la casa",
+        "analysis": "הַ־ + בַּיִת"
+      },
+      {
+        "hebrew": "הַיּוֹם",
+        "meaning": "el día / hoy",
+        "analysis": "הַ־ + יוֹם"
+      }
+    ]
+  },
+  {
+    "id": "g02",
+    "title": "Constructo: «X de Y»",
+    "summary": "En una cadena nominal, el primer sustantivo se relaciona estrechamente con el siguiente. Esta relación suele expresar posesión o asociación: «casa del rey».",
+    "example": "בֵּית הַמֶּלֶךְ",
+    "translation": "la casa del rey",
+    "note": "בַּיִת significa «casa», pero בֵּית es su forma constructa en este ejemplo. El segundo elemento puede llevar el artículo si la cadena completa es definida. El constructo se aprende mejor comparando pares.",
+    "examples": [
+      {
+        "hebrew": "בֵּית הַמֶּלֶךְ",
+        "meaning": "la casa del rey",
+        "analysis": "בֵּית = constructo de בַּיִת; הַמֶּלֶךְ = el rey"
+      },
+      {
+        "hebrew": "דְּבַר־יְהוָה",
+        "meaning": "la palabra de YHWH",
+        "analysis": "דְּבַר = constructo de דָּבָר; יְהוָה = segundo elemento"
+      },
+      {
+        "hebrew": "בֵּן הַמֶּלֶךְ",
+        "meaning": "el hijo del rey",
+        "analysis": "בֵּן = hijo; הַמֶּלֶךְ = el rey"
+      }
+    ]
+  },
+  {
+    "id": "g03",
+    "title": "Raíces consonánticas",
+    "summary": "Muchas palabras hebreas se relacionan mediante una raíz consonántica. La raíz ayuda a reconocer familias de palabras, pero no es una traducción independiente.",
+    "example": "כָּתַב",
+    "translation": "escribió",
+    "note": "La raíz כתב aparece en distintas formas relacionadas con escribir. La aplicación enseñará primero las formas en contexto y después hará explícita la relación entre ellas.",
+    "examples": [
+      {
+        "hebrew": "כָּתַב",
+        "meaning": "escribió",
+        "analysis": "כ־ת־ב · raíz כתב"
+      },
+      {
+        "hebrew": "כְּתָב",
+        "meaning": "escritura / escrito",
+        "analysis": "כ־ת־ב · misma raíz"
+      },
+      {
+        "hebrew": "מִכְתָּב",
+        "meaning": "carta",
+        "analysis": "מ־כ־ת־ב · palabra derivada relacionada"
+      }
+    ]
+  },
+  {
+    "id": "g04",
+    "title": "Prefijos inseparables",
+    "summary": "Las partículas בְּ («en»), לְ («a/para»), כְּ («como») y וְ («y») suelen aparecer unidas a la palabra siguiente.",
+    "example": "וּבַבַּיִת",
+    "translation": "y en la casa (ejemplo ilustrativo)",
+    "note": "La forma exacta puede cambiar por la vocalización y por la palabra que sigue. Por eso conviene aprender primero expresiones reales y después abstraer la regla.",
+    "examples": [
+      {
+        "hebrew": "בַּבַּיִת",
+        "meaning": "en la casa (forma ilustrativa)",
+        "analysis": "ב־ + הַבַּיִת, con cambios de vocalización"
+      },
+      {
+        "hebrew": "לַמֶּלֶךְ",
+        "meaning": "al rey",
+        "analysis": "לְ + הַמֶּלֶךְ, con contracción/vocalización"
+      },
+      {
+        "hebrew": "וְהַמֶּלֶךְ",
+        "meaning": "y el rey",
+        "analysis": "וְ + הַמֶּלֶךְ"
+      }
+    ]
+  },
+  {
+    "id": "g05",
+    "title": "Género y número",
+    "summary": "Los sustantivos y adjetivos distinguen género y número. Muchas formas femeninas singulares terminan en ־ָה, y el plural tiene patrones frecuentes que aprenderemos con ejemplos.",
+    "example": "מֶלֶךְ טוֹב / מַלְכָּה טוֹבָה",
+    "translation": "un rey bueno / una reina buena",
+    "note": "No todas las palabras siguen un único patrón. Aprende primero concordancias completas: sustantivo + adjetivo.",
+    "examples": [
+      {
+        "hebrew": "מֶלֶךְ טוֹב",
+        "meaning": "un rey bueno",
+        "analysis": "masculino singular"
+      },
+      {
+        "hebrew": "מַלְכָּה טוֹבָה",
+        "meaning": "una reina buena",
+        "analysis": "femenino singular"
+      },
+      {
+        "hebrew": "מְלָכִים טוֹבִים",
+        "meaning": "reyes buenos",
+        "analysis": "masculino plural"
+      }
+    ]
+  },
+  {
+    "id": "g06",
+    "title": "Adjetivo después del sustantivo",
+    "summary": "El adjetivo normalmente sigue al sustantivo y concuerda con él en género y número. La definitud también importa.",
+    "example": "הַמֶּלֶךְ הַטּוֹב",
+    "translation": "el rey bueno",
+    "note": "Compara la frase definida con la indefinida: מֶלֶךְ טוֹב = un rey bueno; הַמֶּלֶךְ הַטּוֹב = el rey bueno. Este contraste es muy útil para reconocer patrones.",
+    "examples": [
+      {
+        "hebrew": "מֶלֶךְ טוֹב",
+        "meaning": "un rey bueno",
+        "analysis": "sustantivo + adjetivo indefinidos"
+      },
+      {
+        "hebrew": "הַמֶּלֶךְ הַטּוֹב",
+        "meaning": "el rey bueno",
+        "analysis": "ambos definidos"
+      },
+      {
+        "hebrew": "מַלְכָּה טוֹבָה",
+        "meaning": "una reina buena",
+        "analysis": "concordancia femenina singular"
+      }
+    ]
+  },
+  {
+    "id": "g07",
+    "title": "Maqqef: unión gráfica",
+    "summary": "El maqqef (־) une palabras estrechamente en la escritura y puede afectar la lectura y la acentuación.",
+    "example": "דְּבַר־יְהוָה",
+    "translation": "palabra de YHWH",
+    "note": "No es una letra ni una vocal. Es un signo de unión. En el lector bíblico conviene reconocerlo como parte de la presentación del texto.",
+    "examples": [
+      {
+        "hebrew": "דְּבַר־יְהוָה",
+        "meaning": "palabra de YHWH",
+        "analysis": "דְּבַר־ unido a יְהוָה"
+      },
+      {
+        "hebrew": "בֶּן־אָדָם",
+        "meaning": "hijo de hombre / hijo de Adán",
+        "analysis": "בֶּן־ unido a אָדָם"
+      }
+    ]
+  },
+  {
+    "id": "g08",
+    "title": "Estado absoluto y constructo",
+    "summary": "Los sustantivos pueden aparecer en estado absoluto o constructo. El constructo se usa cuando el sustantivo forma una cadena con otro elemento.",
+    "example": "מֶלֶךְ / מֶלֶךְ יִשְׂרָאֵל",
+    "translation": "rey / rey de Israel",
+    "note": "La diferencia no siempre se ve como una palabra adicional en español. Aprende a identificarla por la relación entre los sustantivos y por las formas vocalizadas.",
+    "examples": [
+      {
+        "hebrew": "מֶלֶךְ",
+        "meaning": "rey",
+        "analysis": "estado absoluto"
+      },
+      {
+        "hebrew": "מֶלֶךְ יִשְׂרָאֵל",
+        "meaning": "rey de Israel",
+        "analysis": "cadena nominal; la interpretación depende del contexto"
+      }
+    ]
+  },
+  {
+    "id": "g09",
+    "title": "Formas verbales: reconocer antes de analizar",
+    "summary": "Los verbos bíblicos cambian según persona, género y número, y se organizan en patrones de conjugación. Primero reconoce la forma en contexto; después analiza sus componentes.",
+    "example": "כָּתַבְתָּ",
+    "translation": "escribiste (masculino singular)",
+    "note": "La terminación ayuda a identificar la persona. El sistema de morfología de versiones posteriores permitirá separar raíz, patrón y terminaciones de forma interactiva.",
+    "examples": [
+      {
+        "hebrew": "כָּתַבְתָּ",
+        "meaning": "escribiste (tú, masc. sg.)",
+        "analysis": "כ־ת־ב + terminación de 2ms"
+      },
+      {
+        "hebrew": "כָּתַבְתְּ",
+        "meaning": "escribiste (tú, fem. sg.)",
+        "analysis": "כ־ת־ב + terminación de 2fs"
+      },
+      {
+        "hebrew": "כָּתַב",
+        "meaning": "escribió (él)",
+        "analysis": "forma verbal básica del ejemplo"
+      }
+    ]
+  }
+]

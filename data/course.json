@@ -1,0 +1,1442 @@
+[
+  {
+    "day": 1,
+    "phase": "I",
+    "title": "Día 1: Fundamentos · bloque 1",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 2,
+    "phase": "I",
+    "title": "Día 2: Fundamentos · bloque 1",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 3,
+    "phase": "I",
+    "title": "Día 3: Fundamentos · bloque 1",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 4,
+    "phase": "I",
+    "title": "Día 4: Fundamentos · bloque 1",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 5,
+    "phase": "I",
+    "title": "Día 5: Fundamentos · bloque 1",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 6,
+    "phase": "I",
+    "title": "Día 6: Fundamentos · bloque 2",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 7,
+    "phase": "I",
+    "title": "Día 7: Fundamentos · bloque 2",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 8,
+    "phase": "I",
+    "title": "Día 8: Fundamentos · bloque 2",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 9,
+    "phase": "I",
+    "title": "Día 9: Fundamentos · bloque 2",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 10,
+    "phase": "I",
+    "title": "Día 10: Fundamentos · bloque 2",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 11,
+    "phase": "I",
+    "title": "Día 11: Fundamentos · bloque 3",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 12,
+    "phase": "I",
+    "title": "Día 12: Fundamentos · bloque 3",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 13,
+    "phase": "I",
+    "title": "Día 13: Fundamentos · bloque 3",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 14,
+    "phase": "I",
+    "title": "Día 14: Fundamentos · bloque 3",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 15,
+    "phase": "I",
+    "title": "Día 15: Fundamentos · bloque 3",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 16,
+    "phase": "I",
+    "title": "Día 16: Fundamentos · bloque 4",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 17,
+    "phase": "I",
+    "title": "Día 17: Fundamentos · bloque 4",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 18,
+    "phase": "I",
+    "title": "Día 18: Fundamentos · bloque 4",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 19,
+    "phase": "I",
+    "title": "Día 19: Fundamentos · bloque 4",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 20,
+    "phase": "I",
+    "title": "Día 20: Fundamentos · bloque 4",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 21,
+    "phase": "I",
+    "title": "Día 21: Fundamentos · bloque 5",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 22,
+    "phase": "I",
+    "title": "Día 22: Fundamentos · bloque 5",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 23,
+    "phase": "I",
+    "title": "Día 23: Fundamentos · bloque 5",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 24,
+    "phase": "I",
+    "title": "Día 24: Fundamentos · bloque 5",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 25,
+    "phase": "I",
+    "title": "Día 25: Fundamentos · bloque 5",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 26,
+    "phase": "I",
+    "title": "Día 26: Fundamentos · bloque 6",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 27,
+    "phase": "I",
+    "title": "Día 27: Fundamentos · bloque 6",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 28,
+    "phase": "I",
+    "title": "Día 28: Fundamentos · bloque 6",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 29,
+    "phase": "I",
+    "title": "Día 29: Fundamentos · bloque 6",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 30,
+    "phase": "I",
+    "title": "Día 30: Fundamentos · bloque 6",
+    "objective": "Reconocer letras, vocales, lectura inicial y frases frecuentes",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 31,
+    "phase": "II",
+    "title": "Día 31: Patrones · bloque 1",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 32,
+    "phase": "II",
+    "title": "Día 32: Patrones · bloque 1",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 33,
+    "phase": "II",
+    "title": "Día 33: Patrones · bloque 1",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 34,
+    "phase": "II",
+    "title": "Día 34: Patrones · bloque 1",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 35,
+    "phase": "II",
+    "title": "Día 35: Patrones · bloque 1",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 36,
+    "phase": "II",
+    "title": "Día 36: Patrones · bloque 2",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 37,
+    "phase": "II",
+    "title": "Día 37: Patrones · bloque 2",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 38,
+    "phase": "II",
+    "title": "Día 38: Patrones · bloque 2",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 39,
+    "phase": "II",
+    "title": "Día 39: Patrones · bloque 2",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 40,
+    "phase": "II",
+    "title": "Día 40: Patrones · bloque 2",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 41,
+    "phase": "II",
+    "title": "Día 41: Patrones · bloque 3",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 42,
+    "phase": "II",
+    "title": "Día 42: Patrones · bloque 3",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 43,
+    "phase": "II",
+    "title": "Día 43: Patrones · bloque 3",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 44,
+    "phase": "II",
+    "title": "Día 44: Patrones · bloque 3",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 45,
+    "phase": "II",
+    "title": "Día 45: Patrones · bloque 3",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 46,
+    "phase": "II",
+    "title": "Día 46: Patrones · bloque 4",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 47,
+    "phase": "II",
+    "title": "Día 47: Patrones · bloque 4",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 48,
+    "phase": "II",
+    "title": "Día 48: Patrones · bloque 4",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 49,
+    "phase": "II",
+    "title": "Día 49: Patrones · bloque 4",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 50,
+    "phase": "II",
+    "title": "Día 50: Patrones · bloque 4",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 51,
+    "phase": "II",
+    "title": "Día 51: Patrones · bloque 5",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 52,
+    "phase": "II",
+    "title": "Día 52: Patrones · bloque 5",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 53,
+    "phase": "II",
+    "title": "Día 53: Patrones · bloque 5",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 54,
+    "phase": "II",
+    "title": "Día 54: Patrones · bloque 5",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 55,
+    "phase": "II",
+    "title": "Día 55: Patrones · bloque 5",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 56,
+    "phase": "II",
+    "title": "Día 56: Patrones · bloque 6",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "input"
+  },
+  {
+    "day": 57,
+    "phase": "II",
+    "title": "Día 57: Patrones · bloque 6",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "lectura"
+  },
+  {
+    "day": 58,
+    "phase": "II",
+    "title": "Día 58: Patrones · bloque 6",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "recuperación"
+  },
+  {
+    "day": 59,
+    "phase": "II",
+    "title": "Día 59: Patrones · bloque 6",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "producción"
+  },
+  {
+    "day": 60,
+    "phase": "II",
+    "title": "Día 60: Patrones · bloque 6",
+    "objective": "Patrones nominales, verbos frecuentes y comprensión de frases",
+    "minutes": 15,
+    "focus": "repaso"
+  },
+  {
+    "day": 61,
+    "phase": "III",
+    "title": "Día 61: Lectura guiada · bloque 1",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 62,
+    "phase": "III",
+    "title": "Día 62: Lectura guiada · bloque 1",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 63,
+    "phase": "III",
+    "title": "Día 63: Lectura guiada · bloque 1",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 64,
+    "phase": "III",
+    "title": "Día 64: Lectura guiada · bloque 1",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 65,
+    "phase": "III",
+    "title": "Día 65: Lectura guiada · bloque 1",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 66,
+    "phase": "III",
+    "title": "Día 66: Lectura guiada · bloque 2",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 67,
+    "phase": "III",
+    "title": "Día 67: Lectura guiada · bloque 2",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 68,
+    "phase": "III",
+    "title": "Día 68: Lectura guiada · bloque 2",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 69,
+    "phase": "III",
+    "title": "Día 69: Lectura guiada · bloque 2",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 70,
+    "phase": "III",
+    "title": "Día 70: Lectura guiada · bloque 2",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 71,
+    "phase": "III",
+    "title": "Día 71: Lectura guiada · bloque 3",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 72,
+    "phase": "III",
+    "title": "Día 72: Lectura guiada · bloque 3",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 73,
+    "phase": "III",
+    "title": "Día 73: Lectura guiada · bloque 3",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 74,
+    "phase": "III",
+    "title": "Día 74: Lectura guiada · bloque 3",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 75,
+    "phase": "III",
+    "title": "Día 75: Lectura guiada · bloque 3",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 76,
+    "phase": "III",
+    "title": "Día 76: Lectura guiada · bloque 4",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 77,
+    "phase": "III",
+    "title": "Día 77: Lectura guiada · bloque 4",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 78,
+    "phase": "III",
+    "title": "Día 78: Lectura guiada · bloque 4",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 79,
+    "phase": "III",
+    "title": "Día 79: Lectura guiada · bloque 4",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 80,
+    "phase": "III",
+    "title": "Día 80: Lectura guiada · bloque 4",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 81,
+    "phase": "III",
+    "title": "Día 81: Lectura guiada · bloque 5",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 82,
+    "phase": "III",
+    "title": "Día 82: Lectura guiada · bloque 5",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 83,
+    "phase": "III",
+    "title": "Día 83: Lectura guiada · bloque 5",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 84,
+    "phase": "III",
+    "title": "Día 84: Lectura guiada · bloque 5",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 85,
+    "phase": "III",
+    "title": "Día 85: Lectura guiada · bloque 5",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 86,
+    "phase": "III",
+    "title": "Día 86: Lectura guiada · bloque 6",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 87,
+    "phase": "III",
+    "title": "Día 87: Lectura guiada · bloque 6",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 88,
+    "phase": "III",
+    "title": "Día 88: Lectura guiada · bloque 6",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 89,
+    "phase": "III",
+    "title": "Día 89: Lectura guiada · bloque 6",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 90,
+    "phase": "III",
+    "title": "Día 90: Lectura guiada · bloque 6",
+    "objective": "Raíces frecuentes, sintaxis esencial y textos adaptados",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 91,
+    "phase": "IV",
+    "title": "Día 91: Análisis · bloque 1",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 92,
+    "phase": "IV",
+    "title": "Día 92: Análisis · bloque 1",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 93,
+    "phase": "IV",
+    "title": "Día 93: Análisis · bloque 1",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 94,
+    "phase": "IV",
+    "title": "Día 94: Análisis · bloque 1",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 95,
+    "phase": "IV",
+    "title": "Día 95: Análisis · bloque 1",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 96,
+    "phase": "IV",
+    "title": "Día 96: Análisis · bloque 2",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 97,
+    "phase": "IV",
+    "title": "Día 97: Análisis · bloque 2",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 98,
+    "phase": "IV",
+    "title": "Día 98: Análisis · bloque 2",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 99,
+    "phase": "IV",
+    "title": "Día 99: Análisis · bloque 2",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 100,
+    "phase": "IV",
+    "title": "Día 100: Análisis · bloque 2",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 101,
+    "phase": "IV",
+    "title": "Día 101: Análisis · bloque 3",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 102,
+    "phase": "IV",
+    "title": "Día 102: Análisis · bloque 3",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 103,
+    "phase": "IV",
+    "title": "Día 103: Análisis · bloque 3",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 104,
+    "phase": "IV",
+    "title": "Día 104: Análisis · bloque 3",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 105,
+    "phase": "IV",
+    "title": "Día 105: Análisis · bloque 3",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 106,
+    "phase": "IV",
+    "title": "Día 106: Análisis · bloque 4",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 107,
+    "phase": "IV",
+    "title": "Día 107: Análisis · bloque 4",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 108,
+    "phase": "IV",
+    "title": "Día 108: Análisis · bloque 4",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 109,
+    "phase": "IV",
+    "title": "Día 109: Análisis · bloque 4",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 110,
+    "phase": "IV",
+    "title": "Día 110: Análisis · bloque 4",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 111,
+    "phase": "IV",
+    "title": "Día 111: Análisis · bloque 5",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 112,
+    "phase": "IV",
+    "title": "Día 112: Análisis · bloque 5",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 113,
+    "phase": "IV",
+    "title": "Día 113: Análisis · bloque 5",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 114,
+    "phase": "IV",
+    "title": "Día 114: Análisis · bloque 5",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 115,
+    "phase": "IV",
+    "title": "Día 115: Análisis · bloque 5",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 116,
+    "phase": "IV",
+    "title": "Día 116: Análisis · bloque 6",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "input"
+  },
+  {
+    "day": 117,
+    "phase": "IV",
+    "title": "Día 117: Análisis · bloque 6",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "lectura"
+  },
+  {
+    "day": 118,
+    "phase": "IV",
+    "title": "Día 118: Análisis · bloque 6",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "recuperación"
+  },
+  {
+    "day": 119,
+    "phase": "IV",
+    "title": "Día 119: Análisis · bloque 6",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "producción"
+  },
+  {
+    "day": 120,
+    "phase": "IV",
+    "title": "Día 120: Análisis · bloque 6",
+    "objective": "Morfología, prefijos, sufijos y textos bíblicos con apoyo",
+    "minutes": 20,
+    "focus": "repaso"
+  },
+  {
+    "day": 121,
+    "phase": "V",
+    "title": "Día 121: Independencia creciente · bloque 1",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 122,
+    "phase": "V",
+    "title": "Día 122: Independencia creciente · bloque 1",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 123,
+    "phase": "V",
+    "title": "Día 123: Independencia creciente · bloque 1",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 124,
+    "phase": "V",
+    "title": "Día 124: Independencia creciente · bloque 1",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 125,
+    "phase": "V",
+    "title": "Día 125: Independencia creciente · bloque 1",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 126,
+    "phase": "V",
+    "title": "Día 126: Independencia creciente · bloque 2",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 127,
+    "phase": "V",
+    "title": "Día 127: Independencia creciente · bloque 2",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 128,
+    "phase": "V",
+    "title": "Día 128: Independencia creciente · bloque 2",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 129,
+    "phase": "V",
+    "title": "Día 129: Independencia creciente · bloque 2",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 130,
+    "phase": "V",
+    "title": "Día 130: Independencia creciente · bloque 2",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 131,
+    "phase": "V",
+    "title": "Día 131: Independencia creciente · bloque 3",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 132,
+    "phase": "V",
+    "title": "Día 132: Independencia creciente · bloque 3",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 133,
+    "phase": "V",
+    "title": "Día 133: Independencia creciente · bloque 3",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 134,
+    "phase": "V",
+    "title": "Día 134: Independencia creciente · bloque 3",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 135,
+    "phase": "V",
+    "title": "Día 135: Independencia creciente · bloque 3",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 136,
+    "phase": "V",
+    "title": "Día 136: Independencia creciente · bloque 4",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 137,
+    "phase": "V",
+    "title": "Día 137: Independencia creciente · bloque 4",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 138,
+    "phase": "V",
+    "title": "Día 138: Independencia creciente · bloque 4",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 139,
+    "phase": "V",
+    "title": "Día 139: Independencia creciente · bloque 4",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 140,
+    "phase": "V",
+    "title": "Día 140: Independencia creciente · bloque 4",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 141,
+    "phase": "V",
+    "title": "Día 141: Independencia creciente · bloque 5",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 142,
+    "phase": "V",
+    "title": "Día 142: Independencia creciente · bloque 5",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 143,
+    "phase": "V",
+    "title": "Día 143: Independencia creciente · bloque 5",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 144,
+    "phase": "V",
+    "title": "Día 144: Independencia creciente · bloque 5",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 145,
+    "phase": "V",
+    "title": "Día 145: Independencia creciente · bloque 5",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 146,
+    "phase": "V",
+    "title": "Día 146: Independencia creciente · bloque 6",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 147,
+    "phase": "V",
+    "title": "Día 147: Independencia creciente · bloque 6",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 148,
+    "phase": "V",
+    "title": "Día 148: Independencia creciente · bloque 6",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 149,
+    "phase": "V",
+    "title": "Día 149: Independencia creciente · bloque 6",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 150,
+    "phase": "V",
+    "title": "Día 150: Independencia creciente · bloque 6",
+    "objective": "Reconocimiento de patrones y lectura con menos ayudas",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 151,
+    "phase": "VI",
+    "title": "Día 151: Lectura bíblica · bloque 1",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 152,
+    "phase": "VI",
+    "title": "Día 152: Lectura bíblica · bloque 1",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 153,
+    "phase": "VI",
+    "title": "Día 153: Lectura bíblica · bloque 1",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 154,
+    "phase": "VI",
+    "title": "Día 154: Lectura bíblica · bloque 1",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 155,
+    "phase": "VI",
+    "title": "Día 155: Lectura bíblica · bloque 1",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 156,
+    "phase": "VI",
+    "title": "Día 156: Lectura bíblica · bloque 2",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 157,
+    "phase": "VI",
+    "title": "Día 157: Lectura bíblica · bloque 2",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 158,
+    "phase": "VI",
+    "title": "Día 158: Lectura bíblica · bloque 2",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 159,
+    "phase": "VI",
+    "title": "Día 159: Lectura bíblica · bloque 2",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 160,
+    "phase": "VI",
+    "title": "Día 160: Lectura bíblica · bloque 2",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 161,
+    "phase": "VI",
+    "title": "Día 161: Lectura bíblica · bloque 3",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 162,
+    "phase": "VI",
+    "title": "Día 162: Lectura bíblica · bloque 3",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 163,
+    "phase": "VI",
+    "title": "Día 163: Lectura bíblica · bloque 3",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 164,
+    "phase": "VI",
+    "title": "Día 164: Lectura bíblica · bloque 3",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 165,
+    "phase": "VI",
+    "title": "Día 165: Lectura bíblica · bloque 3",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 166,
+    "phase": "VI",
+    "title": "Día 166: Lectura bíblica · bloque 4",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 167,
+    "phase": "VI",
+    "title": "Día 167: Lectura bíblica · bloque 4",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 168,
+    "phase": "VI",
+    "title": "Día 168: Lectura bíblica · bloque 4",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 169,
+    "phase": "VI",
+    "title": "Día 169: Lectura bíblica · bloque 4",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 170,
+    "phase": "VI",
+    "title": "Día 170: Lectura bíblica · bloque 4",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 171,
+    "phase": "VI",
+    "title": "Día 171: Lectura bíblica · bloque 5",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 172,
+    "phase": "VI",
+    "title": "Día 172: Lectura bíblica · bloque 5",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 173,
+    "phase": "VI",
+    "title": "Día 173: Lectura bíblica · bloque 5",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 174,
+    "phase": "VI",
+    "title": "Día 174: Lectura bíblica · bloque 5",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 175,
+    "phase": "VI",
+    "title": "Día 175: Lectura bíblica · bloque 5",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "repaso"
+  },
+  {
+    "day": 176,
+    "phase": "VI",
+    "title": "Día 176: Lectura bíblica · bloque 6",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "input"
+  },
+  {
+    "day": 177,
+    "phase": "VI",
+    "title": "Día 177: Lectura bíblica · bloque 6",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "lectura"
+  },
+  {
+    "day": 178,
+    "phase": "VI",
+    "title": "Día 178: Lectura bíblica · bloque 6",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "recuperación"
+  },
+  {
+    "day": 179,
+    "phase": "VI",
+    "title": "Día 179: Lectura bíblica · bloque 6",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "producción"
+  },
+  {
+    "day": 180,
+    "phase": "VI",
+    "title": "Día 180: Lectura bíblica · bloque 6",
+    "objective": "Textos auténticos y análisis independiente progresivo",
+    "minutes": 25,
+    "focus": "repaso"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "char": "א",
+    "name": "álef",
+    "sound": "ʾ",
+    "final": ""
+  },
+  {
+    "char": "ב",
+    "name": "bet",
+    "sound": "b / v",
+    "final": ""
+  },
+  {
+    "char": "ג",
+    "name": "guímel",
+    "sound": "g",
+    "final": ""
+  },
+  {
+    "char": "ד",
+    "name": "dálet",
+    "sound": "d",
+    "final": ""
+  },
+  {
+    "char": "ה",
+    "name": "he",
+    "sound": "h",
+    "final": ""
+  },
+  {
+    "char": "ו",
+    "name": "vav",
+    "sound": "v",
+    "final": ""
+  },
+  {
+    "char": "ז",
+    "name": "zayin",
+    "sound": "z",
+    "final": ""
+  },
+  {
+    "char": "ח",
+    "name": "jet",
+    "sound": "ḥ",
+    "final": ""
+  },
+  {
+    "char": "ט",
+    "name": "tet",
+    "sound": "ṭ",
+    "final": ""
+  },
+  {
+    "char": "י",
+    "name": "yod",
+    "sound": "y",
+    "final": ""
+  },
+  {
+    "char": "כ",
+    "name": "kaf",
+    "sound": "k / kh",
+    "final": "ך",
+    "final_name": "forma final de kaf",
+    "final_use": "Se escribe normalmente al final de una palabra."
+  },
+  {
+    "char": "ל",
+    "name": "lámed",
+    "sound": "l",
+    "final": ""
+  },
+  {
+    "char": "מ",
+    "name": "mem",
+    "sound": "m",
+    "final": "ם",
+    "final_name": "forma final de mem",
+    "final_use": "Se escribe normalmente al final de una palabra."
+  },
+  {
+    "char": "נ",
+    "name": "nun",
+    "sound": "n",
+    "final": "ן",
+    "final_name": "forma final de nun",
+    "final_use": "Se escribe normalmente al final de una palabra."
+  },
+  {
+    "char": "ס",
+    "name": "samej",
+    "sound": "s",
+    "final": ""
+  },
+  {
+    "char": "ע",
+    "name": "ayin",
+    "sound": "ʿ",
+    "final": ""
+  },
+  {
+    "char": "פ",
+    "name": "pe",
+    "sound": "p / f",
+    "final": "ף",
+    "final_name": "forma final de pe",
+    "final_use": "Se escribe normalmente al final de una palabra."
+  },
+  {
+    "char": "צ",
+    "name": "tsadi",
+    "sound": "ṣ",
+    "final": "ץ",
+    "final_name": "forma final de tsadi",
+    "final_use": "Se escribe normalmente al final de una palabra."
+  },
+  {
+    "char": "ק",
+    "name": "qof",
+    "sound": "q",
+    "final": ""
+  },
+  {
+    "char": "ר",
+    "name": "resh",
+    "sound": "r",
+    "final": ""
+  },
+  {
+    "char": "ש",
+    "name": "shin/sin",
+    "sound": "sh / s",
+    "final": ""
+  },
+  {
+    "char": "ת",
+    "name": "tav",
+    "sound": "t",
+    "final": ""
+  }
+]

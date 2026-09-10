@@ -1,0 +1,90 @@
+[
+  {
+    "id": "p01",
+    "hebrew": "זֶה מֶלֶךְ",
+    "translit": "zeh melekh",
+    "meaning": "Este es un rey.",
+    "level": 1,
+    "tokens": [
+      "v23",
+      "v13"
+    ]
+  },
+  {
+    "id": "p02",
+    "hebrew": "זֶה בַּיִת",
+    "translit": "zeh bayit",
+    "meaning": "Esta es una casa.",
+    "level": 1,
+    "tokens": [
+      "v23",
+      "v14"
+    ]
+  },
+  {
+    "id": "p03",
+    "hebrew": "הַמֶּלֶךְ גָּדוֹל",
+    "translit": "ha-melekh gadol",
+    "meaning": "El rey es grande.",
+    "level": 1,
+    "tokens": [
+      "v13",
+      "v19"
+    ]
+  },
+  {
+    "id": "p04",
+    "hebrew": "בֵּית הַמֶּלֶךְ",
+    "translit": "bet ha-melekh",
+    "meaning": "La casa del rey.",
+    "level": 1,
+    "tokens": [
+      "v14",
+      "v13"
+    ]
+  },
+  {
+    "id": "p05",
+    "hebrew": "מַה זֶה",
+    "translit": "mah zeh",
+    "meaning": "¿Qué es esto?",
+    "level": 1,
+    "tokens": [
+      "v25",
+      "v23"
+    ]
+  },
+  {
+    "id": "p06",
+    "hebrew": "אֲנִי רוֹאֶה",
+    "translit": "ani roʾeh",
+    "meaning": "Yo veo.",
+    "level": 2,
+    "tokens": [
+      "v41",
+      "v50"
+    ]
+  },
+  {
+    "id": "p07",
+    "hebrew": "הוּא אָמַר",
+    "translit": "hu amar",
+    "meaning": "Él dijo.",
+    "level": 2,
+    "tokens": [
+      "v43",
+      "v47"
+    ]
+  },
+  {
+    "id": "p08",
+    "hebrew": "הָיָה יוֹם",
+    "translit": "hayah yom",
+    "meaning": "Fue / era un día.",
+    "level": 2,
+    "tokens": [
+      "v46",
+      "v16"
+    ]
+  }
+]
