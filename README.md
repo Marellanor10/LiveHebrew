@@ -63,3 +63,10 @@ Perfiles locales sin correo, progreso separado, restablecimiento por usuario, im
 - Nuevo `data/morphology.json`.
 - Lector conserva análisis léxico y ahora distingue lema, raíz, categoría y morfología cuando existe ficha.
 - IDs de lecturas corregidos para que sean únicos.
+
+
+## v4.7
+- SRS vinculado al currículo: no incorpora automáticamente tarjetas nuevas no estudiadas.
+- El SRS repasa únicamente unidades que ya poseen una tarjeta/progreso.
+- El Curso puede reforzar unidades débiles, pero solo entre las unidades introducidas hasta el día actual.
+- Las unidades nuevas entran al SRS desde el trabajo del Curso o mediante incorporación explícita desde el Lector.
