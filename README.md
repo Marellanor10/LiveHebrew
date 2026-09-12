@@ -1,4 +1,4 @@
-# Hebreo Vivo v4.3
+# Mikhael v4.3
 
 PWA móvil offline-first para aprender Hebreo Bíblico con una ruta de 180 días.
 
