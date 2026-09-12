@@ -52,11 +52,11 @@ No requiere cuenta. El progreso se guarda en IndexedDB del dispositivo. Usa Expo
 - Los textos se han tomado como base del texto hebreo bíblico con vocalización; el lector sigue siendo una herramienta didáctica, no una edición crítica.
 
 
-## v4.5
+## v4.6
 Perfiles locales sin correo, progreso separado, restablecimiento por usuario, importación/exportación por perfil y corpus ampliado de Salmos.
 
 
-## v4.5
+## v4.6
 - Perfiles locales con selector al iniciar, sin correo ni cuenta obligatoria.
 - Restablecimiento y eliminación de perfiles con confirmación.
 - Ayudas morfológicas estructuradas para formas seleccionadas del lector.

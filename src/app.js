@@ -29,7 +29,6 @@ async function save(){await dbPut();renderGlobal()}
 function today(){return new Date().toISOString().slice(0,10)}
 function touchActivity(){const d=today();if(!state.activeDays.includes(d))state.activeDays.push(d);if(state.lastActive!==d){const y=new Date();y.setDate(y.getDate()-1);const yd=y.toISOString().slice(0,10);state.streak=state.lastActive===yd?state.streak+1:1;state.lastActive=d}}
 function normalize(s){return s.normalize('NFD').replace(/[\u0591-\u05C7]/g,'').replace(/\s+/g,'').trim().toLowerCase()}
-function speak(t,rate=.78){if(!('speechSynthesis'in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='he-IL';u.rate=rate;speechSynthesis.speak(u)}
 function vibrate(ms=12){if(state.settings.haptic&&navigator.vibrate)navigator.vibrate(ms)}
 function cardState(id){return state.cards[id]||(state.cards[id]={id,created:Date.now(),last:null,due:Date.now(),interval:0,ease:2.5,reps:0,errors:0,state:'new'})}
 function scoreCard(v){const c=state.cards[v.id];if(!c)return 100000;const overdue=Math.max(0,Date.now()-(c.due||0))/3600000;return overdue*5+c.errors*18+(2.5-(c.ease||2.5))*15-(c.reps||0)*.25}
@@ -52,19 +51,102 @@ function schedule(id,rating){
  touchActivity();
 }
 function formatInterval(days){if(days<1)return Math.max(1,Math.round(days*24))+' h';if(days<30)return Math.round(days)+' d';return Math.round(days/30)+' mes'}
-function closeMore(){const m=$('#mobileMore');if(m){m.classList.add('hidden');m.setAttribute('aria-hidden','true');$('#mobileMoreBtn')?.setAttribute('aria-expanded','false')}}
-function show(view){currentView=view;closeMore();$$('.view').forEach(x=>x.classList.toggle('hidden',x.id!==view));$$('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));if(view==='course')renderCourse();if(view==='review')renderReview();if(view==='reader')renderReader();if(view==='alphabet')renderAlphabet();if(view==='grammar')renderGrammar();if(view==='stats')renderStats();renderGlobal();scrollTo({top:0,behavior:'auto'})}
+function show(view){currentView=view;$$('.view').forEach(x=>x.classList.toggle('hidden',x.id!==view));$$('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));if(view==='course')renderCourse();if(view==='review')renderReview();if(view==='reader')renderReader();if(view==='alphabet')renderAlphabet();if(view==='grammar')renderGrammar();if(view==='stats')renderStats();renderGlobal();scrollTo({top:0,behavior:'auto'})}
 function renderGlobal(){const pn=$('#profileName');if(pn)pn.textContent=currentProfileName;const due=dueCards().length,pct=Math.round(state.completedDays.length/180*100);$('#dueBadge').textContent=due;$('#mobileDue').textContent=due;$('#homeDay').textContent=state.day;$('#homeDue').textContent=due;$('#homeDueInline').textContent=due;$('#homeStreak').textContent=state.streak;$('#homeGoal').textContent=DATA.plans[state.day-1]?.objective||'';$('#dayProgress').style.width=pct+'%';$('#sessionSummary').textContent=`${state.completedDays.length} de 180 días completados · ${pct}% de la ruta.`;$('#knownCount').textContent=Object.values(state.cards).filter(c=>c.state==='review'&&c.interval>=21).length;const weak=adaptiveQueue(1)[0];$('#adaptiveAdvice').textContent=due?`Tienes ${due} tarjetas pendientes. El sistema priorizará las que más necesitan recuperación.`:(weak?`No hay vencidas. Puedes adelantar una unidad débil: ${weak.hebrew} · ${weak.meaning}.`:'Empieza la lección de hoy.')}
 function planForDay(){return DATA.plans[Math.min(179,Math.max(0,state.day-1))]||DATA.plans[0]}
-function unitsForPlan(plan){const base=plan.unit_ids.map(id=>DATA.vocab.find(v=>v.id===id)).filter(Boolean);const weak=adaptiveQueue(6);return [...new Map([...base,...weak].map(v=>[v.id,v])).values()].slice(0,6)}
-function startLesson(){const p=planForDay(), units=unitsForPlan(p), phrase=DATA.phrases[(state.day-1)%DATA.phrases.length]||DATA.reader[0];lesson={plan:p,units,phrase,index:0,steps:[]};renderLessonStep()}
-function renderCourse(){const p=planForDay();$('#courseTitle').textContent=p.title;$('#courseObjective').textContent=p.objective;$('#courseMeta').innerHTML=`<span>Fase ${p.phase}</span><span>${p.minutes} min</span><span>Enfoque: ${p.focus}</span>`;$('#dayInput').value=state.day;if(!lesson||lesson.plan.day!==p.day)startLesson()}
-function renderLessonStep(){const box=$('#lessonArea'),u=lesson.units[lesson.index%lesson.units.length],p=lesson.phrase;const step=lesson.index;
- if(step===0){box.innerHTML=`<div class="card lesson"><div class="eyebrow">1 · Comprensión + escucha</div><div class="he">${p.hebrew}</div><div class="roman">${p.translit||''}</div><div class="meaning">${p.meaning||''}</div><div class="lesson-actions"><button class="secondary" id="hear">🔊 Escuchar</button><button class="primary" id="next">Entendido →</button></div><p class="feedback muted">Escucha primero. Intenta captar la idea general antes de analizar cada palabra.</p></div>`;$('#hear').onclick=()=>speak(p.hebrew);$('#next').onclick=()=>{state.skills.comprension+=1;lesson.index++;renderLessonStep()};return}
- if(step===1){const opts=[u,...DATA.vocab.filter(x=>x.id!==u.id).sort(()=>Math.random()-.5).slice(0,3)].sort(()=>Math.random()-.5);box.innerHTML=`<div class="card lesson"><div class="eyebrow">2 · Reconocimiento</div><div class="he">${u.hebrew}</div><p>¿Qué significa?</p><div class="choice-list">${opts.map(o=>`<button class="choice" data-id="${o.id}">${o.meaning}</button>`).join('')}</div><p id="fb" class="feedback"></p></div>`;$$('.choice').forEach(b=>b.onclick=()=>{const ok=b.dataset.id===u.id;$('#fb').textContent=ok?'✓ Correcto. Recuperaste la unidad.':'No esta vez. Observa la forma y vuelve a intentarlo en otra tarjeta.';b.classList.add(ok?'good':'bad');$$('.choice').forEach(x=>x.disabled=true);schedule(u.id,ok?2:0);state.skills.comprension+=ok?1:0;touchActivity();vibrate(ok?10:30);setTimeout(()=>{lesson.index++;save();renderLessonStep()},450)});return}
- if(step===2){box.innerHTML=`<div class="card lesson"><div class="eyebrow">3 · Lectura + producción</div><div class="meaning">Escribe en hebreo:</div><div class="he small-he">${u.hebrew}</div><input id="prod" dir="rtl" class="he-input" placeholder="Escribe aquí…" autocomplete="off"><div class="lesson-actions"><button class="secondary" id="hear">🔊 Escuchar</button><button class="primary" id="check">Comprobar</button></div><p id="pf" class="feedback"></p></div>`;$('#hear').onclick=()=>speak(u.hebrew);$('#check').onclick=()=>{const ok=normalize($('#prod').value)===normalize(u.hebrew);$('#pf').textContent=ok?'✓ Muy bien.':'Aún no. Mira el modelo, escucha y vuelve a intentarlo.';if(ok){state.skills.produccion+=2;state.skills.lectura+=1;vibrate(10);setTimeout(()=>{lesson.index++;renderLessonStep()},500)}else{state.skills.produccion=Math.max(0,state.skills.produccion-0);vibrate(30)}};return}
- if(step===3){const g=DATA.grammar[(state.day-1)%DATA.grammar.length];box.innerHTML=`<div class="card lesson grammar-mini"><div class="eyebrow">4 · Gramática en contexto</div><h2>${g.title}</h2><p>${g.summary}</p><div class="he">${g.example}</div><p><b>${g.translation}</b></p><details><summary>¿Por qué?</summary><p>${g.note}</p>${(g.examples||[]).slice(0,2).map(e=>`<div class="grammar-example"><div class="he">${e.hebrew}</div><b>${e.meaning}</b><div class="muted small">${e.analysis}</div></div>`).join('')}</details><button class="primary wide" id="finishLesson">Completar sesión</button></div>`;$('#finishLesson').onclick=completeDay;return}
+function unitsForPlan(plan){
+ const base=plan.unit_ids.map(id=>DATA.vocab.find(v=>v.id===id)).filter(Boolean);
+ const weak=adaptiveQueue(6);
+ return [...new Map([...base,...weak].map(v=>[v.id,v])).values()]
+   .sort((a,b)=>(a.frequency_rank||99999)-(b.frequency_rank||99999)).slice(0,6);
 }
+function coreUnitForLesson(){return lesson?.units?.[0]||null}
+function phraseForUnit(unit){
+ if(!unit)return DATA.phrases[(state.day-1)%DATA.phrases.length]||DATA.reader[0];
+ const candidates=DATA.phrases.filter(ph=>{
+   const toks=ph.tokens||[];
+   if(toks.includes(unit.id))return true;
+   const text=normalize(ph.hebrew||'');
+   return text.includes(normalize(unit.hebrew||''));
+ });
+ return candidates[0]||DATA.phrases[(state.day-1)%DATA.phrases.length]||DATA.reader[0];
+}
+function relatedFamily(unit){
+ if(!unit?.root)return [];
+ return activeVocab().filter(v=>v.root===unit.root && v.id!==unit.id).sort((a,b)=>(a.frequency_rank||99999)-(b.frequency_rank||99999)).slice(0,4);
+}
+function relatedGrammar(unit){
+ if(!unit)return DATA.grammar[(state.day-1)%DATA.grammar.length];
+ const root=unit.root||'';
+ const exact=DATA.grammar.find(g=>[g.example,g.summary,g.note,...(g.examples||[]).flatMap(e=>[e.hebrew,e.analysis])].some(x=>String(x||'').includes(unit.hebrew)));
+ if(exact)return exact;
+ const byRoot=DATA.grammar.find(g=>String(g.note||'').includes(root)||String(g.summary||'').includes(root)||String(g.example||'').includes(root)||String(g.title||'').includes(root));
+ return byRoot||DATA.grammar[(state.day-1)%DATA.grammar.length];
+}
+function lessonConnections(unit){
+ const family=relatedFamily(unit);
+ return `<div class="lesson-connection"><div><span class="eyebrow">Hilo de la lección</span><b>${unit.hebrew}</b><span>${unit.meaning}</span></div><div><b>Raíz</b><span class="he mini-he">${unit.root||'—'}</span></div><div><b>Frecuencia</b><span>#${unit.frequency_rank||'—'}</span></div>${family.length?`<div class="family"><b>Familia relacionada</b><span>${family.map(v=>`${v.hebrew} · ${v.meaning}`).join(' · ')}</span></div>`:''}</div>`;
+}
+function startLesson(){
+ const p=planForDay(), units=unitsForPlan(p), core=units[0], phrase=phraseForUnit(core);
+ lesson={plan:p,units,phrase,core,index:0,done:{},results:{},startedAt:Date.now()};
+ renderLessonStep();
+}
+function lessonNav(nextLabel='Siguiente →',showPrev=true){
+ return `<div class="lesson-nav">${showPrev?`<button class="secondary" id="lessonPrev" ${lesson.index===0?'disabled':''}>← Anterior</button>`:'<span></span>'}<button class="primary" id="lessonNext" disabled>${nextLabel}</button></div>`;
+}
+function wireLessonNav(){
+ $('#lessonPrev')?.addEventListener('click',()=>{if(lesson.index>0){lesson.index--;renderLessonStep()}});
+ $('#lessonNext')?.addEventListener('click',()=>{if(!lesson.done[lesson.index])return;if(lesson.index<3){lesson.index++;renderLessonStep()}else completeDay()});
+}
+function renderCourse(){
+ const p=planForDay();
+ $('#courseTitle').textContent=p.title;$('#courseObjective').textContent=p.objective;
+ $('#courseMeta').innerHTML=`<span>Fase ${p.phase}</span><span>${p.minutes} min</span><span>Enfoque: ${p.focus}</span>`;
+ $('#dayInput').value=state.day;
+ if(!lesson||lesson.plan.day!==p.day)startLesson();
+}
+function renderLessonStep(){
+ const box=$('#lessonArea'),u=lesson.core||lesson.units[0],p=lesson.phrase,step=lesson.index;
+ const conn=lessonConnections(u);
+ if(step===0){
+   const done=!!lesson.done[0];
+   box.innerHTML=`<div class="card lesson"><div class="eyebrow">1 · Comprensión + lectura</div>${conn}<div class="he">${p.hebrew}</div><div class="roman">${p.translit||''}</div><div class="meaning">${p.meaning||''}</div><p class="feedback muted">Lee primero. Intenta captar la idea general y observa cómo aparece la unidad central dentro de la frase.</p>${lessonNav('Siguiente →')}</div>`;
+   lesson.done[0]=true;$('#lessonNext').disabled=false;wireLessonNav();return;
+ }
+ if(step===1){
+   const done=!!lesson.done[1],opts=[u,...DATA.vocab.filter(x=>x.id!==u.id).sort(()=>Math.random()-.5).slice(0,3)].sort(()=>Math.random()-.5);
+   box.innerHTML=`<div class="card lesson"><div class="eyebrow">2 · Reconocimiento</div>${conn}<div class="he">${u.hebrew}</div><p>¿Qué significa?</p><div class="choice-list">${opts.map(o=>`<button class="choice" data-id="${o.id}" ${done?'disabled':''}>${o.meaning}</button>`).join('')}</div><p id="fb" class="feedback">${done?'✓ Correcto. Esta forma ya quedó reconocida.':''}</p>${lessonNav('Siguiente →')}</div>`;
+   if(done){$('#lessonNext').disabled=false;$$('.choice').forEach(b=>{if(b.dataset.id===u.id)b.classList.add('good')});}
+   $$('.choice').forEach(b=>b.onclick=async()=>{
+     if(lesson.done[1])return;
+     const ok=b.dataset.id===u.id;b.classList.add(ok?'good':'bad');
+     $('#fb').textContent=ok?'✓ Correcto. Recuperaste la unidad.':'No esta vez. Observa la forma y vuelve a intentarlo.';
+     vibrate(ok?10:30);
+     if(ok){schedule(u.id,2);state.skills.comprension+=1;touchActivity();lesson.done[1]=true;$('#lessonNext').disabled=false;await save();}
+   });wireLessonNav();return;
+ }
+ if(step===2){
+   const done=!!lesson.done[2],result=lesson.results[2]||'';
+   box.innerHTML=`<div class="card lesson"><div class="eyebrow">3 · Lectura + producción</div>${conn}<div class="meaning">Escribe en hebreo:</div><div class="he small-he">${u.hebrew}</div><input id="prod" dir="rtl" class="he-input" placeholder="Escribe aquí…" autocomplete="off" value="${result}"><button class="primary wide" id="check">${done?'✓ Correcto':'Comprobar'}</button><div id="productionResult"></div>${lessonNav('Siguiente →')}</div>`;
+   if(done){showProductionResult(u);$('#check').disabled=true;$('#lessonNext').disabled=false;}
+   $('#check').onclick=async()=>{
+     const val=$('#prod').value;const ok=normalize(val)===normalize(u.hebrew);
+     if(!ok){$('#productionResult').innerHTML='<p class="feedback">Aún no. Mira el modelo e inténtalo otra vez.</p>';vibrate(30);return;}
+     lesson.results[2]=val;lesson.done[2]=true;state.skills.produccion+=2;state.skills.lectura+=1;touchActivity();vibrate(10);showProductionResult(u);$('#check').disabled=true;$('#lessonNext').disabled=false;await save();
+   };
+   wireLessonNav();return;
+ }
+ if(step===3){
+   const g=relatedGrammar(u);lesson.grammar=g;
+   box.innerHTML=`<div class="card lesson grammar-mini"><div class="eyebrow">4 · Gramática en contexto</div>${conn}<h2>${g.title}</h2><p>${g.summary}</p><div class="he">${g.example}</div><p><b>${g.translation}</b></p><details><summary>¿Por qué?</summary><p>${g.note}</p>${(g.examples||[]).slice(0,2).map(e=>`<div class="grammar-example"><div class="he">${e.hebrew}</div><b>${e.meaning}</b><div class="muted small">${e.analysis}</div></div>`).join('')}</details><div class="lesson-grammar-link"><b>Conexión con la unidad de hoy</b><p>${u.hebrew} · ${u.meaning}${u.root?` · raíz ${u.root}`:''}</p><p class="muted small">La gramática se profundiza por etapas; hoy solo buscamos reconocer esta relación dentro del contexto.</p></div>${lessonNav('Completar sesión')}</div>`;
+   lesson.done[3]=true;$('#lessonNext').disabled=false;wireLessonNav();return;
+ }
+}
+function showProductionResult(u){
+ $('#productionResult').innerHTML=`<div class="production-result"><span class="eyebrow">✓ Correcto</span><div class="he">${u.hebrew}</div><h3>${u.meaning}</h3><p class="roman"><b>Pronunciación:</b> ${u.translit||'—'}</p><p class="muted small">Tómate un momento para relacionar forma, significado y lectura antes de continuar.</p></div>`;
+}
+
 async function completeDay(){
  const day=state.day; if(!state.completedDays.includes(day))state.completedDays.push(day);
  const r=readerRecommendedText(); if(r)state.readerDone[r.id]=(state.readerDone[r.id]||0)+1;
@@ -73,8 +155,8 @@ async function completeDay(){
 }
 function beginReview(){if(review.queue.length)return;const due=dueCards().sort((a,b)=>scoreCard(b)-scoreCard(a));const newCards=activeVocab().filter(v=>!state.cards[v.id]);const pool=[...due,...newCards.filter(v=>!due.some(d=>d.id===v.id))];review.queue=pool.slice(0,25);review.cursor=0;review.ratings={};review.path=[0]}
 function currentReview(){return review.queue[review.cursor]}
-function renderReview(){beginReview();const q=review.queue;if(!q.length){$('#reviewCount').textContent='0';$('#reviewCard').innerHTML='<div class="eyebrow">Todo al día</div><h2>No hay tarjetas pendientes.</h2><p class="muted">Vuelve cuando llegue la próxima revisión.</p>';return}const v=currentReview(),c=cardState(v.id),rated=review.ratings[v.id]!==undefined;$('#reviewCount').textContent=q.filter(x=>review.ratings[x.id]===undefined).length;$('#reviewCard').innerHTML=`<div class="eyebrow">Tarjeta ${review.cursor+1} de ${q.length}</div><div class="he">${v.hebrew}</div><div class="roman">${v.translit||''}</div><p id="meaning" class="meaning ${rated?'':'hidden'}">${v.meaning}</p><button class="secondary" id="hear">🔊 Escuchar</button><div class="review-actions"><button class="secondary" id="prev" ${review.cursor===0?'disabled':''}>← Anterior</button><button class="secondary" id="reveal">${rated?'Ver significado':'Revelar'}</button></div><div id="ratings" class="review-actions ${rated?'hidden':''}"><button class="danger" data-r="0">Otra vez</button><button class="secondary" data-r="1">Difícil</button><button class="secondary" data-r="2">Bien</button><button class="primary" data-r="3">Fácil</button></div>${rated?'<div class="notice"><b>Ya calificada.</b> Puedes volver a verla con «Anterior» sin generar otro repaso.</div>':''}<p class="muted small">Repasos: ${c.reps} · Errores: ${c.errors} · Intervalo: ${formatInterval(c.interval)}</p>`;$('#hear').onclick=()=>speak(v.hebrew);$('#reveal').onclick=()=>$('#meaning').classList.remove('hidden');$('#prev').onclick=()=>{if(review.cursor>0){review.cursor--;renderReview()}};$$('#ratings [data-r]').forEach(b=>b.onclick=()=>gradeReview(Number(b.dataset.r)))}
-async function gradeReview(r){const v=currentReview();if(review.ratings[v.id]!==undefined)return;schedule(v.id,r);review.ratings[v.id]=r;state.sessions++;touchActivity();state.skills.escucha+=r>=2?1:0;if(r===0)state.skills.comprension=Math.max(0,state.skills.comprension-0);vibrate(r===0?30:10);if(review.cursor<review.queue.length-1)review.cursor++;else review.cursor=review.queue.findIndex(x=>review.ratings[x.id]===undefined);if(review.cursor<0)review.cursor=0;await save();renderReview()}
+function renderReview(){beginReview();const q=review.queue;if(!q.length){$('#reviewCount').textContent='0';$('#reviewCard').innerHTML='<div class="eyebrow">Todo al día</div><h2>No hay tarjetas pendientes.</h2><p class="muted">Vuelve cuando llegue la próxima revisión.</p>';return}const v=currentReview(),c=cardState(v.id),rated=review.ratings[v.id]!==undefined;$('#reviewCount').textContent=q.filter(x=>review.ratings[x.id]===undefined).length;$('#reviewCard').innerHTML=`<div class="eyebrow">Tarjeta ${review.cursor+1} de ${q.length}</div><div class="he">${v.hebrew}</div><div class="roman">${v.translit||''}</div><p id="meaning" class="meaning ${rated?'':'hidden'}">${v.meaning}</p><div class="review-actions"><button class="secondary" id="prev" ${review.cursor===0?'disabled':''}>← Anterior</button><button class="secondary" id="reveal">${rated?'Ver significado':'Revelar'}</button></div><div id="ratings" class="review-actions ${rated?'hidden':''}"><button class="danger" data-r="0">Otra vez</button><button class="secondary" data-r="1">Difícil</button><button class="secondary" data-r="2">Bien</button><button class="primary" data-r="3">Fácil</button></div>${rated?'<div class="notice"><b>Ya calificada.</b> Puedes volver a verla con «Anterior» sin generar otro repaso.</div>':''}<p class="muted small">Repasos: ${c.reps} · Errores: ${c.errors} · Intervalo: ${formatInterval(c.interval)}</p>`;$('#reveal').onclick=()=>$('#meaning').classList.remove('hidden');$('#prev').onclick=()=>{if(review.cursor>0){review.cursor--;renderReview()}};$$('#ratings [data-r]').forEach(b=>b.onclick=()=>gradeReview(Number(b.dataset.r)))}
+async function gradeReview(r){const v=currentReview();if(review.ratings[v.id]!==undefined)return;schedule(v.id,r);review.ratings[v.id]=r;state.sessions++;touchActivity();if(r===0)state.skills.comprension=Math.max(0,state.skills.comprension-0);vibrate(r===0?30:10);if(review.cursor<review.queue.length-1)review.cursor++;else review.cursor=review.queue.findIndex(x=>review.ratings[x.id]===undefined);if(review.cursor<0)review.cursor=0;await save();renderReview()}
 function stripHebrew(s=''){return String(s).normalize('NFD').replace(/[\u0591-\u05C7]/g,'').replace(/[־׃׀,.;:!?()\[\]{}]/g,'').replace(/\s+/g,'').trim().toLowerCase()}
 function vocabForToken(tok){if(tok.vocab_id){const byId=DATA.vocab.find(x=>x.id===tok.vocab_id);if(byId)return byId}const key=stripHebrew(tok.text);return activeVocab().find(x=>stripHebrew(x.hebrew)===key)||null}
 function morphForToken(tok){const key=stripHebrew(tok.text);return DATA.morphology.find(x=>stripHebrew(x.surface)===key)||null}
@@ -96,10 +178,10 @@ function renderReader(){
  const done=!!state.readerDone[t.id]; const stats=state.readerStats[t.id]||{opens:0,words:0,help:0};
  const morphCount=tokens.filter(tok=>morphForToken(tok)).length;
  $('#readerText').innerHTML=`<div class="card"><div class="split"><div><span class="eyebrow">Nivel ${currentReaderLevel} · ${labels[currentReaderLevel]}</span><h2>Textos disponibles</h2><p class="muted small">Desbloqueado hasta nivel ${unlocked} según tu día ${state.day}. La dificultad aumenta en longitud, morfología y autonomía.</p></div><div class="statcard"><span>Palabras nuevas</span><strong>${newCount}</strong><small>${morphCount} con análisis morfológico</small></div></div><div class="reader-list">${texts.map(x=>{const d=!!state.readerDone[x.id];return `<button class="reader-choice ${x.id===t.id?'active':''}" data-reader-id="${x.id}"><span><b>${x.title}</b><small>${x.reference} · ${readerTokenCount(x)} palabras ${d?'· ✓ leída':''}</small></span>${x.id===recommended.id&&x.level===unlocked?'<em>Recomendado</em>':''}</button>`}).join('')}</div></div>`;
- $('#readerText').insertAdjacentHTML('beforeend',`<div class="card"><span class="eyebrow">${t.reference}</span><h2>${t.title}</h2><div class="reader-meta"><span>${tokens.length} palabras</span><span>${newCount} nuevas</span><span>${morphCount} análisis</span><span>${done?'✓ completada':'pendiente'}</span></div><div class="readerline">${tokens.map((tok,i)=>`<button class="readerword" data-token-index="${i}">${tok.text}</button>`).join(' ')}</div><div class="lesson-actions"><button class="secondary" id="readerSpeak">🔊 Escuchar texto</button><button class="secondary" id="showTranslation">Ver traducción</button><button class="primary" id="finishReader">${done?'✓ Repasar lectura':'Marcar lectura como hecha'}</button></div><div id="readerTranslation" class="reader-help hidden"><b>Traducción de estudio</b><p>${t.translation}</p></div><div id="readerHelp" class="reader-help" aria-live="polite">Toca una palabra. Cuando exista ficha morfológica, verás lema, raíz, categoría y forma gramatical.</div><div class="reader-question"><b>Comprueba comprensión</b><p>${t.question}</p><details><summary>Mostrar respuesta</summary><p><b>${t.answer}</b></p></details><p class="muted small">${t.note}</p></div></div>`);
+ $('#readerText').insertAdjacentHTML('beforeend',`<div class="card"><span class="eyebrow">${t.reference}</span><h2>${t.title}</h2><div class="reader-meta"><span>${tokens.length} palabras</span><span>${newCount} nuevas</span><span>${morphCount} análisis</span><span>${done?'✓ completada':'pendiente'}</span></div><div class="readerline">${tokens.map((tok,i)=>`<button class="readerword" data-token-index="${i}">${tok.text}</button>`).join(' ')}</div><div class="lesson-actions"><button class="secondary" id="showTranslation">Ver traducción</button><button class="primary" id="finishReader">${done?'✓ Repasar lectura':'Marcar lectura como hecha'}</button></div><div id="readerTranslation" class="reader-help hidden"><b>Traducción de estudio</b><p>${t.translation}</p></div><div id="readerHelp" class="reader-help" aria-live="polite">Toca una palabra. Cuando exista ficha morfológica, verás lema, raíz, categoría y forma gramatical.</div><div class="reader-question"><b>Comprueba comprensión</b><p>${t.question}</p><details><summary>Mostrar respuesta</summary><p><b>${t.answer}</b></p></details><p class="muted small">${t.note}</p></div></div>`);
  $$('.reader-choice').forEach(b=>b.onclick=()=>{selectedReaderTextId=b.dataset.readerId;renderReader()});
  stats.opens++; state.readerStats[t.id]=stats;
- $('#readerSpeak').onclick=()=>{speak(t.hebrew);state.skills.escucha+=1;save()}; $('#showTranslation').onclick=()=>$('#readerTranslation').classList.toggle('hidden');
+ $('#showTranslation').onclick=()=>$('#readerTranslation').classList.toggle('hidden');
  $('#finishReader').onclick=async()=>{state.readerDone[t.id]=Date.now();state.skills.lectura+=2;touchActivity();await save();renderReader()};
  $$('.readerword').forEach(b=>b.onclick=()=>{
    const tok=tokens[Number(b.dataset.tokenIndex)],v=vocabForToken(tok),m=morphForToken(tok);
@@ -108,25 +190,24 @@ function renderReader(){
    if(v)stats.help++;
    const c=v?cardState(v.id):null;
    const parts=tokenParts(tok.text);
-   $('#readerHelp').innerHTML=`<div class="reader-help-head"><div class="he">${tok.text}</div><div class="roman">${v?.translit||m?.lemma||''}</div></div>${v?`<h3>${v.meaning}</h3><div class="muted small">${v.category||'unidad léxica'}${v.root?' · raíz '+v.root:''}</div>${v.frequency_rank?`<div class="muted small">Frecuencia léxica: #${v.frequency_rank}</div>`:''}`:''}${m?`<div class="morph-card"><div class="eyebrow">Análisis morfológico</div><div class="morph-grid"><div><b>Lema</b><span class="he morph-he">${m.lemma}</span></div><div><b>Raíz</b><span>${m.root||'—'}</span></div><div><b>Categoría</b><span>${m.pos}</span></div><div><b>Forma</b><span>${m.morphology}</span></div></div><p><b>Sentido:</b> ${m.gloss}</p><p class="muted small">${m.note}</p></div>`:`<div class="morph-note"><b>Análisis inicial</b><br>La ficha léxica está disponible, pero todavía no hay una ficha morfológica específica para esta forma.</div>`}${parts.length>1?`<p class="muted small">Maqqef: esta unidad gráfica contiene ${parts.length} elementos; puedes estudiar sus componentes por separado cuando estén disponibles.</p>`:''}<div class="row reader-help-actions">${v?`<button class="secondary" id="rh">🔊 Escuchar</button><button class="secondary" id="add">${c.reps?'Repasar en SRS':'Añadir al SRS'}</button>`:'<button class="secondary" id="rh">🔊 Escuchar forma</button>'}</div>`;
-   $('#rh').onclick=()=>speak(tok.text);
+   $('#readerHelp').innerHTML=`<div class="reader-help-head"><div class="he">${tok.text}</div><div class="roman">${v?.translit||m?.lemma||''}</div></div>${v?`<h3>${v.meaning}</h3><div class="muted small">${v.category||'unidad léxica'}${v.root?' · raíz '+v.root:''}</div>${v.frequency_rank?`<div class="muted small">Frecuencia léxica: #${v.frequency_rank}</div>`:''}`:''}${m?`<div class="morph-card"><div class="eyebrow">Análisis morfológico</div><div class="morph-grid"><div><b>Lema</b><span class="he morph-he">${m.lemma}</span></div><div><b>Raíz</b><span>${m.root||'—'}</span></div><div><b>Categoría</b><span>${m.pos}</span></div><div><b>Forma</b><span>${m.morphology}</span></div></div><p><b>Sentido:</b> ${m.gloss}</p><p class="muted small">${m.note}</p></div>`:`<div class="morph-note"><b>Análisis inicial</b><br>La ficha léxica está disponible, pero todavía no hay una ficha morfológica específica para esta forma.</div>`}${parts.length>1?`<p class="muted small">Maqqef: esta unidad gráfica contiene ${parts.length} elementos; puedes estudiar sus componentes por separado cuando estén disponibles.</p>`:''}<div class="row reader-help-actions">${v?`<button class="secondary" id="add">${c.reps?'Repasar en SRS':'Añadir al SRS'}</button>`:''}</div>`;
    if(v)$('#add').onclick=async()=>{cardState(v.id);await save();$('#readerHelp').insertAdjacentHTML('beforeend','<p class="feedback">✓ Esta unidad ya está en tu SRS.</p>');updateDue()};
  });
  save();
 }
 
 let currentReaderLevel=1; let selectedReaderTextId=null;
-function renderAlphabet(){const finals={כ:'ך',מ:'ם',נ:'ן',פ:'ף',צ:'ץ'};$('#letterGrid').innerHTML=DATA.alphabet.map(a=>`<div class="letter"><div class="he">${a.char}</div><b>${a.name}</b><div class="muted small">${a.sound}</div>${finals[a.char]?`<div class="final-form"><span class="he">${a.char}</span><span>→</span><span class="he">${finals[a.char]}</span></div>`:''}<button class="ghost-dark wide" data-speak="${a.char}" style="margin-top:8px">🔊</button></div>`).join('');$$('[data-speak]').forEach(b=>b.onclick=()=>speak(b.dataset.speak));$('#vocalGrid').innerHTML=DATA.vocalization.map(x=>`<div class="card vocal"><div class="he">${x.symbol||x.char||''}</div><h3>${x.name||x.title||''}</h3><p>${x.sound||x.description||''}</p><div class="muted small">${x.example||''}</div></div>`).join('')}
+function renderAlphabet(){const finals={כ:'ך',מ:'ם',נ:'ן',פ:'ף',צ:'ץ'};$('#letterGrid').innerHTML=DATA.alphabet.map(a=>`<div class="letter"><div class="he">${a.char}</div><b>${a.name}</b><div class="muted small">${a.sound}</div>${finals[a.char]?`<div class="final-form"><span class="he">${a.char}</span><span>→</span><span class="he">${finals[a.char]}</span></div>`:''}</div>`).join('');$('#vocalGrid').innerHTML=DATA.vocalization.map(x=>`<div class="card vocal"><div class="he">${x.symbol||x.char||''}</div><h3>${x.name||x.title||''}</h3><p>${x.sound||x.description||''}</p><div class="muted small">${x.example||''}</div></div>`).join('')}
 function renderGrammar(){$('#grammarGrid').innerHTML=DATA.grammar.map(g=>`<article class="card grammar-card"><span class="eyebrow">Gramática</span><h2>${g.title}</h2><p>${g.summary}</p><div class="he">${g.example}</div><p><b>${g.translation}</b></p><details><summary>Explicación y cuándo se usa</summary><p>${g.note}</p><div class="grammar-examples">${(g.examples||[]).map(e=>`<div class="grammar-example"><div class="he">${e.hebrew}</div><b>${e.meaning}</b><div class="muted small">${e.analysis}</div></div>`).join('')}</div></details></article>`).join('')}
 function renderStats(){
  const h=state.history,correct=h.filter(x=>x.rating>=2).length; $('#stSessions').textContent=state.sessions; $('#stAccuracy').textContent=(h.length?Math.round(correct/h.length*100):0)+'%'; $('#stMastered').textContent=Object.values(state.cards).filter(c=>c.state==='review'&&c.interval>=21).length; $('#stReviews').textContent=h.length;
- const names={comprension:'Comprensión',escucha:'Escucha',lectura:'Lectura',produccion:'Producción',gramatica:'Gramática'}; $('#skillBars').innerHTML=Object.entries(names).map(([k,n])=>{const v=Math.min(100,state.skills[k]||0);return `<div class="bar"><span>${n}</span><div class="progress"><i style="width:${v}%"></i></div><b>${v}</b></div>`}).join('');
+ const names={comprension:'Comprensión',escucha:'Pronunciación',lectura:'Lectura',produccion:'Producción',gramatica:'Gramática'}; $('#skillBars').innerHTML=Object.entries(names).map(([k,n])=>{const v=Math.min(100,state.skills[k]||0);return `<div class="bar"><span>${n}</span><div class="progress"><i style="width:${v}%"></i></div><b>${v}</b></div>`}).join('');
  const retention=h.length?Math.round(correct/h.length*100):0; const reviewed=Object.values(state.cards).filter(c=>c.reps).length; const due=dueCards().length;
  $('#retentionText').innerHTML=`<p><strong>${retention}%</strong> de aciertos recientes.</p><p class="muted small">${reviewed} unidades ya tienen historial · ${due} pendientes ahora.</p><p class="muted small">Lecturas completadas: ${Object.keys(state.readerDone).length}/${DATA.reader.length}.</p>`;
  const weak=DATA.vocab.map(v=>({v,c:state.cards[v.id]})).filter(x=>x.c&&x.c.errors>0).sort((a,b)=>b.c.errors-a.c.errors).slice(0,8); $('#weakList').innerHTML=weak.length?weak.map(x=>`<div class="split weak"><span class="he small-he">${x.v.hebrew}</span><span>${x.v.meaning}<br><small class="muted">${x.c.errors} error(es) · ${formatInterval(x.c.interval)}</small></span></div>`).join(''):'<p class="muted">Todavía no hay suficientes datos para detectar debilidades.</p>'; $('#activityText').textContent=`${state.activeDays.length} días con actividad registrados. Racha actual: ${state.streak}.`;
 }
 
-function exportState(){const blob=new Blob([JSON.stringify({app:'Hebreo Vivo',version:'4.5',profile:{id:currentProfileId,name:currentProfileName},exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='hebreo-vivo-progreso.json';a.click();URL.revokeObjectURL(a.href)}
+function exportState(){const blob=new Blob([JSON.stringify({app:'Hebreo Vivo',version:'4.6',profile:{id:currentProfileId,name:currentProfileName},exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='hebreo-vivo-progreso.json';a.click();URL.revokeObjectURL(a.href)}
 function importState(file){const r=new FileReader();r.onload=async()=>{try{const x=JSON.parse(r.result);if(!x.state||!x.state.cards)throw Error('Formato no reconocido');state={...structuredClone(DEFAULT),...x.state,skills:{...DEFAULT.skills,...x.state.skills},settings:{...DEFAULT.settings,...x.state.settings}};await save();applySettings();alert('Progreso importado correctamente en el perfil actual.')}catch(e){alert('No se pudo importar: '+e.message)}};r.readAsText(file)}
 function setupInstall(){window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;$('#installBtn').hidden=false});$('#installBtn').onclick=async()=>{if(!deferredInstall)return;deferredInstall.prompt();deferredInstall=null;$('#installBtn').hidden=true}}
 function showProfileGate(){
@@ -142,9 +223,5 @@ function showProfileGate(){
 
 async function init(){try{await loadData();await ensureProfile();const old=await dbGet();if(old)state={...structuredClone(DEFAULT),...old,skills:{...DEFAULT.skills,...old.skills},settings:{...DEFAULT.settings,...old.settings}};applySettings();renderProfilePanel();renderGlobal();showProfileGate();setupInstall();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});}catch(e){document.body.innerHTML=`<main class="wrap"><div class="card"><h1>No se pudieron cargar los datos.</h1><p>${e.message}</p></div></main>`}}
 $$('[data-view]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.view)));
-const mobileMoreBtn=$('#mobileMoreBtn');
-mobileMoreBtn?.addEventListener('click',()=>{const m=$('#mobileMore');const open=m.classList.toggle('hidden')===false;m.setAttribute('aria-hidden',String(!open));mobileMoreBtn.setAttribute('aria-expanded',String(open));});
-$$('[data-close-more]').forEach(b=>b.addEventListener('click',closeMore));
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMore()});
 $('#goDay').onclick=()=>{const n=Math.min(180,Math.max(1,Number($('#dayInput').value)||1));state.day=n;lesson=null;save();renderCourse()};$('#exportBtn').onclick=exportState;$('#importBtn').onclick=()=>$('#fileInput').click();$('#fileInput').onchange=e=>e.target.files[0]&&importState(e.target.files[0]);$('#storageInfo').onclick=()=>alert(`IndexedDB: activo\nUnidades: ${DATA.vocab.length}\nTarjetas con historial: ${Object.keys(state.cards).length}\nActividad registrada: ${state.activeDays.length} días`);$('#largeText').onchange=e=>{state.settings.largeText=e.target.checked;document.body.classList.toggle('large-he',e.target.checked);save()};$('#reduceMotion').onchange=e=>{state.settings.reduceMotion=e.target.checked;document.body.classList.toggle('reduce-motion',e.target.checked);save()};$('#haptic').onchange=e=>{state.settings.haptic=e.target.checked;save()};$('#resetBtn').onclick=resetCurrentProfile;
 init();

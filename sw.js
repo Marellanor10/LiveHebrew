@@ -1,4 +1,4 @@
-const CACHE='hebreo-vivo-v4-5-1-20260910';
+const CACHE='hebreo-vivo-v4-6-20260912';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./src/styles.css','./src/app.js','./src/sync-adapter.js','./data/alphabet.json','./data/vocabulary.json','./data/phrases.json','./data/grammar.json','./data/course.json','./data/reader.json','./data/vocalization.json','./data/lesson-plans.json','./data/morphology.json','./icons/icon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
