@@ -1,4 +1,4 @@
-const CACHE='mikhael-v5-5-1-20260913';
+const CACHE='mikhael-v5-5-0-20260913';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./src/styles.css','./src/app.js','./data/block1-content.json','./data/alphabet.json','./data/vocalization.json','./data/reader.json','./data/morphology.json','./data/grammar.json','./data/reader-vocab.json','./icons/icon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
