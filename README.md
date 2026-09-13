@@ -1,15 +1,32 @@
-# Mikhael v5.3.1 — Bloque 1
+# Mikhael v5.4 · Bloque 1
 
-## Modelo
-Bloque → Unidad → Lección → Ejercicios.
+Versión reconstruida del Bloque 1 con progresión independiente del calendario.
 
-Las unidades son independientes del calendario. Las 30 lecciones del Bloque 1 pueden hacerse en una misma jornada; los días son una referencia de ritmo, no una condición de desbloqueo.
+## Arquitectura
+- Bloque → Unidad → Lección → Ejercicios.
+- 5 unidades y 30 lecciones.
+- Las lecciones no están limitadas por días: el estudiante puede hacer varias en una misma jornada.
+- Los días activos y la racha son métricas de constancia, no requisitos de avance.
 
-## Ejercicios
-Cada lección contiene comprensión, reconocimiento, producción y gramática contextual. El reconocimiento usa selección real entre cuatro opciones. La producción exige escribir hebreo. No hay avance automático.
+## Ejercicios de cada lección
+1. **Comprensión**: explicación del concepto, palabra hebrea, fonética y botón Revelar. La revelación incluye significado, lema, datos léxicos disponibles y explicación gramatical contextual.
+2. **Escritura**: construcción por fichas de letras hebreas desordenadas + 3 distractores. Un error reinicia el intento.
+3. **Reconocimiento**: cuatro opciones únicas, una sola correcta. Solo se continúa tras acertar.
+4. **Gramática como ejercicio**: eliminada del flujo de la lección. La explicación gramatical vive en Comprensión y en la sección Gramática.
 
-## Gramática
-La pestaña Gramática explica los conceptos de las unidades y conserva una referencia completa. Cada concepto puede valorarse como Bien, Regular o Mal. Una valoración Mal aumenta la prioridad de las tarjetas relacionadas en el SRS.
+## Repaso
+- Solo recopila palabras ya vistas en las lecciones.
+- **Fonética** y **Significa** se revelan por separado.
+- **Otra vez** repite la tarjeta dentro de la sesión actual.
+- **Mal** la programa para la siguiente sesión.
+- **Regular** eleva su probabilidad durante las tres siguientes sesiones.
+- **Bien** la retira del repaso normal.
 
-## Nota editorial
-Esta es una construcción de Bloque 1. Antes de publicar como versión académica definitiva conviene revisar cada forma hebrea, raíz y traducción con una fuente filológica. No se fuerzan raíces cuando no son necesarias.
+## Banco
+Todas las tarjetas vistas permanecen en el Banco aunque estén dominadas. Desde el Banco se puede abrir la Ruta de aprendizaje con la información completa disponible.
+
+## Limpieza
+Esta distribución no contiene los archivos residuales de cursos anteriores que ya no usa el motor del Bloque 1. El contenido del Bloque 1 está centralizado en `data/block1-content.json`; `data/reader-vocab.json` contiene solo el vocabulario adicional que necesita el Lector y no duplica las 46 entradas del Bloque 1.
+
+## Persistencia
+IndexedDB por perfil local, exportación/importación JSON, PWA offline-first y navegación móvil con las 8 secciones.

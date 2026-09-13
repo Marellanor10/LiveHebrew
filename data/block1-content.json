@@ -18,7 +18,17 @@
     "contextual_grammar_linked_to_unit": true,
     "grammar_mastery_affects_review_priority": true,
     "root_only_when_appropriate": true,
-    "course_concise_route_full": true
+    "course_concise_route_full": true,
+    "timeIsNotProgression": "Los días registran ritmo y constancia; no desbloquean lecciones ni limitan el avance.",
+    "progression": "El estudiante avanza por lecciones completadas y prerrequisitos pedagógicos; puede hacer varias lecciones en un mismo día.",
+    "review": "El repaso trabaja solo con tarjetas vistas en lecciones o añadidas explícitamente desde el lector.",
+    "reviewRatings": {
+      "again": "repite dentro de la misma sesión",
+      "mal": "aparece en la siguiente sesión",
+      "regular": "aumenta su probabilidad durante las tres siguientes sesiones",
+      "bien": "no vuelve al repaso normal hasta que sea reintroducida por nuevas reglas o consulta"
+    },
+    "bank": "Toda tarjeta vista permanece en el Banco de aprendizaje aunque su estado SRS sea dominado."
   },
   "blocks": [
     {
@@ -287,18 +297,17 @@
         "g01"
       ],
       "exerciseIds": [
-        "L01-E1",
-        "L01-E2",
-        "L01-E3",
-        "L01-E4"
+        "L01-C",
+        "L01-W",
+        "L01-R"
       ],
       "exerciseTypes": [
-        "read_direction",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "comprehension",
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L02",
@@ -317,18 +326,17 @@
         "g02"
       ],
       "exerciseIds": [
-        "L02-E1",
-        "L02-E2",
-        "L02-E3",
-        "L02-E4"
+        "L02-C",
+        "L02-W",
+        "L02-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L03",
@@ -347,18 +355,17 @@
         "g01"
       ],
       "exerciseIds": [
-        "L03-E1",
-        "L03-E2",
-        "L03-E3",
-        "L03-E4"
+        "L03-C",
+        "L03-W",
+        "L03-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L04",
@@ -377,18 +384,17 @@
         "g02"
       ],
       "exerciseIds": [
-        "L04-E1",
-        "L04-E2",
-        "L04-E3",
-        "L04-E4"
+        "L04-C",
+        "L04-W",
+        "L04-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L05",
@@ -408,18 +414,17 @@
         "g01"
       ],
       "exerciseIds": [
-        "L05-E1",
-        "L05-E2",
-        "L05-E3",
-        "L05-E4"
+        "L05-C",
+        "L05-W",
+        "L05-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L06",
@@ -439,18 +444,17 @@
         "g02"
       ],
       "exerciseIds": [
-        "L06-E1",
-        "L06-E2",
-        "L06-E3",
-        "L06-E4"
+        "L06-C",
+        "L06-W",
+        "L06-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L07",
@@ -469,18 +473,17 @@
         "g03"
       ],
       "exerciseIds": [
-        "L07-E1",
-        "L07-E2",
-        "L07-E3",
-        "L07-E4"
+        "L07-C",
+        "L07-W",
+        "L07-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L08",
@@ -500,18 +503,17 @@
         "g03"
       ],
       "exerciseIds": [
-        "L08-E1",
-        "L08-E2",
-        "L08-E3",
-        "L08-E4"
+        "L08-C",
+        "L08-W",
+        "L08-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L09",
@@ -531,18 +533,17 @@
         "g03"
       ],
       "exerciseIds": [
-        "L09-E1",
-        "L09-E2",
-        "L09-E3",
-        "L09-E4"
+        "L09-C",
+        "L09-W",
+        "L09-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L10",
@@ -563,18 +564,17 @@
         "g03"
       ],
       "exerciseIds": [
-        "L10-E1",
-        "L10-E2",
-        "L10-E3",
-        "L10-E4"
+        "L10-C",
+        "L10-W",
+        "L10-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L11",
@@ -594,18 +594,17 @@
         "g04"
       ],
       "exerciseIds": [
-        "L11-E1",
-        "L11-E2",
-        "L11-E3",
-        "L11-E4"
+        "L11-C",
+        "L11-W",
+        "L11-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L12",
@@ -628,18 +627,17 @@
         "g04"
       ],
       "exerciseIds": [
-        "L12-E1",
-        "L12-E2",
-        "L12-E3",
-        "L12-E4"
+        "L12-C",
+        "L12-W",
+        "L12-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L13",
@@ -653,24 +651,24 @@
       "readingIds": [],
       "targetVocabIds": [
         "v017",
-        "v018"
+        "v018",
+        "v019"
       ],
       "grammarIds": [
         "g05"
       ],
       "exerciseIds": [
-        "L13-E1",
-        "L13-E2",
-        "L13-E3",
-        "L13-E4"
+        "L13-C",
+        "L13-W",
+        "L13-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L14",
@@ -692,18 +690,17 @@
         "g05"
       ],
       "exerciseIds": [
-        "L14-E1",
-        "L14-E2",
-        "L14-E3",
-        "L14-E4"
+        "L14-C",
+        "L14-W",
+        "L14-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L15",
@@ -723,18 +720,17 @@
         "g06"
       ],
       "exerciseIds": [
-        "L15-E1",
-        "L15-E2",
-        "L15-E3",
-        "L15-E4"
+        "L15-C",
+        "L15-W",
+        "L15-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L16",
@@ -754,18 +750,17 @@
         "g06"
       ],
       "exerciseIds": [
-        "L16-E1",
-        "L16-E2",
-        "L16-E3",
-        "L16-E4"
+        "L16-C",
+        "L16-W",
+        "L16-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L17",
@@ -785,18 +780,17 @@
         "g06"
       ],
       "exerciseIds": [
-        "L17-E1",
-        "L17-E2",
-        "L17-E3",
-        "L17-E4"
+        "L17-C",
+        "L17-W",
+        "L17-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L18",
@@ -818,18 +812,17 @@
         "g06"
       ],
       "exerciseIds": [
-        "L18-E1",
-        "L18-E2",
-        "L18-E3",
-        "L18-E4"
+        "L18-C",
+        "L18-W",
+        "L18-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L19",
@@ -849,18 +842,17 @@
         "g07"
       ],
       "exerciseIds": [
-        "L19-E1",
-        "L19-E2",
-        "L19-E3",
-        "L19-E4"
+        "L19-C",
+        "L19-W",
+        "L19-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L20",
@@ -880,18 +872,17 @@
         "g07"
       ],
       "exerciseIds": [
-        "L20-E1",
-        "L20-E2",
-        "L20-E3",
-        "L20-E4"
+        "L20-C",
+        "L20-W",
+        "L20-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L21",
@@ -911,18 +902,17 @@
         "g07"
       ],
       "exerciseIds": [
-        "L21-E1",
-        "L21-E2",
-        "L21-E3",
-        "L21-E4"
+        "L21-C",
+        "L21-W",
+        "L21-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L22",
@@ -942,18 +932,17 @@
         "g07"
       ],
       "exerciseIds": [
-        "L22-E1",
-        "L22-E2",
-        "L22-E3",
-        "L22-E4"
+        "L22-C",
+        "L22-W",
+        "L22-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L23",
@@ -973,18 +962,17 @@
         "g07"
       ],
       "exerciseIds": [
-        "L23-E1",
-        "L23-E2",
-        "L23-E3",
-        "L23-E4"
+        "L23-C",
+        "L23-W",
+        "L23-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L24",
@@ -1005,18 +993,17 @@
         "g07"
       ],
       "exerciseIds": [
-        "L24-E1",
-        "L24-E2",
-        "L24-E3",
-        "L24-E4"
+        "L24-C",
+        "L24-W",
+        "L24-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L25",
@@ -1035,18 +1022,17 @@
         "g06"
       ],
       "exerciseIds": [
-        "L25-E1",
-        "L25-E2",
-        "L25-E3",
-        "L25-E4"
+        "L25-C",
+        "L25-W",
+        "L25-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L26",
@@ -1066,18 +1052,17 @@
         "g09"
       ],
       "exerciseIds": [
-        "L26-E1",
-        "L26-E2",
-        "L26-E3",
-        "L26-E4"
+        "L26-C",
+        "L26-W",
+        "L26-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L27",
@@ -1090,6 +1075,7 @@
       ],
       "readingIds": [],
       "targetVocabIds": [
+        "v044",
         "v029"
       ],
       "grammarIds": [
@@ -1097,18 +1083,17 @@
         "g09"
       ],
       "exerciseIds": [
-        "L27-E1",
-        "L27-E2",
-        "L27-E3",
-        "L27-E4"
+        "L27-C",
+        "L27-W",
+        "L27-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L28",
@@ -1128,18 +1113,17 @@
         "g09"
       ],
       "exerciseIds": [
-        "L28-E1",
-        "L28-E2",
-        "L28-E3",
-        "L28-E4"
+        "L28-C",
+        "L28-W",
+        "L28-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L29",
@@ -1159,18 +1143,17 @@
         "g09"
       ],
       "exerciseIds": [
-        "L29-E1",
-        "L29-E2",
-        "L29-E3",
-        "L29-E4"
+        "L29-C",
+        "L29-W",
+        "L29-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition_pair",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     },
     {
       "id": "L30",
@@ -1192,18 +1175,17 @@
         "g06"
       ],
       "exerciseIds": [
-        "L30-E1",
-        "L30-E2",
-        "L30-E3",
-        "L30-E4"
+        "L30-C",
+        "L30-W",
+        "L30-R"
       ],
       "exerciseTypes": [
         "comprehension",
-        "recognition",
-        "production",
-        "grammar_mastery"
+        "writing",
+        "recognition"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "dayRole": "referencia de ritmo; no bloquea ni determina la siguiente lección"
     }
   ],
   "vocab": [
@@ -1211,25 +1193,33 @@
       "id": "v001",
       "form": "אֵל",
       "translit": "El",
-      "meaning": "Dios / dios",
+      "meaning": "dios / divinidad",
       "category": "sustantivo",
       "unitId": "U01",
       "lemma": "אֵל",
       "family": "léxico religioso",
-      "note": "",
-      "frequency": null
+      "note": "Sustantivo; el sentido exacto depende del contexto. Aquí se introduce como palabra básica.",
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v002",
       "form": "אֱלֹהִים",
       "translit": "Elohim",
-      "meaning": "Dios",
+      "meaning": "Dios / dios",
       "category": "sustantivo / nombre divino",
       "unitId": "U01",
       "lemma": "אֱלֹהִים",
       "family": "léxico religioso",
-      "note": "",
-      "frequency": null
+      "note": "Forma frecuente en hebreo bíblico; el contexto determina su traducción.",
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v003",
@@ -1241,7 +1231,11 @@
       "lemma": "אֲנִי",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v004",
@@ -1253,7 +1247,11 @@
       "lemma": "אַתָּה",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v005",
@@ -1265,7 +1263,11 @@
       "lemma": "אַתְּ",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v006",
@@ -1277,7 +1279,11 @@
       "lemma": "הוּא",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v007",
@@ -1289,7 +1295,11 @@
       "lemma": "הִיא",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v008",
@@ -1301,7 +1311,11 @@
       "lemma": "אֲנַחְנוּ",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v009",
@@ -1313,7 +1327,11 @@
       "lemma": "הֵם",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v010",
@@ -1325,7 +1343,11 @@
       "lemma": "הֵן",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v011",
@@ -1337,7 +1359,11 @@
       "lemma": "זֶה",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v012",
@@ -1349,7 +1375,11 @@
       "lemma": "זֹאת",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v013",
@@ -1361,7 +1391,11 @@
       "lemma": "מִי",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v014",
@@ -1373,7 +1407,11 @@
       "lemma": "מָה",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v015",
@@ -1385,7 +1423,11 @@
       "lemma": "כֵּן",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v016",
@@ -1397,7 +1439,11 @@
       "lemma": "לֹא",
       "family": "pronombres y partículas",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v017",
@@ -1409,7 +1455,11 @@
       "lemma": "אִישׁ",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v018",
@@ -1421,7 +1471,11 @@
       "lemma": "אִשָּׁה",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "femenino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v019",
@@ -1433,7 +1487,11 @@
       "lemma": "אָדָם",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v020",
@@ -1445,7 +1503,11 @@
       "lemma": "בֵּן",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v021",
@@ -1457,7 +1519,11 @@
       "lemma": "בַּת",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "femenino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v022",
@@ -1469,7 +1535,11 @@
       "lemma": "אָב",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v023",
@@ -1481,7 +1551,11 @@
       "lemma": "אֵם",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "femenino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v024",
@@ -1493,7 +1567,11 @@
       "lemma": "מֶלֶךְ",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v025",
@@ -1505,7 +1583,11 @@
       "lemma": "עֶבֶד",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v026",
@@ -1517,7 +1599,11 @@
       "lemma": "עַם",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v027",
@@ -1529,7 +1615,11 @@
       "lemma": "טוֹב",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v028",
@@ -1541,7 +1631,11 @@
       "lemma": "רַע",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v029",
@@ -1553,7 +1647,11 @@
       "lemma": "גָּדוֹל",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v030",
@@ -1565,7 +1663,11 @@
       "lemma": "קָטָן",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v031",
@@ -1577,7 +1679,11 @@
       "lemma": "חָכָם",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v032",
@@ -1589,7 +1695,11 @@
       "lemma": "קָדוֹשׁ",
       "family": "personas y descripción",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v033",
@@ -1601,7 +1711,11 @@
       "lemma": "אֶרֶץ",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "femenino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v034",
@@ -1613,7 +1727,11 @@
       "lemma": "שָׁמַיִם",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "plural",
+      "relatedForms": []
     },
     {
       "id": "v035",
@@ -1625,7 +1743,11 @@
       "lemma": "מַיִם",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "plural",
+      "relatedForms": []
     },
     {
       "id": "v036",
@@ -1637,7 +1759,11 @@
       "lemma": "בַּיִת",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v037",
@@ -1649,7 +1775,11 @@
       "lemma": "דֶּרֶךְ",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "femenino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v038",
@@ -1661,7 +1791,11 @@
       "lemma": "יוֹם",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v039",
@@ -1673,7 +1807,11 @@
       "lemma": "לַיְלָה",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "femenino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v040",
@@ -1685,7 +1823,11 @@
       "lemma": "הַר",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v041",
@@ -1697,7 +1839,11 @@
       "lemma": "עִיר",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "femenino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v042",
@@ -1709,7 +1855,11 @@
       "lemma": "שָׂדֶה",
       "family": "mundo, espacio y tiempo",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v043",
@@ -1721,19 +1871,27 @@
       "lemma": "יָשָׁר",
       "family": "descripción y predicación",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": "masculino",
+      "number": "singular",
+      "relatedForms": []
     },
     {
       "id": "v044",
       "form": "הַ",
       "translit": "Ha-",
-      "meaning": "el / la",
-      "category": "artículo definido / prefijo",
+      "meaning": "el / la (artículo definido)",
+      "category": "partícula / artículo",
       "unitId": "U05",
       "lemma": "הַ",
       "family": "descripción y predicación",
-      "note": "",
-      "frequency": null
+      "note": "Artículo definido. Su vocalización puede variar según el contexto fonológico; aquí se aprende la forma básica הַ.",
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v045",
@@ -1745,7 +1903,11 @@
       "lemma": "יֵשׁ",
       "family": "descripción y predicación",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     },
     {
       "id": "v046",
@@ -1757,7 +1919,11 @@
       "lemma": "אֵין",
       "family": "descripción y predicación",
       "note": "",
-      "frequency": null
+      "frequency": null,
+      "root": null,
+      "gender": null,
+      "number": null,
+      "relatedForms": []
     }
   ],
   "phrases": [
@@ -1769,7 +1935,7 @@
         "L02"
       ],
       "text": "אֵל",
-      "translation": "Dios",
+      "translation": "dios / divinidad",
       "tokens": [
         {
           "surface": "אֵל",
@@ -1786,7 +1952,7 @@
         "L04"
       ],
       "text": "אֱלֹהִים",
-      "translation": "Dios",
+      "translation": "Dios / dios",
       "tokens": [
         {
           "surface": "אֱלֹהִים",
@@ -1803,7 +1969,7 @@
         "L06"
       ],
       "text": "אֵל אֱלֹהִים",
-      "translation": "Dios / Dios",
+      "translation": "dios / Dios",
       "tokens": [
         {
           "surface": "אֵל",
@@ -1820,11 +1986,10 @@
       "id": "p004",
       "unitId": "U02",
       "sessionIds": [
-        "L07",
-        "L08"
+        "L07"
       ],
       "text": "אֲנִי",
-      "translation": "Yo",
+      "translation": "yo",
       "tokens": [
         {
           "surface": "אֲנִי",
@@ -1837,10 +2002,10 @@
       "id": "p005",
       "unitId": "U02",
       "sessionIds": [
-        "L09"
+        "L08"
       ],
       "text": "אַתָּה הוּא",
-      "translation": "Tú (masculino), él.",
+      "translation": "tú (masculino) / él",
       "tokens": [
         {
           "surface": "אַתָּה",
@@ -1851,20 +2016,64 @@
           "vocabId": "v006"
         }
       ],
-      "note": "Frase controlada para reconocimiento de pronombres; no pretende introducir una cópula explícita."
+      "note": "Secuencia controlada para reconocimiento de pronombres, no modelo de frase bíblica."
     },
     {
       "id": "p006",
       "unitId": "U02",
       "sessionIds": [
-        "L10"
+        "L09"
       ],
-      "text": "הִיא זֹאת",
-      "translation": "Ella; esta.",
+      "text": "אַתְּ הִיא",
+      "translation": "tú (femenino) / ella",
       "tokens": [
+        {
+          "surface": "אַתְּ",
+          "vocabId": "v005"
+        },
         {
           "surface": "הִיא",
           "vocabId": "v007"
+        }
+      ],
+      "note": "Secuencia controlada para reconocimiento de pronombres, no modelo de frase bíblica."
+    },
+    {
+      "id": "p007",
+      "unitId": "U02",
+      "sessionIds": [
+        "L10"
+      ],
+      "text": "אֲנַחְנוּ הֵם הֵן",
+      "translation": "nosotros / ellos / ellas",
+      "tokens": [
+        {
+          "surface": "אֲנַחְנוּ",
+          "vocabId": "v008"
+        },
+        {
+          "surface": "הֵם",
+          "vocabId": "v009"
+        },
+        {
+          "surface": "הֵן",
+          "vocabId": "v010"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "p008",
+      "unitId": "U02",
+      "sessionIds": [
+        "L11"
+      ],
+      "text": "זֶה זֹאת",
+      "translation": "este/esto / esta",
+      "tokens": [
+        {
+          "surface": "זֶה",
+          "vocabId": "v011"
         },
         {
           "surface": "זֹאת",
@@ -1874,61 +2083,29 @@
       "note": ""
     },
     {
-      "id": "p007",
+      "id": "p009",
       "unitId": "U02",
       "sessionIds": [
-        "L11"
+        "L12"
       ],
-      "text": "מִי הוּא",
-      "translation": "¿Quién es él?",
+      "text": "מִי מָה כֵּן לֹא",
+      "translation": "quién / qué / sí / no",
       "tokens": [
         {
           "surface": "מִי",
           "vocabId": "v013"
         },
         {
-          "surface": "הוּא",
-          "vocabId": "v006"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "p008",
-      "unitId": "U02",
-      "sessionIds": [
-        "L12"
-      ],
-      "text": "מָה זֶה",
-      "translation": "¿Qué es esto?",
-      "tokens": [
-        {
           "surface": "מָה",
           "vocabId": "v014"
         },
         {
-          "surface": "זֶה",
-          "vocabId": "v011"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "p009",
-      "unitId": "U03",
-      "sessionIds": [
-        "L13"
-      ],
-      "text": "אִישׁ טוֹב",
-      "translation": "Un hombre bueno.",
-      "tokens": [
-        {
-          "surface": "אִישׁ",
-          "vocabId": "v017"
+          "surface": "כֵּן",
+          "vocabId": "v015"
         },
         {
-          "surface": "טוֹב",
-          "vocabId": "v027"
+          "surface": "לֹא",
+          "vocabId": "v016"
         }
       ],
       "note": ""
@@ -1937,58 +2114,66 @@
       "id": "p010",
       "unitId": "U03",
       "sessionIds": [
-        "L14"
+        "L13"
       ],
-      "text": "אִשָּׁה טוֹבָה",
-      "translation": "Una mujer buena.",
+      "text": "אִישׁ אִשָּׁה",
+      "translation": "hombre / mujer",
       "tokens": [
+        {
+          "surface": "אִישׁ",
+          "vocabId": "v017"
+        },
         {
           "surface": "אִשָּׁה",
           "vocabId": "v018"
-        },
-        {
-          "surface": "טוֹבָה",
-          "vocabId": null
         }
       ],
-      "note": "טוֹבָה es una forma contextual del adjetivo טוֹב; se introduce aquí para mostrar concordancia, no como nueva tarjeta independiente."
+      "note": ""
     },
     {
       "id": "p011",
       "unitId": "U03",
       "sessionIds": [
-        "L15"
+        "L14"
       ],
-      "text": "הַמֶּלֶךְ גָּדוֹל",
-      "translation": "El rey es grande.",
-      "tokens": [
-        {
-          "surface": "הַמֶּלֶךְ",
-          "vocabId": null
-        },
-        {
-          "surface": "גָּדוֹל",
-          "vocabId": "v029"
-        }
-      ],
-      "note": "Ejemplo de predicación nominal con artículo; la forma definida se reconoce como conjunto."
-    },
-    {
-      "id": "p012",
-      "unitId": "U03",
-      "sessionIds": [
-        "L16"
-      ],
-      "text": "בֵּן וּבַת",
-      "translation": "Hijo e hija.",
+      "text": "בֵּן בַּת אָב אֵם",
+      "translation": "hijo / hija / padre / madre",
       "tokens": [
         {
           "surface": "בֵּן",
           "vocabId": "v020"
         },
         {
-          "surface": "וּבַת",
+          "surface": "בַּת",
           "vocabId": "v021"
+        },
+        {
+          "surface": "אָב",
+          "vocabId": "v022"
+        },
+        {
+          "surface": "אֵם",
+          "vocabId": "v023"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "p012",
+      "unitId": "U03",
+      "sessionIds": [
+        "L15"
+      ],
+      "text": "מֶלֶךְ גָּדוֹל",
+      "translation": "rey grande",
+      "tokens": [
+        {
+          "surface": "מֶלֶךְ",
+          "vocabId": "v024"
+        },
+        {
+          "surface": "גָּדוֹל",
+          "vocabId": "v029"
         }
       ],
       "note": ""
@@ -1997,31 +2182,55 @@
       "id": "p013",
       "unitId": "U03",
       "sessionIds": [
-        "L17"
+        "L16"
       ],
-      "text": "אֵם חֲכָמָה",
-      "translation": "Una madre sabia.",
+      "text": "טוֹב רַע",
+      "translation": "bueno / malo",
       "tokens": [
         {
-          "surface": "אֵם",
-          "vocabId": "v023"
+          "surface": "טוֹב",
+          "vocabId": "v027"
         },
         {
-          "surface": "חֲכָמָה",
-          "vocabId": null
+          "surface": "רַע",
+          "vocabId": "v028"
         }
       ],
-      "note": "חֲכָמָה es la forma femenina contextual de חָכָם."
+      "note": ""
     },
     {
       "id": "p014",
       "unitId": "U03",
       "sessionIds": [
+        "L17"
+      ],
+      "text": "חָכָם קָדוֹשׁ",
+      "translation": "sabio / santo",
+      "tokens": [
+        {
+          "surface": "חָכָם",
+          "vocabId": "v031"
+        },
+        {
+          "surface": "קָדוֹשׁ",
+          "vocabId": "v032"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "p015",
+      "unitId": "U03",
+      "sessionIds": [
         "L18"
       ],
-      "text": "עֶבֶד קָטָן",
-      "translation": "Un siervo pequeño / joven.",
+      "text": "עַם עֶבֶד קָטָן",
+      "translation": "pueblo / siervo / pequeño",
       "tokens": [
+        {
+          "surface": "עַם",
+          "vocabId": "v026"
+        },
         {
           "surface": "עֶבֶד",
           "vocabId": "v025"
@@ -2034,61 +2243,41 @@
       "note": ""
     },
     {
-      "id": "p015",
+      "id": "p016",
       "unitId": "U04",
       "sessionIds": [
         "L19"
       ],
-      "text": "אֶרֶץ וְשָׁמַיִם",
-      "translation": "Tierra y cielos.",
+      "text": "אֶרֶץ שָׁמַיִם",
+      "translation": "tierra / cielos",
       "tokens": [
         {
           "surface": "אֶרֶץ",
           "vocabId": "v033"
         },
         {
-          "surface": "וְשָׁמַיִם",
+          "surface": "שָׁמַיִם",
           "vocabId": "v034"
         }
       ],
       "note": ""
     },
     {
-      "id": "p016",
+      "id": "p017",
       "unitId": "U04",
       "sessionIds": [
         "L20"
       ],
-      "text": "מַיִם בַּבַּיִת",
-      "translation": "Agua en la casa.",
+      "text": "מַיִם בַּיִת",
+      "translation": "agua / casa",
       "tokens": [
         {
           "surface": "מַיִם",
           "vocabId": "v035"
         },
         {
-          "surface": "בַּבַּיִת",
-          "vocabId": null
-        }
-      ],
-      "note": "Forma contextual para reconocer una preposición unida y el artículo; no crea una tarjeta nueva."
-    },
-    {
-      "id": "p017",
-      "unitId": "U04",
-      "sessionIds": [
-        "L21"
-      ],
-      "text": "דֶּרֶךְ וָעִיר",
-      "translation": "Camino y ciudad.",
-      "tokens": [
-        {
-          "surface": "דֶּרֶךְ",
-          "vocabId": "v037"
-        },
-        {
-          "surface": "וָעִיר",
-          "vocabId": "v041"
+          "surface": "בַּיִת",
+          "vocabId": "v036"
         }
       ],
       "note": ""
@@ -2097,18 +2286,18 @@
       "id": "p018",
       "unitId": "U04",
       "sessionIds": [
-        "L22"
+        "L21"
       ],
-      "text": "יוֹם וָלַיְלָה",
-      "translation": "Día y noche.",
+      "text": "דֶּרֶךְ עִיר",
+      "translation": "camino / ciudad",
       "tokens": [
         {
-          "surface": "יוֹם",
-          "vocabId": "v038"
+          "surface": "דֶּרֶךְ",
+          "vocabId": "v037"
         },
         {
-          "surface": "וָלַיְלָה",
-          "vocabId": "v039"
+          "surface": "עִיר",
+          "vocabId": "v041"
         }
       ],
       "note": ""
@@ -2117,18 +2306,18 @@
       "id": "p019",
       "unitId": "U04",
       "sessionIds": [
-        "L23"
+        "L22"
       ],
-      "text": "הַר וְשָׂדֶה",
-      "translation": "Monte y campo.",
+      "text": "יוֹם לַיְלָה",
+      "translation": "día / noche",
       "tokens": [
         {
-          "surface": "הַר",
-          "vocabId": "v040"
+          "surface": "יוֹם",
+          "vocabId": "v038"
         },
         {
-          "surface": "וְשָׂדֶה",
-          "vocabId": "v042"
+          "surface": "לַיְלָה",
+          "vocabId": "v039"
         }
       ],
       "note": ""
@@ -2137,10 +2326,30 @@
       "id": "p020",
       "unitId": "U04",
       "sessionIds": [
+        "L23"
+      ],
+      "text": "הַר שָׂדֶה",
+      "translation": "monte / campo",
+      "tokens": [
+        {
+          "surface": "הַר",
+          "vocabId": "v040"
+        },
+        {
+          "surface": "שָׂדֶה",
+          "vocabId": "v042"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "p021",
+      "unitId": "U04",
+      "sessionIds": [
         "L24"
       ],
       "text": "בַּיִת גָּדוֹל",
-      "translation": "Una casa grande.",
+      "translation": "casa grande",
       "tokens": [
         {
           "surface": "בַּיִת",
@@ -2154,13 +2363,13 @@
       "note": ""
     },
     {
-      "id": "p021",
+      "id": "p022",
       "unitId": "U05",
       "sessionIds": [
         "L25"
       ],
       "text": "יָשָׁר",
-      "translation": "Recto / justo.",
+      "translation": "recto / justo",
       "tokens": [
         {
           "surface": "יָשָׁר",
@@ -2170,37 +2379,53 @@
       "note": ""
     },
     {
-      "id": "p022",
+      "id": "p023",
       "unitId": "U05",
       "sessionIds": [
         "L26"
       ],
-      "text": "הָאִישׁ טוֹב",
-      "translation": "El hombre es bueno.",
+      "text": "הָאִישׁ הַטּוֹב",
+      "translation": "el hombre bueno",
       "tokens": [
         {
-          "surface": "הָאִישׁ",
-          "vocabId": null
+          "surface": "הָ",
+          "vocabId": "v044"
         },
         {
-          "surface": "טוֹב",
+          "surface": "אִישׁ",
+          "vocabId": "v017"
+        },
+        {
+          "surface": "הַ",
+          "vocabId": "v044"
+        },
+        {
+          "surface": "טּוֹב",
           "vocabId": "v027"
         }
       ],
-      "note": ""
+      "note": "La frase se usa para observar artículo y concordancia; el contenido léxico de טוֹב se reutiliza desde v027."
     },
     {
-      "id": "p023",
+      "id": "p024",
       "unitId": "U05",
       "sessionIds": [
         "L27"
       ],
-      "text": "הַבַּיִת גָּדוֹל",
-      "translation": "La casa es grande.",
+      "text": "הַבַּיִת הַגָּדוֹל",
+      "translation": "la casa grande",
       "tokens": [
         {
-          "surface": "הַבַּיִת",
-          "vocabId": null
+          "surface": "הַ",
+          "vocabId": "v044"
+        },
+        {
+          "surface": "בַּיִת",
+          "vocabId": "v036"
+        },
+        {
+          "surface": "הַ",
+          "vocabId": "v044"
         },
         {
           "surface": "גָּדוֹל",
@@ -2210,13 +2435,13 @@
       "note": ""
     },
     {
-      "id": "p024",
+      "id": "p025",
       "unitId": "U05",
       "sessionIds": [
         "L28"
       ],
       "text": "יֵשׁ מַיִם",
-      "translation": "Hay agua.",
+      "translation": "hay agua",
       "tokens": [
         {
           "surface": "יֵשׁ",
@@ -2230,13 +2455,13 @@
       "note": ""
     },
     {
-      "id": "p025",
+      "id": "p026",
       "unitId": "U05",
       "sessionIds": [
         "L29"
       ],
       "text": "אֵין מַיִם",
-      "translation": "No hay agua.",
+      "translation": "no hay agua",
       "tokens": [
         {
           "surface": "אֵין",
@@ -2248,26 +2473,6 @@
         }
       ],
       "note": ""
-    },
-    {
-      "id": "p026",
-      "unitId": "U05",
-      "sessionIds": [
-        "L30"
-      ],
-      "text": "הָאִשָּׁה טוֹבָה",
-      "translation": "La mujer es buena.",
-      "tokens": [
-        {
-          "surface": "הָאִשָּׁה",
-          "vocabId": null
-        },
-        {
-          "surface": "טוֹבָה",
-          "vocabId": null
-        }
-      ],
-      "note": "Ejemplo de frase nominal con concordancia femenina; las formas definidas y femeninas se tratan como fenómenos, no como nuevas tarjetas aisladas."
     }
   ],
   "contextualGrammar": [
@@ -2276,7 +2481,7 @@
       "unitId": "U01",
       "title": "Dirección y estructura gráfica",
       "phenomenon": "Lectura de derecha a izquierda",
-      "explanation": "El hebreo se lee de derecha a izquierda. Las consonantes forman la secuencia principal y los signos de vocalización se colocan alrededor de ellas. En esta unidad la prioridad es reconocer la forma escrita antes de acelerar la lectura.",
+      "explanation": "El hebreo se escribe y se lee de derecha a izquierda. La secuencia principal está formada por consonantes; los signos de vocalización (niqqud) se colocan alrededor de ellas y normalmente no cambian el orden de lectura. En אֵל, por ejemplo, se reconocen primero א y ל y después se integra la vocalización.",
       "examples": [
         "אֵל",
         "אֱלֹהִים"
@@ -2288,17 +2493,10 @@
       "unitId": "U01",
       "title": "Niqqud básico",
       "phenomenon": "Vocalización",
-      "explanation": "Los signos vocálicos no son letras consonánticas. Ayudan a leer una forma vocalizada. Se reconocen visualmente antes de exigir memorización abstracta de todas las reglas.",
+      "explanation": "Las vocales escritas con niqqud acompañan a las consonantes. אֵל se analiza como א + ֵ (ṣere) + ל; אֱלֹהִים incorpora además la vocalización dentro de una palabra más larga. El estudiante debe aprender a unir signo y consonante sin leer los signos como letras independientes.",
       "examples": [
         "אֵל",
-        "אֱלֹהִים",
-        "בַּ",
-        "בָּ",
-        "בֶּ",
-        "בִּ",
-        "בֹּ",
-        "בֻּ",
-        "בְּ"
+        "אֱלֹהִים"
       ],
       "why": "La lectura segura depende de ver simultáneamente consonantes y vocalización."
     },
@@ -2307,7 +2505,7 @@
       "unitId": "U02",
       "title": "Pronombres personales",
       "phenomenon": "Persona, género y número",
-      "explanation": "Los pronombres personales son formas completas. Algunas distinguen género y número de manera visible. Conviene aprender la forma y su función en contexto antes de descomponerla históricamente.",
+      "explanation": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
       "examples": [
         "אֲנִי",
         "אַתָּה",
@@ -2325,12 +2523,14 @@
       "unitId": "U02",
       "title": "Demostrativos e interrogativos",
       "phenomenon": "Señalar y preguntar",
-      "explanation": "זֶה y זֹאת señalan; מִי y מָה preguntan. El objetivo inicial es reconocer la función de estas palabras en frases breves.",
+      "explanation": "Los demostrativos זֶה y זֹאת distinguen masculino y femenino en singular. מִי pregunta por una persona («quién») y מָה por una cosa o contenido («qué»). כֵּן y לֹא permiten reconocer afirmación y negación básica.",
       "examples": [
         "זֶה",
         "זֹאת",
         "מִי",
-        "מָה"
+        "מָה",
+        "כֵּן",
+        "לֹא"
       ],
       "why": "La función se reconoce mejor dentro de una frase que en una lista aislada."
     },
@@ -2339,12 +2539,14 @@
       "unitId": "U03",
       "title": "Género nominal",
       "phenomenon": "Masculino y femenino",
-      "explanation": "El género es una propiedad léxica que influye en la concordancia. Algunas formas femeninas muestran patrones frecuentes, pero no debe suponerse que toda palabra se clasifica mecánicamente por una sola terminación.",
+      "explanation": "Los sustantivos tienen propiedades gramaticales que se irán desarrollando progresivamente, entre ellas género y número. En esta unidad se reconoce especialmente la diferencia entre formas masculinas y femeninas y se observan pares léxicos como אִישׁ / אִשָּׁה y בֵּן / בַּת.",
       "examples": [
         "אִישׁ",
         "אִשָּׁה",
         "בֵּן",
-        "בַּת"
+        "בַּת",
+        "אָב",
+        "אֵם"
       ],
       "why": "Aprender pares contrastivos permite reconocer la concordancia sin depender de una regla simplista."
     },
@@ -2353,11 +2555,13 @@
       "unitId": "U03",
       "title": "Concordancia del adjetivo",
       "phenomenon": "Sustantivo + adjetivo",
-      "explanation": "El adjetivo concuerda con el sustantivo en género y número. En esta etapa se aprenden pares como אִישׁ טוֹב / אִשָּׁה טוֹבָה y se observa que el adjetivo sigue al sustantivo.",
+      "explanation": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
       "examples": [
-        "אִישׁ טוֹב",
-        "אִשָּׁה טוֹבָה",
-        "בַּיִת גָּדוֹל"
+        "מֶלֶךְ גָּדוֹל",
+        "טוֹב",
+        "רַע",
+        "חָכָם",
+        "קָדוֹשׁ"
       ],
       "why": "La concordancia hace que la relación entre las palabras sea reconocible incluso sin traducir palabra por palabra."
     },
@@ -2366,11 +2570,14 @@
       "unitId": "U04",
       "title": "Coordinación y formas unidas",
       "phenomenon": "וְ y cambios de vocalización",
-      "explanation": "La conjunción וְ significa «y» y se escribe unida a la palabra siguiente. Su vocalización puede cambiar según el entorno. Aquí se aprende a reconocer la unión sin convertir cada variante en una tarjeta aislada.",
+      "explanation": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
       "examples": [
-        "וְשָׁמַיִם",
-        "וָעִיר",
-        "וּבַת"
+        "אֶרֶץ",
+        "שָׁמַיִם",
+        "מַיִם",
+        "בַּיִת",
+        "דֶּרֶךְ",
+        "עִיר"
       ],
       "why": "La lectura contextual permite reconocer la función de la conjunción aunque cambie su vocalización."
     },
@@ -2379,11 +2586,10 @@
       "unitId": "U05",
       "title": "Artículo definido הַ־",
       "phenomenon": "Definitud",
-      "explanation": "El artículo definido aparece unido al sustantivo. Su vocalización puede variar según el entorno consonántico; por eso primero se aprende a reconocer el conjunto definido: הָאִישׁ, הַבַּיִת.",
+      "explanation": "El artículo definido הַ־ aparece unido al sustantivo. En una secuencia como הָאִישׁ, הָ־ introduce el sentido definido («el»). La forma del artículo puede presentar ajustes fonológicos que se estudiarán progresivamente; aquí se reconoce su función básica.",
       "examples": [
         "הָאִישׁ",
-        "הַבַּיִת",
-        "הָאִשָּׁה"
+        "הַמֶּלֶךְ"
       ],
       "why": "El artículo ayuda a distinguir grupos nominales definidos de formas indefinidas."
     },
@@ -2392,10 +2598,9 @@
       "unitId": "U05",
       "title": "Predicación nominal y existencia",
       "phenomenon": "Frase nominal sin «ser» explícito; יש / אין",
-      "explanation": "Una oración nominal en presente puede expresar una relación como «el hombre es bueno» sin una forma explícita equivalente a «es». יֵשׁ expresa existencia («hay») y אֵין niega existencia («no hay»).",
+      "explanation": "La concordancia relaciona las propiedades del sustantivo y del adjetivo. En una expresión como הָאִישׁ הַטּוֹב, el sustantivo y el adjetivo están definidos y el adjetivo concuerda con él. En esta unidad se observa también יֵשׁ («hay/existe») y אֵין («no hay/no existe»).",
       "examples": [
-        "הָאִישׁ טוֹב",
-        "הַבַּיִת גָּדוֹל",
+        "הָאִישׁ הַטּוֹב",
         "יֵשׁ מַיִם",
         "אֵין מַיִם"
       ],
@@ -2403,1697 +2608,1883 @@
     }
   ],
   "exercises": {
-    "L01-E1": {
-      "id": "L01-E1",
+    "L01-C": {
+      "id": "L01-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
+      "targetVocabId": "v001",
+      "concept": "Dirección y estructura gráfica",
+      "conceptExplanation": "El hebreo se escribe y se lee de derecha a izquierda. La secuencia principal está formada por consonantes; los signos de vocalización (niqqud) se colocan alrededor de ellas y normalmente no cambian el orden de lectura. En אֵל, por ejemplo, se reconocen primero א y ל y después se integra la vocalización.",
       "stimulus": "אֵל",
-      "options": [
-        "Dios",
-        "Dios",
-        "Dios / Dios",
-        "Una frase sobre una persona."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "phonetic": "El",
+      "reveal": {
+        "meaning": "dios / divinidad",
+        "lemma": "אֵל",
+        "root": null,
+        "category": "sustantivo",
+        "gender": null,
+        "number": null,
+        "note": "Sustantivo; el sentido exacto depende del contexto. Aquí se introduce como palabra básica.",
+        "grammar": "El hebreo se escribe y se lee de derecha a izquierda. La secuencia principal está formada por consonantes; los signos de vocalización (niqqud) se colocan alrededor de ellas y normalmente no cambian el orden de lectura. En אֵל, por ejemplo, se reconocen primero א y ל y después se integra la vocalización.",
+        "grammarExamples": [
+          "אֵל",
+          "אֱלֹהִים"
+        ]
+      },
+      "phraseId": "p001"
     },
-    "L01-E2": {
-      "id": "L01-E2",
+    "L01-W": {
+      "id": "L01-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v001",
+      "instruction": "Escribe «dios» en hebreo.",
+      "answer": "אל",
+      "displayForm": "אֵל",
+      "phonetic": "El",
+      "tiles": [
+        "א",
+        "ל",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L01-R": {
+      "id": "L01-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v001",
       "stimulus": "אֵל",
+      "phonetic": "El",
       "options": [
-        "Dios / dios",
-        "Dios"
+        "qué",
+        "ella",
+        "dios",
+        "siervo"
       ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "correctAnswer": "dios",
+      "correctIndex": 2,
+      "phraseId": "p001"
     },
-    "L01-E3": {
-      "id": "L01-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: Dios / dios.",
-      "answer": "אֵל",
-      "translit": "El",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L01-E4": {
-      "id": "L01-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g01"
-      ],
-      "conceptTitle": "Dirección y estructura gráfica",
-      "phenomenon": "Lectura de derecha a izquierda",
-      "explanation": "El hebreo se lee de derecha a izquierda. Las consonantes forman la secuencia principal y los signos de vocalización se colocan alrededor de ellas. En esta unidad la prioridad es reconocer la forma escrita antes de acelerar la lectura.",
-      "examples": [
-        "אֵל",
-        "אֱלֹהִים"
-      ],
-      "why": "Primero se fija la dirección y la relación entre consonante y vocal; después se busca fluidez."
-    },
-    "L02-E1": {
-      "id": "L02-E1",
+    "L02-C": {
+      "id": "L02-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
+      "targetVocabId": "v001",
+      "concept": "Niqqud básico",
+      "conceptExplanation": "Las vocales escritas con niqqud acompañan a las consonantes. אֵל se analiza como א + ֵ (ṣere) + ל; אֱלֹהִים incorpora además la vocalización dentro de una palabra más larga. El estudiante debe aprender a unir signo y consonante sin leer los signos como letras independientes.",
       "stimulus": "אֵל",
-      "options": [
-        "Dios",
-        "Dios",
-        "Dios / Dios",
-        "Una frase sobre una persona."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "phonetic": "El",
+      "reveal": {
+        "meaning": "dios / divinidad",
+        "lemma": "אֵל",
+        "root": null,
+        "category": "sustantivo",
+        "gender": null,
+        "number": null,
+        "note": "Sustantivo; el sentido exacto depende del contexto. Aquí se introduce como palabra básica.",
+        "grammar": "Las vocales escritas con niqqud acompañan a las consonantes. אֵל se analiza como א + ֵ (ṣere) + ל; אֱלֹהִים incorpora además la vocalización dentro de una palabra más larga. El estudiante debe aprender a unir signo y consonante sin leer los signos como letras independientes.",
+        "grammarExamples": [
+          "אֵל",
+          "אֱלֹהִים"
+        ]
+      },
+      "phraseId": "p001"
     },
-    "L02-E2": {
-      "id": "L02-E2",
+    "L02-W": {
+      "id": "L02-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v001",
+      "instruction": "Escribe «dios» en hebreo.",
+      "answer": "אל",
+      "displayForm": "אֵל",
+      "phonetic": "El",
+      "tiles": [
+        "א",
+        "ל",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L02-R": {
+      "id": "L02-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v001",
       "stimulus": "אֵל",
+      "phonetic": "El",
       "options": [
-        "Dios / dios",
-        "Dios"
+        "qué",
+        "ella",
+        "dios",
+        "siervo"
       ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "correctAnswer": "dios",
+      "correctIndex": 2,
+      "phraseId": "p001"
     },
-    "L02-E3": {
-      "id": "L02-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: Dios / dios.",
-      "answer": "אֵל",
-      "translit": "El",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L02-E4": {
-      "id": "L02-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g02"
-      ],
-      "conceptTitle": "Niqqud básico",
-      "phenomenon": "Vocalización",
-      "explanation": "Los signos vocálicos no son letras consonánticas. Ayudan a leer una forma vocalizada. Se reconocen visualmente antes de exigir memorización abstracta de todas las reglas.",
-      "examples": [
-        "אֵל",
-        "אֱלֹהִים",
-        "בַּ",
-        "בָּ",
-        "בֶּ"
-      ],
-      "why": "La lectura segura depende de ver simultáneamente consonantes y vocalización."
-    },
-    "L03-E1": {
-      "id": "L03-E1",
+    "L03-C": {
+      "id": "L03-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
+      "targetVocabId": "v002",
+      "concept": "Dirección y estructura gráfica",
+      "conceptExplanation": "El hebreo se escribe y se lee de derecha a izquierda. La secuencia principal está formada por consonantes; los signos de vocalización (niqqud) se colocan alrededor de ellas y normalmente no cambian el orden de lectura. En אֵל, por ejemplo, se reconocen primero א y ל y después se integra la vocalización.",
       "stimulus": "אֱלֹהִים",
-      "options": [
-        "Dios",
-        "Dios",
-        "Dios / Dios",
-        "Una frase sobre una persona."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "phonetic": "Elohim",
+      "reveal": {
+        "meaning": "Dios / dios",
+        "lemma": "אֱלֹהִים",
+        "root": null,
+        "category": "sustantivo / nombre divino",
+        "gender": null,
+        "number": null,
+        "note": "Forma frecuente en hebreo bíblico; el contexto determina su traducción.",
+        "grammar": "El hebreo se escribe y se lee de derecha a izquierda. La secuencia principal está formada por consonantes; los signos de vocalización (niqqud) se colocan alrededor de ellas y normalmente no cambian el orden de lectura. En אֵל, por ejemplo, se reconocen primero א y ל y después se integra la vocalización.",
+        "grammarExamples": [
+          "אֵל",
+          "אֱלֹהִים"
+        ]
+      },
+      "phraseId": "p002"
     },
-    "L03-E2": {
-      "id": "L03-E2",
+    "L03-W": {
+      "id": "L03-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v002",
+      "instruction": "Escribe «Dios» en hebreo.",
+      "answer": "אלהים",
+      "displayForm": "אֱלֹהִים",
+      "phonetic": "Elohim",
+      "tiles": [
+        "א",
+        "ל",
+        "ה",
+        "י",
+        "ם",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L03-R": {
+      "id": "L03-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v002",
       "stimulus": "אֱלֹהִים",
+      "phonetic": "Elohim",
       "options": [
         "Dios",
-        "Dios / dios"
+        "siervo",
+        "qué",
+        "ella"
       ],
+      "correctAnswer": "Dios",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p002"
     },
-    "L03-E3": {
-      "id": "L03-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: Dios.",
-      "answer": "אֱלֹהִים",
-      "translit": "Elohim",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L03-E4": {
-      "id": "L03-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g01"
-      ],
-      "conceptTitle": "Dirección y estructura gráfica",
-      "phenomenon": "Lectura de derecha a izquierda",
-      "explanation": "El hebreo se lee de derecha a izquierda. Las consonantes forman la secuencia principal y los signos de vocalización se colocan alrededor de ellas. En esta unidad la prioridad es reconocer la forma escrita antes de acelerar la lectura.",
-      "examples": [
-        "אֵל",
-        "אֱלֹהִים"
-      ],
-      "why": "Primero se fija la dirección y la relación entre consonante y vocal; después se busca fluidez."
-    },
-    "L04-E1": {
-      "id": "L04-E1",
+    "L04-C": {
+      "id": "L04-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
+      "targetVocabId": "v002",
+      "concept": "Niqqud básico",
+      "conceptExplanation": "Las vocales escritas con niqqud acompañan a las consonantes. אֵל se analiza como א + ֵ (ṣere) + ל; אֱלֹהִים incorpora además la vocalización dentro de una palabra más larga. El estudiante debe aprender a unir signo y consonante sin leer los signos como letras independientes.",
       "stimulus": "אֱלֹהִים",
-      "options": [
-        "Dios",
-        "Dios",
-        "Dios / Dios",
-        "Una frase sobre una persona."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "phonetic": "Elohim",
+      "reveal": {
+        "meaning": "Dios / dios",
+        "lemma": "אֱלֹהִים",
+        "root": null,
+        "category": "sustantivo / nombre divino",
+        "gender": null,
+        "number": null,
+        "note": "Forma frecuente en hebreo bíblico; el contexto determina su traducción.",
+        "grammar": "Las vocales escritas con niqqud acompañan a las consonantes. אֵל se analiza como א + ֵ (ṣere) + ל; אֱלֹהִים incorpora además la vocalización dentro de una palabra más larga. El estudiante debe aprender a unir signo y consonante sin leer los signos como letras independientes.",
+        "grammarExamples": [
+          "אֵל",
+          "אֱלֹהִים"
+        ]
+      },
+      "phraseId": "p002"
     },
-    "L04-E2": {
-      "id": "L04-E2",
+    "L04-W": {
+      "id": "L04-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v002",
+      "instruction": "Escribe «Dios» en hebreo.",
+      "answer": "אלהים",
+      "displayForm": "אֱלֹהִים",
+      "phonetic": "Elohim",
+      "tiles": [
+        "א",
+        "ל",
+        "ה",
+        "י",
+        "ם",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L04-R": {
+      "id": "L04-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v002",
       "stimulus": "אֱלֹהִים",
+      "phonetic": "Elohim",
       "options": [
         "Dios",
-        "Dios / dios"
+        "siervo",
+        "qué",
+        "ella"
       ],
+      "correctAnswer": "Dios",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p002"
     },
-    "L04-E3": {
-      "id": "L04-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: Dios.",
-      "answer": "אֱלֹהִים",
-      "translit": "Elohim",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L04-E4": {
-      "id": "L04-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g02"
-      ],
-      "conceptTitle": "Niqqud básico",
-      "phenomenon": "Vocalización",
-      "explanation": "Los signos vocálicos no son letras consonánticas. Ayudan a leer una forma vocalizada. Se reconocen visualmente antes de exigir memorización abstracta de todas las reglas.",
-      "examples": [
-        "אֵל",
-        "אֱלֹהִים",
-        "בַּ",
-        "בָּ",
-        "בֶּ"
-      ],
-      "why": "La lectura segura depende de ver simultáneamente consonantes y vocalización."
-    },
-    "L05-E1": {
-      "id": "L05-E1",
+    "L05-C": {
+      "id": "L05-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אֵל אֱלֹהִים",
-      "options": [
-        "Dios / Dios",
-        "Dios",
-        "Dios",
-        "Una frase sobre una persona."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L05-E2": {
-      "id": "L05-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v001",
+      "concept": "Dirección y estructura gráfica",
+      "conceptExplanation": "El hebreo se escribe y se lee de derecha a izquierda. La secuencia principal está formada por consonantes; los signos de vocalización (niqqud) se colocan alrededor de ellas y normalmente no cambian el orden de lectura. En אֵל, por ejemplo, se reconocen primero א y ל y después se integra la vocalización.",
       "stimulus": "אֵל",
-      "options": [
-        "Dios / dios",
-        "Dios"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phonetic": "El",
+      "reveal": {
+        "meaning": "dios / divinidad",
+        "lemma": "אֵל",
+        "root": null,
+        "category": "sustantivo",
+        "gender": null,
+        "number": null,
+        "note": "Sustantivo; el sentido exacto depende del contexto. Aquí se introduce como palabra básica.",
+        "grammar": "El hebreo se escribe y se lee de derecha a izquierda. La secuencia principal está formada por consonantes; los signos de vocalización (niqqud) se colocan alrededor de ellas y normalmente no cambian el orden de lectura. En אֵל, por ejemplo, se reconocen primero א y ל y después se integra la vocalización.",
+        "grammarExamples": [
+          "אֵל",
+          "אֱלֹהִים"
+        ]
+      },
+      "phraseId": "p003"
     },
-    "L05-E3": {
-      "id": "L05-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: Dios / dios.",
-      "answer": "אֵל",
-      "translit": "El",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
+    "L05-W": {
+      "id": "L05-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v001",
+      "instruction": "Escribe «dios» en hebreo.",
+      "answer": "אל",
+      "displayForm": "אֵל",
+      "phonetic": "El",
+      "tiles": [
+        "א",
+        "ל",
+        "ב",
+        "ג",
+        "ד"
+      ]
     },
-    "L05-E4": {
-      "id": "L05-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g01"
-      ],
-      "conceptTitle": "Dirección y estructura gráfica",
-      "phenomenon": "Lectura de derecha a izquierda",
-      "explanation": "El hebreo se lee de derecha a izquierda. Las consonantes forman la secuencia principal y los signos de vocalización se colocan alrededor de ellas. En esta unidad la prioridad es reconocer la forma escrita antes de acelerar la lectura.",
-      "examples": [
-        "אֵל",
-        "אֱלֹהִים"
-      ],
-      "why": "Primero se fija la dirección y la relación entre consonante y vocal; después se busca fluidez."
-    },
-    "L06-E1": {
-      "id": "L06-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אֵל אֱלֹהִים",
-      "options": [
-        "Dios / Dios",
-        "Dios",
-        "Dios",
-        "Una frase sobre una persona."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L06-E2": {
-      "id": "L06-E2",
+    "L05-R": {
+      "id": "L05-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v001",
       "stimulus": "אֵל",
+      "phonetic": "El",
       "options": [
-        "Dios / dios",
-        "Dios"
+        "qué",
+        "ella",
+        "dios",
+        "siervo"
       ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "correctAnswer": "dios",
+      "correctIndex": 2,
+      "phraseId": "p003"
     },
-    "L06-E3": {
-      "id": "L06-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: Dios / dios.",
-      "answer": "אֵל",
-      "translit": "El",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L06-E4": {
-      "id": "L06-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g02"
-      ],
-      "conceptTitle": "Niqqud básico",
-      "phenomenon": "Vocalización",
-      "explanation": "Los signos vocálicos no son letras consonánticas. Ayudan a leer una forma vocalizada. Se reconocen visualmente antes de exigir memorización abstracta de todas las reglas.",
-      "examples": [
-        "אֵל",
-        "אֱלֹהִים",
-        "בַּ",
-        "בָּ",
-        "בֶּ"
-      ],
-      "why": "La lectura segura depende de ver simultáneamente consonantes y vocalización."
-    },
-    "L07-E1": {
-      "id": "L07-E1",
+    "L06-C": {
+      "id": "L06-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
+      "targetVocabId": "v001",
+      "concept": "Niqqud básico",
+      "conceptExplanation": "Las vocales escritas con niqqud acompañan a las consonantes. אֵל se analiza como א + ֵ (ṣere) + ל; אֱלֹהִים incorpora además la vocalización dentro de una palabra más larga. El estudiante debe aprender a unir signo y consonante sin leer los signos como letras independientes.",
+      "stimulus": "אֵל",
+      "phonetic": "El",
+      "reveal": {
+        "meaning": "dios / divinidad",
+        "lemma": "אֵל",
+        "root": null,
+        "category": "sustantivo",
+        "gender": null,
+        "number": null,
+        "note": "Sustantivo; el sentido exacto depende del contexto. Aquí se introduce como palabra básica.",
+        "grammar": "Las vocales escritas con niqqud acompañan a las consonantes. אֵל se analiza como א + ֵ (ṣere) + ל; אֱלֹהִים incorpora además la vocalización dentro de una palabra más larga. El estudiante debe aprender a unir signo y consonante sin leer los signos como letras independientes.",
+        "grammarExamples": [
+          "אֵל",
+          "אֱלֹהִים"
+        ]
+      },
+      "phraseId": "p003"
+    },
+    "L06-W": {
+      "id": "L06-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v001",
+      "instruction": "Escribe «dios» en hebreo.",
+      "answer": "אל",
+      "displayForm": "אֵל",
+      "phonetic": "El",
+      "tiles": [
+        "א",
+        "ל",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L06-R": {
+      "id": "L06-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v001",
+      "stimulus": "אֵל",
+      "phonetic": "El",
+      "options": [
+        "qué",
+        "ella",
+        "dios",
+        "siervo"
+      ],
+      "correctAnswer": "dios",
+      "correctIndex": 2,
+      "phraseId": "p003"
+    },
+    "L07-C": {
+      "id": "L07-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v003",
+      "concept": "Pronombres personales",
+      "conceptExplanation": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
       "stimulus": "אֲנִי",
-      "options": [
-        "Yo",
-        "Tú (masculino), él.",
-        "Ella; esta.",
-        "¿Quién es él?"
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "phonetic": "Ani",
+      "reveal": {
+        "meaning": "yo",
+        "lemma": "אֲנִי",
+        "root": null,
+        "category": "pronombre personal",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
+        "grammarExamples": [
+          "אֲנִי",
+          "אַתָּה",
+          "אַתְּ",
+          "הוּא",
+          "הִיא",
+          "אֲנַחְנוּ",
+          "הֵם",
+          "הֵן"
+        ]
+      },
+      "phraseId": "p004"
     },
-    "L07-E2": {
-      "id": "L07-E2",
+    "L07-W": {
+      "id": "L07-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v003",
+      "instruction": "Escribe «yo» en hebreo.",
+      "answer": "אני",
+      "displayForm": "אֲנִי",
+      "phonetic": "Ani",
+      "tiles": [
+        "א",
+        "נ",
+        "י",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L07-R": {
+      "id": "L07-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v003",
       "stimulus": "אֲנִי",
+      "phonetic": "Ani",
       "options": [
         "yo",
-        "tú (masculino)",
-        "tú (femenino)",
-        "él"
+        "qué",
+        "ella",
+        "siervo"
       ],
+      "correctAnswer": "yo",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p004"
     },
-    "L07-E3": {
-      "id": "L07-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: yo.",
-      "answer": "אֲנִי",
-      "translit": "Ani",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L07-E4": {
-      "id": "L07-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g03"
-      ],
-      "conceptTitle": "Pronombres personales",
-      "phenomenon": "Persona, género y número",
-      "explanation": "Los pronombres personales son formas completas. Algunas distinguen género y número de manera visible. Conviene aprender la forma y su función en contexto antes de descomponerla históricamente.",
-      "examples": [
-        "אֲנִי",
-        "אַתָּה",
-        "אַתְּ",
-        "הוּא",
-        "הִיא"
-      ],
-      "why": "La forma del pronombre permite identificar quién participa en la oración."
-    },
-    "L08-E1": {
-      "id": "L08-E1",
+    "L08-C": {
+      "id": "L08-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אַתָּה הוּא",
-      "options": [
-        "Tú (masculino), él.",
-        "Yo",
-        "Ella; esta.",
-        "¿Quién es él?"
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L08-E2": {
-      "id": "L08-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v004",
+      "concept": "Pronombres personales",
+      "conceptExplanation": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
       "stimulus": "אַתָּה",
-      "options": [
-        "tú (masculino)",
-        "yo",
-        "tú (femenino)",
-        "él"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phonetic": "Attá",
+      "reveal": {
+        "meaning": "tú (masculino)",
+        "lemma": "אַתָּה",
+        "root": null,
+        "category": "pronombre personal",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
+        "grammarExamples": [
+          "אֲנִי",
+          "אַתָּה",
+          "אַתְּ",
+          "הוּא",
+          "הִיא",
+          "אֲנַחְנוּ",
+          "הֵם",
+          "הֵן"
+        ]
+      },
+      "phraseId": "p005"
     },
-    "L08-E3": {
-      "id": "L08-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: tú (masculino).",
-      "answer": "אַתָּה",
-      "translit": "Attá",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
+    "L08-W": {
+      "id": "L08-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v004",
+      "instruction": "Escribe «tú (masculino)» en hebreo.",
+      "answer": "אתה",
+      "displayForm": "אַתָּה",
+      "phonetic": "Attá",
+      "tiles": [
+        "א",
+        "ת",
+        "ה",
+        "ב",
+        "ג",
+        "ד"
+      ]
     },
-    "L08-E4": {
-      "id": "L08-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g03"
-      ],
-      "conceptTitle": "Pronombres personales",
-      "phenomenon": "Persona, género y número",
-      "explanation": "Los pronombres personales son formas completas. Algunas distinguen género y número de manera visible. Conviene aprender la forma y su función en contexto antes de descomponerla históricamente.",
-      "examples": [
-        "אֲנִי",
-        "אַתָּה",
-        "אַתְּ",
-        "הוּא",
-        "הִיא"
-      ],
-      "why": "La forma del pronombre permite identificar quién participa en la oración."
-    },
-    "L09-E1": {
-      "id": "L09-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "הִיא זֹאת",
-      "options": [
-        "Ella; esta.",
-        "Yo",
-        "Tú (masculino), él.",
-        "¿Quién es él?"
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L09-E2": {
-      "id": "L09-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
-      "stimulus": "אַתְּ",
-      "options": [
-        "tú (femenino)",
-        "yo",
-        "tú (masculino)",
-        "él"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
-    },
-    "L09-E3": {
-      "id": "L09-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: tú (femenino).",
-      "answer": "אַתְּ",
-      "translit": "At",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L09-E4": {
-      "id": "L09-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g03"
-      ],
-      "conceptTitle": "Pronombres personales",
-      "phenomenon": "Persona, género y número",
-      "explanation": "Los pronombres personales son formas completas. Algunas distinguen género y número de manera visible. Conviene aprender la forma y su función en contexto antes de descomponerla históricamente.",
-      "examples": [
-        "אֲנִי",
-        "אַתָּה",
-        "אַתְּ",
-        "הוּא",
-        "הִיא"
-      ],
-      "why": "La forma del pronombre permite identificar quién participa en la oración."
-    },
-    "L10-E1": {
-      "id": "L10-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אֲנִי",
-      "options": [
-        "Yo",
-        "Tú (masculino), él.",
-        "Ella; esta.",
-        "¿Quién es él?"
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L10-E2": {
-      "id": "L10-E2",
+    "L08-R": {
+      "id": "L08-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v004",
+      "stimulus": "אַתָּה",
+      "phonetic": "Attá",
+      "options": [
+        "qué",
+        "siervo",
+        "tú (masculino)",
+        "ella"
+      ],
+      "correctAnswer": "tú (masculino)",
+      "correctIndex": 2,
+      "phraseId": "p005"
+    },
+    "L09-C": {
+      "id": "L09-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v005",
+      "concept": "Pronombres personales",
+      "conceptExplanation": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
+      "stimulus": "אַתְּ",
+      "phonetic": "At",
+      "reveal": {
+        "meaning": "tú (femenino)",
+        "lemma": "אַתְּ",
+        "root": null,
+        "category": "pronombre personal",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
+        "grammarExamples": [
+          "אֲנִי",
+          "אַתָּה",
+          "אַתְּ",
+          "הוּא",
+          "הִיא",
+          "אֲנַחְנוּ",
+          "הֵם",
+          "הֵן"
+        ]
+      },
+      "phraseId": "p006"
+    },
+    "L09-W": {
+      "id": "L09-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v005",
+      "instruction": "Escribe «tú (femenino)» en hebreo.",
+      "answer": "את",
+      "displayForm": "אַתְּ",
+      "phonetic": "At",
+      "tiles": [
+        "א",
+        "ת",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L09-R": {
+      "id": "L09-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v005",
+      "stimulus": "אַתְּ",
+      "phonetic": "At",
+      "options": [
+        "tú (femenino)",
+        "ella",
+        "qué",
+        "siervo"
+      ],
+      "correctAnswer": "tú (femenino)",
+      "correctIndex": 0,
+      "phraseId": "p006"
+    },
+    "L10-C": {
+      "id": "L10-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v008",
+      "concept": "Pronombres personales",
+      "conceptExplanation": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
       "stimulus": "אֲנַחְנוּ",
+      "phonetic": "Anájnu",
+      "reveal": {
+        "meaning": "nosotros",
+        "lemma": "אֲנַחְנוּ",
+        "root": null,
+        "category": "pronombre personal",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "Los pronombres personales expresan persona y, en segunda y tercera persona, distinguen género y número. En esta unidad se reconocen formas completas como אֲנִי, אַתָּה, אַתְּ, הוּא y הִיא sin exigir todavía paradigmas extensos.",
+        "grammarExamples": [
+          "אֲנִי",
+          "אַתָּה",
+          "אַתְּ",
+          "הוּא",
+          "הִיא",
+          "אֲנַחְנוּ",
+          "הֵם",
+          "הֵן"
+        ]
+      },
+      "phraseId": "p007"
+    },
+    "L10-W": {
+      "id": "L10-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v008",
+      "instruction": "Escribe «nosotros» en hebreo.",
+      "answer": "אנחנו",
+      "displayForm": "אֲנַחְנוּ",
+      "phonetic": "Anájnu",
+      "tiles": [
+        "א",
+        "נ",
+        "ח",
+        "נ",
+        "ו",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L10-R": {
+      "id": "L10-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v008",
+      "stimulus": "אֲנַחְנוּ",
+      "phonetic": "Anájnu",
       "options": [
         "nosotros",
-        "yo",
-        "tú (masculino)",
-        "tú (femenino)"
+        "siervo",
+        "qué",
+        "él"
       ],
+      "correctAnswer": "nosotros",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p007"
     },
-    "L10-E3": {
-      "id": "L10-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: nosotros.",
-      "answer": "אֲנַחְנוּ",
-      "translit": "Anájnu",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L10-E4": {
-      "id": "L10-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g03"
-      ],
-      "conceptTitle": "Pronombres personales",
-      "phenomenon": "Persona, género y número",
-      "explanation": "Los pronombres personales son formas completas. Algunas distinguen género y número de manera visible. Conviene aprender la forma y su función en contexto antes de descomponerla históricamente.",
-      "examples": [
-        "אֲנִי",
-        "אַתָּה",
-        "אַתְּ",
-        "הוּא",
-        "הִיא"
-      ],
-      "why": "La forma del pronombre permite identificar quién participa en la oración."
-    },
-    "L11-E1": {
-      "id": "L11-E1",
+    "L11-C": {
+      "id": "L11-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "הִיא זֹאת",
-      "options": [
-        "Ella; esta.",
-        "Yo",
-        "Tú (masculino), él.",
-        "¿Quién es él?"
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L11-E2": {
-      "id": "L11-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v011",
+      "concept": "Demostrativos e interrogativos",
+      "conceptExplanation": "Los demostrativos זֶה y זֹאת distinguen masculino y femenino en singular. מִי pregunta por una persona («quién») y מָה por una cosa o contenido («qué»). כֵּן y לֹא permiten reconocer afirmación y negación básica.",
       "stimulus": "זֶה",
-      "options": [
-        "este / esto",
-        "yo",
-        "tú (masculino)",
-        "tú (femenino)"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phonetic": "Ze",
+      "reveal": {
+        "meaning": "este / esto",
+        "lemma": "זֶה",
+        "root": null,
+        "category": "demostrativo",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "Los demostrativos זֶה y זֹאת distinguen masculino y femenino en singular. מִי pregunta por una persona («quién») y מָה por una cosa o contenido («qué»). כֵּן y לֹא permiten reconocer afirmación y negación básica.",
+        "grammarExamples": [
+          "זֶה",
+          "זֹאת",
+          "מִי",
+          "מָה",
+          "כֵּן",
+          "לֹא"
+        ]
+      },
+      "phraseId": "p008"
     },
-    "L11-E3": {
-      "id": "L11-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: este / esto.",
-      "answer": "זֶה",
-      "translit": "Ze",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
+    "L11-W": {
+      "id": "L11-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v011",
+      "instruction": "Escribe «este» en hebreo.",
+      "answer": "זה",
+      "displayForm": "זֶה",
+      "phonetic": "Ze",
+      "tiles": [
+        "ז",
+        "ה",
+        "א",
+        "ב",
+        "ג"
+      ]
     },
-    "L11-E4": {
-      "id": "L11-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g04"
-      ],
-      "conceptTitle": "Demostrativos e interrogativos",
-      "phenomenon": "Señalar y preguntar",
-      "explanation": "זֶה y זֹאת señalan; מִי y מָה preguntan. El objetivo inicial es reconocer la función de estas palabras en frases breves.",
-      "examples": [
-        "זֶה",
-        "זֹאת",
-        "מִי",
-        "מָה"
-      ],
-      "why": "La función se reconoce mejor dentro de una frase que en una lista aislada."
-    },
-    "L12-E1": {
-      "id": "L12-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "מִי הוּא",
-      "options": [
-        "¿Quién es él?",
-        "Yo",
-        "Tú (masculino), él.",
-        "Ella; esta."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L12-E2": {
-      "id": "L12-E2",
+    "L11-R": {
+      "id": "L11-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
-      "stimulus": "מִי",
+      "targetVocabId": "v011",
+      "stimulus": "זֶה",
+      "phonetic": "Ze",
       "options": [
-        "quién",
-        "yo",
-        "tú (masculino)",
-        "tú (femenino)"
+        "este",
+        "siervo",
+        "qué",
+        "él"
       ],
+      "correctAnswer": "este",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p008"
     },
-    "L12-E3": {
-      "id": "L12-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: quién.",
-      "answer": "מִי",
-      "translit": "Mi",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L12-E4": {
-      "id": "L12-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g04"
-      ],
-      "conceptTitle": "Demostrativos e interrogativos",
-      "phenomenon": "Señalar y preguntar",
-      "explanation": "זֶה y זֹאת señalan; מִי y מָה preguntan. El objetivo inicial es reconocer la función de estas palabras en frases breves.",
-      "examples": [
-        "זֶה",
-        "זֹאת",
-        "מִי",
-        "מָה"
-      ],
-      "why": "La función se reconoce mejor dentro de una frase que en una lista aislada."
-    },
-    "L13-E1": {
-      "id": "L13-E1",
+    "L12-C": {
+      "id": "L12-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אִישׁ טוֹב",
-      "options": [
-        "Un hombre bueno.",
-        "Una mujer buena.",
-        "El rey es grande.",
-        "Hijo e hija."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "targetVocabId": "v013",
+      "concept": "Demostrativos e interrogativos",
+      "conceptExplanation": "Los demostrativos זֶה y זֹאת distinguen masculino y femenino en singular. מִי pregunta por una persona («quién») y מָה por una cosa o contenido («qué»). כֵּן y לֹא permiten reconocer afirmación y negación básica.",
+      "stimulus": "מִי",
+      "phonetic": "Mi",
+      "reveal": {
+        "meaning": "quién",
+        "lemma": "מִי",
+        "root": null,
+        "category": "interrogativo",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "Los demostrativos זֶה y זֹאת distinguen masculino y femenino en singular. מִי pregunta por una persona («quién») y מָה por una cosa o contenido («qué»). כֵּן y לֹא permiten reconocer afirmación y negación básica.",
+        "grammarExamples": [
+          "זֶה",
+          "זֹאת",
+          "מִי",
+          "מָה",
+          "כֵּן",
+          "לֹא"
+        ]
+      },
+      "phraseId": "p009"
     },
-    "L13-E2": {
-      "id": "L13-E2",
-      "type": "recognition_pair",
+    "L12-W": {
+      "id": "L12-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v013",
+      "instruction": "Escribe «quién» en hebreo.",
+      "answer": "מי",
+      "displayForm": "מִי",
+      "phonetic": "Mi",
+      "tiles": [
+        "מ",
+        "י",
+        "א",
+        "ב",
+        "ג"
+      ]
+    },
+    "L12-R": {
+      "id": "L12-R",
+      "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v013",
+      "stimulus": "מִי",
+      "phonetic": "Mi",
+      "options": [
+        "qué",
+        "siervo",
+        "quién",
+        "él"
+      ],
+      "correctAnswer": "quién",
+      "correctIndex": 2,
+      "phraseId": "p009"
+    },
+    "L13-C": {
+      "id": "L13-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v017",
+      "concept": "Género nominal",
+      "conceptExplanation": "Los sustantivos tienen propiedades gramaticales que se irán desarrollando progresivamente, entre ellas género y número. En esta unidad se reconoce especialmente la diferencia entre formas masculinas y femeninas y se observan pares léxicos como אִישׁ / אִשָּׁה y בֵּן / בַּת.",
       "stimulus": "אִישׁ",
+      "phonetic": "Ish",
+      "reveal": {
+        "meaning": "hombre",
+        "lemma": "אִישׁ",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los sustantivos tienen propiedades gramaticales que se irán desarrollando progresivamente, entre ellas género y número. En esta unidad se reconoce especialmente la diferencia entre formas masculinas y femeninas y se observan pares léxicos como אִישׁ / אִשָּׁה y בֵּן / בַּת.",
+        "grammarExamples": [
+          "אִישׁ",
+          "אִשָּׁה",
+          "בֵּן",
+          "בַּת",
+          "אָב",
+          "אֵם"
+        ]
+      },
+      "phraseId": "p010"
+    },
+    "L13-W": {
+      "id": "L13-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v017",
+      "instruction": "Escribe «hombre» en hebreo.",
+      "answer": "איש",
+      "displayForm": "אִישׁ",
+      "phonetic": "Ish",
+      "tiles": [
+        "א",
+        "י",
+        "ש",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L13-R": {
+      "id": "L13-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v017",
+      "stimulus": "אִישׁ",
+      "phonetic": "Ish",
       "options": [
         "hombre",
-        "mujer",
-        "ser humano / Adán",
-        "hijo"
+        "siervo",
+        "quién",
+        "él"
       ],
+      "correctAnswer": "hombre",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p010"
     },
-    "L13-E3": {
-      "id": "L13-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: hombre.",
-      "answer": "אִישׁ",
-      "translit": "Ish",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L13-E4": {
-      "id": "L13-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g05"
-      ],
-      "conceptTitle": "Género nominal",
-      "phenomenon": "Masculino y femenino",
-      "explanation": "El género es una propiedad léxica que influye en la concordancia. Algunas formas femeninas muestran patrones frecuentes, pero no debe suponerse que toda palabra se clasifica mecánicamente por una sola terminación.",
-      "examples": [
-        "אִישׁ",
-        "אִשָּׁה",
-        "בֵּן",
-        "בַּת"
-      ],
-      "why": "Aprender pares contrastivos permite reconocer la concordancia sin depender de una regla simplista."
-    },
-    "L14-E1": {
-      "id": "L14-E1",
+    "L14-C": {
+      "id": "L14-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "בֵּן וּבַת",
-      "options": [
-        "Hijo e hija.",
-        "Un hombre bueno.",
-        "Una mujer buena.",
-        "El rey es grande."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "targetVocabId": "v020",
+      "concept": "Género nominal",
+      "conceptExplanation": "Los sustantivos tienen propiedades gramaticales que se irán desarrollando progresivamente, entre ellas género y número. En esta unidad se reconoce especialmente la diferencia entre formas masculinas y femeninas y se observan pares léxicos como אִישׁ / אִשָּׁה y בֵּן / בַּת.",
+      "stimulus": "בֵּן",
+      "phonetic": "Ben",
+      "reveal": {
+        "meaning": "hijo",
+        "lemma": "בֵּן",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los sustantivos tienen propiedades gramaticales que se irán desarrollando progresivamente, entre ellas género y número. En esta unidad se reconoce especialmente la diferencia entre formas masculinas y femeninas y se observan pares léxicos como אִישׁ / אִשָּׁה y בֵּן / בַּת.",
+        "grammarExamples": [
+          "אִישׁ",
+          "אִשָּׁה",
+          "בֵּן",
+          "בַּת",
+          "אָב",
+          "אֵם"
+        ]
+      },
+      "phraseId": "p011"
     },
-    "L14-E2": {
-      "id": "L14-E2",
+    "L14-W": {
+      "id": "L14-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v020",
+      "instruction": "Escribe «hijo» en hebreo.",
+      "answer": "בן",
+      "displayForm": "בֵּן",
+      "phonetic": "Ben",
+      "tiles": [
+        "ב",
+        "ן",
+        "א",
+        "ג",
+        "ד"
+      ]
+    },
+    "L14-R": {
+      "id": "L14-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v020",
       "stimulus": "בֵּן",
+      "phonetic": "Ben",
       "options": [
         "hijo",
-        "hombre",
-        "mujer",
-        "ser humano / Adán"
+        "siervo",
+        "quién",
+        "él"
       ],
+      "correctAnswer": "hijo",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p011"
     },
-    "L14-E3": {
-      "id": "L14-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: hijo.",
-      "answer": "בֵּן",
-      "translit": "Ben",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L14-E4": {
-      "id": "L14-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g05"
-      ],
-      "conceptTitle": "Género nominal",
-      "phenomenon": "Masculino y femenino",
-      "explanation": "El género es una propiedad léxica que influye en la concordancia. Algunas formas femeninas muestran patrones frecuentes, pero no debe suponerse que toda palabra se clasifica mecánicamente por una sola terminación.",
-      "examples": [
-        "אִישׁ",
-        "אִשָּׁה",
-        "בֵּן",
-        "בַּת"
-      ],
-      "why": "Aprender pares contrastivos permite reconocer la concordancia sin depender de una regla simplista."
-    },
-    "L15-E1": {
-      "id": "L15-E1",
+    "L15-C": {
+      "id": "L15-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "הַמֶּלֶךְ גָּדוֹל",
-      "options": [
-        "El rey es grande.",
-        "Un hombre bueno.",
-        "Una mujer buena.",
-        "Hijo e hija."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "targetVocabId": "v024",
+      "concept": "Concordancia del adjetivo",
+      "conceptExplanation": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
+      "stimulus": "מֶלֶךְ",
+      "phonetic": "Mélej",
+      "reveal": {
+        "meaning": "rey",
+        "lemma": "מֶלֶךְ",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
+        "grammarExamples": [
+          "מֶלֶךְ גָּדוֹל",
+          "טוֹב",
+          "רַע",
+          "חָכָם",
+          "קָדוֹשׁ"
+        ]
+      },
+      "phraseId": "p012"
     },
-    "L15-E2": {
-      "id": "L15-E2",
+    "L15-W": {
+      "id": "L15-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v024",
+      "instruction": "Escribe «rey» en hebreo.",
+      "answer": "מלך",
+      "displayForm": "מֶלֶךְ",
+      "phonetic": "Mélej",
+      "tiles": [
+        "מ",
+        "ל",
+        "ך",
+        "א",
+        "ב",
+        "ג"
+      ]
+    },
+    "L15-R": {
+      "id": "L15-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v024",
       "stimulus": "מֶלֶךְ",
+      "phonetic": "Mélej",
       "options": [
         "rey",
-        "hombre",
-        "mujer",
-        "ser humano / Adán"
+        "quién",
+        "siervo",
+        "él"
       ],
+      "correctAnswer": "rey",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p012"
     },
-    "L15-E3": {
-      "id": "L15-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: rey.",
-      "answer": "מֶלֶךְ",
-      "translit": "Mélej",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L15-E4": {
-      "id": "L15-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g06"
-      ],
-      "conceptTitle": "Concordancia del adjetivo",
-      "phenomenon": "Sustantivo + adjetivo",
-      "explanation": "El adjetivo concuerda con el sustantivo en género y número. En esta etapa se aprenden pares como אִישׁ טוֹב / אִשָּׁה טוֹבָה y se observa que el adjetivo sigue al sustantivo.",
-      "examples": [
-        "אִישׁ טוֹב",
-        "אִשָּׁה טוֹבָה",
-        "בַּיִת גָּדוֹל"
-      ],
-      "why": "La concordancia hace que la relación entre las palabras sea reconocible incluso sin traducir palabra por palabra."
-    },
-    "L16-E1": {
-      "id": "L16-E1",
+    "L16-C": {
+      "id": "L16-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אִישׁ טוֹב",
-      "options": [
-        "Un hombre bueno.",
-        "Una mujer buena.",
-        "El rey es grande.",
-        "Hijo e hija."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L16-E2": {
-      "id": "L16-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v027",
+      "concept": "Concordancia del adjetivo",
+      "conceptExplanation": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
       "stimulus": "טוֹב",
+      "phonetic": "Tov",
+      "reveal": {
+        "meaning": "bueno",
+        "lemma": "טוֹב",
+        "root": null,
+        "category": "adjetivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
+        "grammarExamples": [
+          "מֶלֶךְ גָּדוֹל",
+          "טוֹב",
+          "רַע",
+          "חָכָם",
+          "קָדוֹשׁ"
+        ]
+      },
+      "phraseId": "p013"
+    },
+    "L16-W": {
+      "id": "L16-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v027",
+      "instruction": "Escribe «bueno» en hebreo.",
+      "answer": "טוב",
+      "displayForm": "טוֹב",
+      "phonetic": "Tov",
+      "tiles": [
+        "ט",
+        "ו",
+        "ב",
+        "א",
+        "ג",
+        "ד"
+      ]
+    },
+    "L16-R": {
+      "id": "L16-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v027",
+      "stimulus": "טוֹב",
+      "phonetic": "Tov",
       "options": [
         "bueno",
-        "hombre",
-        "mujer",
-        "ser humano / Adán"
+        "quién",
+        "él",
+        "rey"
       ],
+      "correctAnswer": "bueno",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p013"
     },
-    "L16-E3": {
-      "id": "L16-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: bueno.",
-      "answer": "טוֹב",
-      "translit": "Tov",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L16-E4": {
-      "id": "L16-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g06"
-      ],
-      "conceptTitle": "Concordancia del adjetivo",
-      "phenomenon": "Sustantivo + adjetivo",
-      "explanation": "El adjetivo concuerda con el sustantivo en género y número. En esta etapa se aprenden pares como אִישׁ טוֹב / אִשָּׁה טוֹבָה y se observa que el adjetivo sigue al sustantivo.",
-      "examples": [
-        "אִישׁ טוֹב",
-        "אִשָּׁה טוֹבָה",
-        "בַּיִת גָּדוֹל"
-      ],
-      "why": "La concordancia hace que la relación entre las palabras sea reconocible incluso sin traducir palabra por palabra."
-    },
-    "L17-E1": {
-      "id": "L17-E1",
+    "L17-C": {
+      "id": "L17-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אֵם חֲכָמָה",
-      "options": [
-        "Una madre sabia.",
-        "Un hombre bueno.",
-        "Una mujer buena.",
-        "El rey es grande."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L17-E2": {
-      "id": "L17-E2",
-      "type": "recognition",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v031",
+      "concept": "Concordancia del adjetivo",
+      "conceptExplanation": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
       "stimulus": "חָכָם",
+      "phonetic": "Jajam",
+      "reveal": {
+        "meaning": "sabio",
+        "lemma": "חָכָם",
+        "root": null,
+        "category": "adjetivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
+        "grammarExamples": [
+          "מֶלֶךְ גָּדוֹל",
+          "טוֹב",
+          "רַע",
+          "חָכָם",
+          "קָדוֹשׁ"
+        ]
+      },
+      "phraseId": "p014"
+    },
+    "L17-W": {
+      "id": "L17-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v031",
+      "instruction": "Escribe «sabio» en hebreo.",
+      "answer": "חכם",
+      "displayForm": "חָכָם",
+      "phonetic": "Jajam",
+      "tiles": [
+        "ח",
+        "כ",
+        "ם",
+        "א",
+        "ב",
+        "ג"
+      ]
+    },
+    "L17-R": {
+      "id": "L17-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v031",
+      "stimulus": "חָכָם",
+      "phonetic": "Jajam",
       "options": [
+        "quién",
+        "rey",
         "sabio",
-        "hombre",
-        "mujer",
-        "ser humano / Adán"
+        "él"
       ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "correctAnswer": "sabio",
+      "correctIndex": 2,
+      "phraseId": "p014"
     },
-    "L17-E3": {
-      "id": "L17-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: sabio.",
-      "answer": "חָכָם",
-      "translit": "Jajam",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L17-E4": {
-      "id": "L17-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g06"
-      ],
-      "conceptTitle": "Concordancia del adjetivo",
-      "phenomenon": "Sustantivo + adjetivo",
-      "explanation": "El adjetivo concuerda con el sustantivo en género y número. En esta etapa se aprenden pares como אִישׁ טוֹב / אִשָּׁה טוֹבָה y se observa que el adjetivo sigue al sustantivo.",
-      "examples": [
-        "אִישׁ טוֹב",
-        "אִשָּׁה טוֹבָה",
-        "בַּיִת גָּדוֹל"
-      ],
-      "why": "La concordancia hace que la relación entre las palabras sea reconocible incluso sin traducir palabra por palabra."
-    },
-    "L18-E1": {
-      "id": "L18-E1",
+    "L18-C": {
+      "id": "L18-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "עֶבֶד קָטָן",
-      "options": [
-        "Un siervo pequeño / joven.",
-        "Un hombre bueno.",
-        "Una mujer buena.",
-        "El rey es grande."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L18-E2": {
-      "id": "L18-E2",
-      "type": "recognition",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v025",
+      "concept": "Género nominal",
+      "conceptExplanation": "Los sustantivos tienen propiedades gramaticales que se irán desarrollando progresivamente, entre ellas género y número. En esta unidad se reconoce especialmente la diferencia entre formas masculinas y femeninas y se observan pares léxicos como אִישׁ / אִשָּׁה y בֵּן / בַּת.",
       "stimulus": "עֶבֶד",
-      "options": [
-        "siervo / esclavo",
-        "hombre",
-        "mujer",
-        "ser humano / Adán"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phonetic": "Éved",
+      "reveal": {
+        "meaning": "siervo / esclavo",
+        "lemma": "עֶבֶד",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los sustantivos tienen propiedades gramaticales que se irán desarrollando progresivamente, entre ellas género y número. En esta unidad se reconoce especialmente la diferencia entre formas masculinas y femeninas y se observan pares léxicos como אִישׁ / אִשָּׁה y בֵּן / בַּת.",
+        "grammarExamples": [
+          "אִישׁ",
+          "אִשָּׁה",
+          "בֵּן",
+          "בַּת",
+          "אָב",
+          "אֵם"
+        ]
+      },
+      "phraseId": "p015"
     },
-    "L18-E3": {
-      "id": "L18-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: siervo / esclavo.",
-      "answer": "עֶבֶד",
-      "translit": "Éved",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
+    "L18-W": {
+      "id": "L18-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v025",
+      "instruction": "Escribe «siervo» en hebreo.",
+      "answer": "עבד",
+      "displayForm": "עֶבֶד",
+      "phonetic": "Éved",
+      "tiles": [
+        "ע",
+        "ב",
+        "ד",
+        "א",
+        "ג",
+        "ה"
+      ]
     },
-    "L18-E4": {
-      "id": "L18-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g05",
-        "g06"
-      ],
-      "conceptTitle": "Género nominal",
-      "phenomenon": "Masculino y femenino",
-      "explanation": "El género es una propiedad léxica que influye en la concordancia. Algunas formas femeninas muestran patrones frecuentes, pero no debe suponerse que toda palabra se clasifica mecánicamente por una sola terminación.",
-      "examples": [
-        "אִישׁ",
-        "אִשָּׁה",
-        "בֵּן",
-        "בַּת"
-      ],
-      "why": "Aprender pares contrastivos permite reconocer la concordancia sin depender de una regla simplista."
-    },
-    "L19-E1": {
-      "id": "L19-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אֶרֶץ וְשָׁמַיִם",
-      "options": [
-        "Tierra y cielos.",
-        "Agua en la casa.",
-        "Camino y ciudad.",
-        "Día y noche."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L19-E2": {
-      "id": "L19-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
-      "stimulus": "אֶרֶץ",
-      "options": [
-        "tierra",
-        "cielos",
-        "agua",
-        "casa"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
-    },
-    "L19-E3": {
-      "id": "L19-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: tierra.",
-      "answer": "אֶרֶץ",
-      "translit": "Érets",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L19-E4": {
-      "id": "L19-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g07"
-      ],
-      "conceptTitle": "Coordinación y formas unidas",
-      "phenomenon": "וְ y cambios de vocalización",
-      "explanation": "La conjunción וְ significa «y» y se escribe unida a la palabra siguiente. Su vocalización puede cambiar según el entorno. Aquí se aprende a reconocer la unión sin convertir cada variante en una tarjeta aislada.",
-      "examples": [
-        "וְשָׁמַיִם",
-        "וָעִיר",
-        "וּבַת"
-      ],
-      "why": "La lectura contextual permite reconocer la función de la conjunción aunque cambie su vocalización."
-    },
-    "L20-E1": {
-      "id": "L20-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "מַיִם בַּבַּיִת",
-      "options": [
-        "Agua en la casa.",
-        "Tierra y cielos.",
-        "Camino y ciudad.",
-        "Día y noche."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L20-E2": {
-      "id": "L20-E2",
+    "L18-R": {
+      "id": "L18-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v025",
+      "stimulus": "עֶבֶד",
+      "phonetic": "Éved",
+      "options": [
+        "quién",
+        "él",
+        "siervo",
+        "rey"
+      ],
+      "correctAnswer": "siervo",
+      "correctIndex": 2,
+      "phraseId": "p015"
+    },
+    "L19-C": {
+      "id": "L19-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v033",
+      "concept": "Coordinación y formas unidas",
+      "conceptExplanation": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
+      "stimulus": "אֶרֶץ",
+      "phonetic": "Érets",
+      "reveal": {
+        "meaning": "tierra",
+        "lemma": "אֶרֶץ",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "femenino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
+        "grammarExamples": [
+          "אֶרֶץ",
+          "שָׁמַיִם",
+          "מַיִם",
+          "בַּיִת",
+          "דֶּרֶךְ",
+          "עִיר"
+        ]
+      },
+      "phraseId": "p016"
+    },
+    "L19-W": {
+      "id": "L19-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v033",
+      "instruction": "Escribe «tierra» en hebreo.",
+      "answer": "ארץ",
+      "displayForm": "אֶרֶץ",
+      "phonetic": "Érets",
+      "tiles": [
+        "א",
+        "ר",
+        "ץ",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L19-R": {
+      "id": "L19-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v033",
+      "stimulus": "אֶרֶץ",
+      "phonetic": "Érets",
+      "options": [
+        "tierra",
+        "quién",
+        "rey",
+        "él"
+      ],
+      "correctAnswer": "tierra",
+      "correctIndex": 0,
+      "phraseId": "p016"
+    },
+    "L20-C": {
+      "id": "L20-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v035",
+      "concept": "Coordinación y formas unidas",
+      "conceptExplanation": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
       "stimulus": "מַיִם",
+      "phonetic": "Máyim",
+      "reveal": {
+        "meaning": "agua",
+        "lemma": "מַיִם",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "plural",
+        "note": "",
+        "grammar": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
+        "grammarExamples": [
+          "אֶרֶץ",
+          "שָׁמַיִם",
+          "מַיִם",
+          "בַּיִת",
+          "דֶּרֶךְ",
+          "עִיר"
+        ]
+      },
+      "phraseId": "p017"
+    },
+    "L20-W": {
+      "id": "L20-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v035",
+      "instruction": "Escribe «agua» en hebreo.",
+      "answer": "מים",
+      "displayForm": "מַיִם",
+      "phonetic": "Máyim",
+      "tiles": [
+        "מ",
+        "י",
+        "ם",
+        "א",
+        "ב",
+        "ג"
+      ]
+    },
+    "L20-R": {
+      "id": "L20-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v035",
+      "stimulus": "מַיִם",
+      "phonetic": "Máyim",
       "options": [
         "agua",
-        "tierra",
-        "cielos",
-        "casa"
+        "rey",
+        "quién",
+        "él"
       ],
+      "correctAnswer": "agua",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p017"
     },
-    "L20-E3": {
-      "id": "L20-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: agua.",
-      "answer": "מַיִם",
-      "translit": "Máyim",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L20-E4": {
-      "id": "L20-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g07"
-      ],
-      "conceptTitle": "Coordinación y formas unidas",
-      "phenomenon": "וְ y cambios de vocalización",
-      "explanation": "La conjunción וְ significa «y» y se escribe unida a la palabra siguiente. Su vocalización puede cambiar según el entorno. Aquí se aprende a reconocer la unión sin convertir cada variante en una tarjeta aislada.",
-      "examples": [
-        "וְשָׁמַיִם",
-        "וָעִיר",
-        "וּבַת"
-      ],
-      "why": "La lectura contextual permite reconocer la función de la conjunción aunque cambie su vocalización."
-    },
-    "L21-E1": {
-      "id": "L21-E1",
+    "L21-C": {
+      "id": "L21-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "דֶּרֶךְ וָעִיר",
-      "options": [
-        "Camino y ciudad.",
-        "Tierra y cielos.",
-        "Agua en la casa.",
-        "Día y noche."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L21-E2": {
-      "id": "L21-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v037",
+      "concept": "Coordinación y formas unidas",
+      "conceptExplanation": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
       "stimulus": "דֶּרֶךְ",
+      "phonetic": "Dérej",
+      "reveal": {
+        "meaning": "camino",
+        "lemma": "דֶּרֶךְ",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "femenino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
+        "grammarExamples": [
+          "אֶרֶץ",
+          "שָׁמַיִם",
+          "מַיִם",
+          "בַּיִת",
+          "דֶּרֶךְ",
+          "עִיר"
+        ]
+      },
+      "phraseId": "p018"
+    },
+    "L21-W": {
+      "id": "L21-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v037",
+      "instruction": "Escribe «camino» en hebreo.",
+      "answer": "דרך",
+      "displayForm": "דֶּרֶךְ",
+      "phonetic": "Dérej",
+      "tiles": [
+        "ד",
+        "ר",
+        "ך",
+        "א",
+        "ב",
+        "ג"
+      ]
+    },
+    "L21-R": {
+      "id": "L21-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v037",
+      "stimulus": "דֶּרֶךְ",
+      "phonetic": "Dérej",
       "options": [
+        "quién",
+        "rey",
         "camino",
-        "tierra",
-        "cielos",
-        "agua"
+        "él"
       ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "correctAnswer": "camino",
+      "correctIndex": 2,
+      "phraseId": "p018"
     },
-    "L21-E3": {
-      "id": "L21-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: camino.",
-      "answer": "דֶּרֶךְ",
-      "translit": "Dérej",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L21-E4": {
-      "id": "L21-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g07"
-      ],
-      "conceptTitle": "Coordinación y formas unidas",
-      "phenomenon": "וְ y cambios de vocalización",
-      "explanation": "La conjunción וְ significa «y» y se escribe unida a la palabra siguiente. Su vocalización puede cambiar según el entorno. Aquí se aprende a reconocer la unión sin convertir cada variante en una tarjeta aislada.",
-      "examples": [
-        "וְשָׁמַיִם",
-        "וָעִיר",
-        "וּבַת"
-      ],
-      "why": "La lectura contextual permite reconocer la función de la conjunción aunque cambie su vocalización."
-    },
-    "L22-E1": {
-      "id": "L22-E1",
+    "L22-C": {
+      "id": "L22-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "יוֹם וָלַיְלָה",
-      "options": [
-        "Día y noche.",
-        "Tierra y cielos.",
-        "Agua en la casa.",
-        "Camino y ciudad."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L22-E2": {
-      "id": "L22-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v038",
+      "concept": "Coordinación y formas unidas",
+      "conceptExplanation": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
       "stimulus": "יוֹם",
+      "phonetic": "Yom",
+      "reveal": {
+        "meaning": "día",
+        "lemma": "יוֹם",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
+        "grammarExamples": [
+          "אֶרֶץ",
+          "שָׁמַיִם",
+          "מַיִם",
+          "בַּיִת",
+          "דֶּרֶךְ",
+          "עִיר"
+        ]
+      },
+      "phraseId": "p019"
+    },
+    "L22-W": {
+      "id": "L22-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v038",
+      "instruction": "Escribe «día» en hebreo.",
+      "answer": "יום",
+      "displayForm": "יוֹם",
+      "phonetic": "Yom",
+      "tiles": [
+        "י",
+        "ו",
+        "ם",
+        "א",
+        "ב",
+        "ג"
+      ]
+    },
+    "L22-R": {
+      "id": "L22-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v038",
+      "stimulus": "יוֹם",
+      "phonetic": "Yom",
       "options": [
         "día",
-        "tierra",
-        "cielos",
-        "agua"
+        "él",
+        "quién",
+        "rey"
       ],
+      "correctAnswer": "día",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p019"
     },
-    "L22-E3": {
-      "id": "L22-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: día.",
-      "answer": "יוֹם",
-      "translit": "Yom",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L22-E4": {
-      "id": "L22-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g07"
-      ],
-      "conceptTitle": "Coordinación y formas unidas",
-      "phenomenon": "וְ y cambios de vocalización",
-      "explanation": "La conjunción וְ significa «y» y se escribe unida a la palabra siguiente. Su vocalización puede cambiar según el entorno. Aquí se aprende a reconocer la unión sin convertir cada variante en una tarjeta aislada.",
-      "examples": [
-        "וְשָׁמַיִם",
-        "וָעִיר",
-        "וּבַת"
-      ],
-      "why": "La lectura contextual permite reconocer la función de la conjunción aunque cambie su vocalización."
-    },
-    "L23-E1": {
-      "id": "L23-E1",
+    "L23-C": {
+      "id": "L23-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "הַר וְשָׂדֶה",
-      "options": [
-        "Monte y campo.",
-        "Tierra y cielos.",
-        "Agua en la casa.",
-        "Camino y ciudad."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L23-E2": {
-      "id": "L23-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v040",
+      "concept": "Coordinación y formas unidas",
+      "conceptExplanation": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
       "stimulus": "הַר",
-      "options": [
-        "monte / montaña",
-        "tierra",
-        "cielos",
-        "agua"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phonetic": "Har",
+      "reveal": {
+        "meaning": "monte / montaña",
+        "lemma": "הַר",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los nombres de lugares, objetos y momentos se presentan como sustantivos en contextos breves. El estudiante empieza a reconocer patrones nominales y a distinguir singular de plural, por ejemplo מַיִם y שָׁמַיִם.",
+        "grammarExamples": [
+          "אֶרֶץ",
+          "שָׁמַיִם",
+          "מַיִם",
+          "בַּיִת",
+          "דֶּרֶךְ",
+          "עִיר"
+        ]
+      },
+      "phraseId": "p020"
     },
-    "L23-E3": {
-      "id": "L23-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: monte / montaña.",
-      "answer": "הַר",
-      "translit": "Har",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
+    "L23-W": {
+      "id": "L23-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v040",
+      "instruction": "Escribe «monte» en hebreo.",
+      "answer": "הר",
+      "displayForm": "הַר",
+      "phonetic": "Har",
+      "tiles": [
+        "ה",
+        "ר",
+        "א",
+        "ב",
+        "ג"
+      ]
     },
-    "L23-E4": {
-      "id": "L23-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g07"
-      ],
-      "conceptTitle": "Coordinación y formas unidas",
-      "phenomenon": "וְ y cambios de vocalización",
-      "explanation": "La conjunción וְ significa «y» y se escribe unida a la palabra siguiente. Su vocalización puede cambiar según el entorno. Aquí se aprende a reconocer la unión sin convertir cada variante en una tarjeta aislada.",
-      "examples": [
-        "וְשָׁמַיִם",
-        "וָעִיר",
-        "וּבַת"
-      ],
-      "why": "La lectura contextual permite reconocer la función de la conjunción aunque cambie su vocalización."
-    },
-    "L24-E1": {
-      "id": "L24-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "בַּיִת גָּדוֹל",
-      "options": [
-        "Una casa grande.",
-        "Tierra y cielos.",
-        "Agua en la casa.",
-        "Camino y ciudad."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L24-E2": {
-      "id": "L24-E2",
+    "L23-R": {
+      "id": "L23-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v040",
+      "stimulus": "הַר",
+      "phonetic": "Har",
+      "options": [
+        "quién",
+        "rey",
+        "monte",
+        "él"
+      ],
+      "correctAnswer": "monte",
+      "correctIndex": 2,
+      "phraseId": "p020"
+    },
+    "L24-C": {
+      "id": "L24-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v036",
+      "concept": "Concordancia del adjetivo",
+      "conceptExplanation": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
       "stimulus": "בַּיִת",
+      "phonetic": "Báyit",
+      "reveal": {
+        "meaning": "casa",
+        "lemma": "בַּיִת",
+        "root": null,
+        "category": "sustantivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
+        "grammarExamples": [
+          "מֶלֶךְ גָּדוֹל",
+          "טוֹב",
+          "רַע",
+          "חָכָם",
+          "קָדוֹשׁ"
+        ]
+      },
+      "phraseId": "p021"
+    },
+    "L24-W": {
+      "id": "L24-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v036",
+      "instruction": "Escribe «casa» en hebreo.",
+      "answer": "בית",
+      "displayForm": "בַּיִת",
+      "phonetic": "Báyit",
+      "tiles": [
+        "ב",
+        "י",
+        "ת",
+        "א",
+        "ג",
+        "ד"
+      ]
+    },
+    "L24-R": {
+      "id": "L24-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v036",
+      "stimulus": "בַּיִת",
+      "phonetic": "Báyit",
       "options": [
         "casa",
-        "tierra",
-        "cielos",
-        "agua"
+        "quién",
+        "él",
+        "rey"
       ],
+      "correctAnswer": "casa",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p021"
     },
-    "L24-E3": {
-      "id": "L24-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: casa.",
-      "answer": "בַּיִת",
-      "translit": "Báyit",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L24-E4": {
-      "id": "L24-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g06",
-        "g07"
-      ],
-      "conceptTitle": "Concordancia del adjetivo",
-      "phenomenon": "Sustantivo + adjetivo",
-      "explanation": "El adjetivo concuerda con el sustantivo en género y número. En esta etapa se aprenden pares como אִישׁ טוֹב / אִשָּׁה טוֹבָה y se observa que el adjetivo sigue al sustantivo.",
-      "examples": [
-        "אִישׁ טוֹב",
-        "אִשָּׁה טוֹבָה",
-        "בַּיִת גָּדוֹל"
-      ],
-      "why": "La concordancia hace que la relación entre las palabras sea reconocible incluso sin traducir palabra por palabra."
-    },
-    "L25-E1": {
-      "id": "L25-E1",
+    "L25-C": {
+      "id": "L25-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
+      "targetVocabId": "v043",
+      "concept": "Concordancia del adjetivo",
+      "conceptExplanation": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
       "stimulus": "יָשָׁר",
-      "options": [
-        "Recto / justo.",
-        "El hombre es bueno.",
-        "La casa es grande.",
-        "Hay agua."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "phonetic": "Yashar",
+      "reveal": {
+        "meaning": "recto / justo",
+        "lemma": "יָשָׁר",
+        "root": null,
+        "category": "adjetivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "Los adjetivos describen al sustantivo y más adelante deberán concordar con él en género y número. En esta primera exposición se aprende el significado de formas como גָּדוֹל, טוֹב, רַע, חָכָם y קָדוֹשׁ antes de exigir toda la concordancia paradigmática.",
+        "grammarExamples": [
+          "מֶלֶךְ גָּדוֹל",
+          "טוֹב",
+          "רַע",
+          "חָכָם",
+          "קָדוֹשׁ"
+        ]
+      },
+      "phraseId": "p022"
     },
-    "L25-E2": {
-      "id": "L25-E2",
+    "L25-W": {
+      "id": "L25-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v043",
+      "instruction": "Escribe «recto» en hebreo.",
+      "answer": "ישר",
+      "displayForm": "יָשָׁר",
+      "phonetic": "Yashar",
+      "tiles": [
+        "י",
+        "ש",
+        "ר",
+        "א",
+        "ב",
+        "ג"
+      ]
+    },
+    "L25-R": {
+      "id": "L25-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v043",
       "stimulus": "יָשָׁר",
+      "phonetic": "Yashar",
       "options": [
-        "recto / justo",
-        "el / la",
-        "hay / existe",
-        "no hay / no existe"
+        "quién",
+        "él",
+        "recto",
+        "rey"
       ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "correctAnswer": "recto",
+      "correctIndex": 2,
+      "phraseId": "p022"
     },
-    "L25-E3": {
-      "id": "L25-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: recto / justo.",
-      "answer": "יָשָׁר",
-      "translit": "Yashar",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L25-E4": {
-      "id": "L25-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g06"
-      ],
-      "conceptTitle": "Concordancia del adjetivo",
-      "phenomenon": "Sustantivo + adjetivo",
-      "explanation": "El adjetivo concuerda con el sustantivo en género y número. En esta etapa se aprenden pares como אִישׁ טוֹב / אִשָּׁה טוֹבָה y se observa que el adjetivo sigue al sustantivo.",
-      "examples": [
-        "אִישׁ טוֹב",
-        "אִשָּׁה טוֹבָה",
-        "בַּיִת גָּדוֹל"
-      ],
-      "why": "La concordancia hace que la relación entre las palabras sea reconocible incluso sin traducir palabra por palabra."
-    },
-    "L26-E1": {
-      "id": "L26-E1",
+    "L26-C": {
+      "id": "L26-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "הָאִישׁ טוֹב",
-      "options": [
-        "El hombre es bueno.",
-        "Recto / justo.",
-        "La casa es grande.",
-        "Hay agua."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L26-E2": {
-      "id": "L26-E2",
-      "type": "recognition",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v027",
+      "concept": "Artículo definido הַ־",
+      "conceptExplanation": "El artículo definido הַ־ aparece unido al sustantivo. En una secuencia como הָאִישׁ, הָ־ introduce el sentido definido («el»). La forma del artículo puede presentar ajustes fonológicos que se estudiarán progresivamente; aquí se reconoce su función básica.",
       "stimulus": "טוֹב",
+      "phonetic": "Tov",
+      "reveal": {
+        "meaning": "bueno",
+        "lemma": "טוֹב",
+        "root": null,
+        "category": "adjetivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "El artículo definido הַ־ aparece unido al sustantivo. En una secuencia como הָאִישׁ, הָ־ introduce el sentido definido («el»). La forma del artículo puede presentar ajustes fonológicos que se estudiarán progresivamente; aquí se reconoce su función básica.",
+        "grammarExamples": [
+          "הָאִישׁ",
+          "הַמֶּלֶךְ"
+        ]
+      },
+      "phraseId": "p023"
+    },
+    "L26-W": {
+      "id": "L26-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v027",
+      "instruction": "Escribe «bueno» en hebreo.",
+      "answer": "טוב",
+      "displayForm": "טוֹב",
+      "phonetic": "Tov",
+      "tiles": [
+        "ט",
+        "ו",
+        "ב",
+        "א",
+        "ג",
+        "ד"
+      ]
+    },
+    "L26-R": {
+      "id": "L26-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v027",
+      "stimulus": "טוֹב",
+      "phonetic": "Tov",
       "options": [
         "bueno",
-        "recto / justo",
-        "el / la",
-        "hay / existe"
+        "quién",
+        "él",
+        "rey"
       ],
+      "correctAnswer": "bueno",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p023"
     },
-    "L26-E3": {
-      "id": "L26-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: bueno.",
-      "answer": "טוֹב",
-      "translit": "Tov",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L26-E4": {
-      "id": "L26-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g08",
-        "g09"
-      ],
-      "conceptTitle": "Artículo definido הַ־",
-      "phenomenon": "Definitud",
-      "explanation": "El artículo definido aparece unido al sustantivo. Su vocalización puede variar según el entorno consonántico; por eso primero se aprende a reconocer el conjunto definido: הָאִישׁ, הַבַּיִת.",
-      "examples": [
-        "הָאִישׁ",
-        "הַבַּיִת",
-        "הָאִשָּׁה"
-      ],
-      "why": "El artículo ayuda a distinguir grupos nominales definidos de formas indefinidas."
-    },
-    "L27-E1": {
-      "id": "L27-E1",
+    "L27-C": {
+      "id": "L27-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "הַבַּיִת גָּדוֹל",
-      "options": [
-        "La casa es grande.",
-        "Recto / justo.",
-        "El hombre es bueno.",
-        "Hay agua."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
+      "targetVocabId": "v029",
+      "concept": "Artículo definido הַ־",
+      "conceptExplanation": "El artículo definido הַ־ aparece unido al sustantivo. En una secuencia como הָאִישׁ, הָ־ introduce el sentido definido («el»). La forma del artículo puede presentar ajustes fonológicos que se estudiarán progresivamente; aquí se reconoce su función básica.",
+      "stimulus": "גָּדוֹל",
+      "phonetic": "Gadol",
+      "reveal": {
+        "meaning": "grande",
+        "lemma": "גָּדוֹל",
+        "root": null,
+        "category": "adjetivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "El artículo definido הַ־ aparece unido al sustantivo. En una secuencia como הָאִישׁ, הָ־ introduce el sentido definido («el»). La forma del artículo puede presentar ajustes fonológicos que se estudiarán progresivamente; aquí se reconoce su función básica.",
+        "grammarExamples": [
+          "הָאִישׁ",
+          "הַמֶּלֶךְ"
+        ]
+      },
+      "phraseId": "p024"
     },
-    "L27-E2": {
-      "id": "L27-E2",
+    "L27-W": {
+      "id": "L27-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v029",
+      "instruction": "Escribe «grande» en hebreo.",
+      "answer": "גדול",
+      "displayForm": "גָּדוֹל",
+      "phonetic": "Gadol",
+      "tiles": [
+        "ג",
+        "ד",
+        "ו",
+        "ל",
+        "א",
+        "ב",
+        "ה"
+      ]
+    },
+    "L27-R": {
+      "id": "L27-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v029",
       "stimulus": "גָּדוֹל",
+      "phonetic": "Gadol",
       "options": [
         "grande",
-        "recto / justo",
-        "el / la",
-        "hay / existe"
+        "él",
+        "quién",
+        "rey"
       ],
+      "correctAnswer": "grande",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phraseId": "p024"
     },
-    "L27-E3": {
-      "id": "L27-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: grande.",
-      "answer": "גָּדוֹל",
-      "translit": "Gadol",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L27-E4": {
-      "id": "L27-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g08",
-        "g09"
-      ],
-      "conceptTitle": "Artículo definido הַ־",
-      "phenomenon": "Definitud",
-      "explanation": "El artículo definido aparece unido al sustantivo. Su vocalización puede variar según el entorno consonántico; por eso primero se aprende a reconocer el conjunto definido: הָאִישׁ, הַבַּיִת.",
-      "examples": [
-        "הָאִישׁ",
-        "הַבַּיִת",
-        "הָאִשָּׁה"
-      ],
-      "why": "El artículo ayuda a distinguir grupos nominales definidos de formas indefinidas."
-    },
-    "L28-E1": {
-      "id": "L28-E1",
+    "L28-C": {
+      "id": "L28-C",
       "type": "comprehension",
       "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "יֵשׁ מַיִם",
-      "options": [
-        "Hay agua.",
-        "Recto / justo.",
-        "El hombre es bueno.",
-        "La casa es grande."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L28-E2": {
-      "id": "L28-E2",
-      "type": "recognition",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v045",
+      "concept": "Predicación nominal y existencia",
+      "conceptExplanation": "La concordancia relaciona las propiedades del sustantivo y del adjetivo. En una expresión como הָאִישׁ הַטּוֹב, el sustantivo y el adjetivo están definidos y el adjetivo concuerda con él. En esta unidad se observa también יֵשׁ («hay/existe») y אֵין («no hay/no existe»).",
       "stimulus": "יֵשׁ",
-      "options": [
-        "hay / existe",
-        "recto / justo",
-        "el / la",
-        "no hay / no existe"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
+      "phonetic": "Yesh",
+      "reveal": {
+        "meaning": "hay / existe",
+        "lemma": "יֵשׁ",
+        "root": null,
+        "category": "partícula",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "La concordancia relaciona las propiedades del sustantivo y del adjetivo. En una expresión como הָאִישׁ הַטּוֹב, el sustantivo y el adjetivo están definidos y el adjetivo concuerda con él. En esta unidad se observa también יֵשׁ («hay/existe») y אֵין («no hay/no existe»).",
+        "grammarExamples": [
+          "הָאִישׁ הַטּוֹב",
+          "יֵשׁ מַיִם",
+          "אֵין מַיִם"
+        ]
+      },
+      "phraseId": "p025"
     },
-    "L28-E3": {
-      "id": "L28-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: hay / existe.",
-      "answer": "יֵשׁ",
-      "translit": "Yesh",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
+    "L28-W": {
+      "id": "L28-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v045",
+      "instruction": "Escribe «hay» en hebreo.",
+      "answer": "יש",
+      "displayForm": "יֵשׁ",
+      "phonetic": "Yesh",
+      "tiles": [
+        "י",
+        "ש",
+        "א",
+        "ב",
+        "ג"
+      ]
     },
-    "L28-E4": {
-      "id": "L28-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g09"
-      ],
-      "conceptTitle": "Predicación nominal y existencia",
-      "phenomenon": "Frase nominal sin «ser» explícito; יש / אין",
-      "explanation": "Una oración nominal en presente puede expresar una relación como «el hombre es bueno» sin una forma explícita equivalente a «es». יֵשׁ expresa existencia («hay») y אֵין niega existencia («no hay»).",
-      "examples": [
-        "הָאִישׁ טוֹב",
-        "הַבַּיִת גָּדוֹל",
-        "יֵשׁ מַיִם",
-        "אֵין מַיִם"
-      ],
-      "why": "El lector debe evitar insertar automáticamente un verbo escrito que no aparece en hebreo."
-    },
-    "L29-E1": {
-      "id": "L29-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "אֵין מַיִם",
-      "options": [
-        "No hay agua.",
-        "Recto / justo.",
-        "El hombre es bueno.",
-        "La casa es grande."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L29-E2": {
-      "id": "L29-E2",
-      "type": "recognition_pair",
-      "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
-      "stimulus": "אֵין",
-      "options": [
-        "no hay / no existe",
-        "recto / justo",
-        "el / la",
-        "hay / existe"
-      ],
-      "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
-    },
-    "L29-E3": {
-      "id": "L29-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: no hay / no existe.",
-      "answer": "אֵין",
-      "translit": "Ein",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L29-E4": {
-      "id": "L29-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g09"
-      ],
-      "conceptTitle": "Predicación nominal y existencia",
-      "phenomenon": "Frase nominal sin «ser» explícito; יש / אין",
-      "explanation": "Una oración nominal en presente puede expresar una relación como «el hombre es bueno» sin una forma explícita equivalente a «es». יֵשׁ expresa existencia («hay») y אֵין niega existencia («no hay»).",
-      "examples": [
-        "הָאִישׁ טוֹב",
-        "הַבַּיִת גָּדוֹל",
-        "יֵשׁ מַיִם",
-        "אֵין מַיִם"
-      ],
-      "why": "El lector debe evitar insertar automáticamente un verbo escrito que no aparece en hebreo."
-    },
-    "L30-E1": {
-      "id": "L30-E1",
-      "type": "comprehension",
-      "title": "Comprensión",
-      "prompt": "Lee la frase y elige el significado que mejor corresponde.",
-      "stimulus": "הָאִשָּׁה טוֹבָה",
-      "options": [
-        "La mujer es buena.",
-        "Recto / justo.",
-        "El hombre es bueno.",
-        "La casa es grande."
-      ],
-      "correctIndex": 0,
-      "explain": "La respuesta correcta corresponde al sentido de la frase de esta lección."
-    },
-    "L30-E2": {
-      "id": "L30-E2",
+    "L28-R": {
+      "id": "L28-R",
       "type": "recognition",
       "title": "Reconocimiento",
-      "prompt": "Mira únicamente el hebreo y selecciona su significado entre cuatro opciones.",
+      "targetVocabId": "v045",
+      "stimulus": "יֵשׁ",
+      "phonetic": "Yesh",
+      "options": [
+        "hay",
+        "quién",
+        "él",
+        "rey"
+      ],
+      "correctAnswer": "hay",
+      "correctIndex": 0,
+      "phraseId": "p025"
+    },
+    "L29-C": {
+      "id": "L29-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v046",
+      "concept": "Predicación nominal y existencia",
+      "conceptExplanation": "La concordancia relaciona las propiedades del sustantivo y del adjetivo. En una expresión como הָאִישׁ הַטּוֹב, el sustantivo y el adjetivo están definidos y el adjetivo concuerda con él. En esta unidad se observa también יֵשׁ («hay/existe») y אֵין («no hay/no existe»).",
+      "stimulus": "אֵין",
+      "phonetic": "Ein",
+      "reveal": {
+        "meaning": "no hay / no existe",
+        "lemma": "אֵין",
+        "root": null,
+        "category": "partícula",
+        "gender": null,
+        "number": null,
+        "note": "",
+        "grammar": "La concordancia relaciona las propiedades del sustantivo y del adjetivo. En una expresión como הָאִישׁ הַטּוֹב, el sustantivo y el adjetivo están definidos y el adjetivo concuerda con él. En esta unidad se observa también יֵשׁ («hay/existe») y אֵין («no hay/no existe»).",
+        "grammarExamples": [
+          "הָאִישׁ הַטּוֹב",
+          "יֵשׁ מַיִם",
+          "אֵין מַיִם"
+        ]
+      },
+      "phraseId": "p026"
+    },
+    "L29-W": {
+      "id": "L29-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v046",
+      "instruction": "Escribe «no hay» en hebreo.",
+      "answer": "אין",
+      "displayForm": "אֵין",
+      "phonetic": "Ein",
+      "tiles": [
+        "א",
+        "י",
+        "ן",
+        "ב",
+        "ג",
+        "ד"
+      ]
+    },
+    "L29-R": {
+      "id": "L29-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v046",
+      "stimulus": "אֵין",
+      "phonetic": "Ein",
+      "options": [
+        "quién",
+        "rey",
+        "no hay",
+        "él"
+      ],
+      "correctAnswer": "no hay",
+      "correctIndex": 2,
+      "phraseId": "p026"
+    },
+    "L30-C": {
+      "id": "L30-C",
+      "type": "comprehension",
+      "title": "Comprensión",
+      "targetVocabId": "v027",
+      "concept": "Artículo definido הַ־",
+      "conceptExplanation": "El artículo definido הַ־ aparece unido al sustantivo. En una secuencia como הָאִישׁ, הָ־ introduce el sentido definido («el»). La forma del artículo puede presentar ajustes fonológicos que se estudiarán progresivamente; aquí se reconoce su función básica.",
       "stimulus": "טוֹב",
+      "phonetic": "Tov",
+      "reveal": {
+        "meaning": "bueno",
+        "lemma": "טוֹב",
+        "root": null,
+        "category": "adjetivo",
+        "gender": "masculino",
+        "number": "singular",
+        "note": "",
+        "grammar": "El artículo definido הַ־ aparece unido al sustantivo. En una secuencia como הָאִישׁ, הָ־ introduce el sentido definido («el»). La forma del artículo puede presentar ajustes fonológicos que se estudiarán progresivamente; aquí se reconoce su función básica.",
+        "grammarExamples": [
+          "הָאִישׁ",
+          "הַמֶּלֶךְ"
+        ]
+      },
+      "phraseId": null
+    },
+    "L30-W": {
+      "id": "L30-W",
+      "type": "writing",
+      "title": "Escritura",
+      "targetVocabId": "v027",
+      "instruction": "Escribe «bueno» en hebreo.",
+      "answer": "טוב",
+      "displayForm": "טוֹב",
+      "phonetic": "Tov",
+      "tiles": [
+        "ט",
+        "ו",
+        "ב",
+        "א",
+        "ג",
+        "ד"
+      ]
+    },
+    "L30-R": {
+      "id": "L30-R",
+      "type": "recognition",
+      "title": "Reconocimiento",
+      "targetVocabId": "v027",
+      "stimulus": "טוֹב",
+      "phonetic": "Tov",
       "options": [
         "bueno",
-        "recto / justo",
-        "el / la",
-        "hay / existe"
+        "quién",
+        "él",
+        "rey"
       ],
+      "correctAnswer": "bueno",
       "correctIndex": 0,
-      "explain": "La forma hebrea se aprende asociada a su significado y a su contexto."
-    },
-    "L30-E3": {
-      "id": "L30-E3",
-      "type": "production",
-      "title": "Producción",
-      "prompt": "Escribe en hebreo: bueno.",
-      "answer": "טוֹב",
-      "translit": "Tov",
-      "explain": "Primero recupera la forma de memoria; después comprueba vocalización y consonantes."
-    },
-    "L30-E4": {
-      "id": "L30-E4",
-      "type": "grammar_mastery",
-      "title": "Gramática en contexto",
-      "conceptIds": [
-        "g08",
-        "g09",
-        "g06"
-      ],
-      "conceptTitle": "Artículo definido הַ־",
-      "phenomenon": "Definitud",
-      "explanation": "El artículo definido aparece unido al sustantivo. Su vocalización puede variar según el entorno consonántico; por eso primero se aprende a reconocer el conjunto definido: הָאִישׁ, הַבַּיִת.",
-      "examples": [
-        "הָאִישׁ",
-        "הַבַּיִת",
-        "הָאִשָּׁה"
-      ],
-      "why": "El artículo ayuda a distinguir grupos nominales definidos de formas indefinidas."
+      "phraseId": null
     }
   },
   "routeSchema": {
