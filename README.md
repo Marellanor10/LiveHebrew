@@ -1,72 +1,22 @@
-# Mikhael v4.3
+# Mikhael v5 — integración Bloque 1
 
-PWA móvil offline-first para aprender Hebreo Bíblico con una ruta de 180 días.
+Esta versión integra el contenido real de los días 1–30 dentro de una PWA funcional.
 
-## Enfoque de v4.3
-- Interfaz mobile-first con navegación inferior en pantallas pequeñas.
-- Curso diario con pasos de comprensión, reconocimiento, producción y gramática contextual.
-- Selección adaptativa de unidades débiles para la sesión.
-- SRS con fecha de próxima revisión, intervalo, facilidad, repeticiones, errores y estado.
-- Botón `← Anterior` que permite volver a una tarjeta ya calificada sin volver a registrarla.
-- Estadísticas de precisión, retención, unidades dominadas, actividad y unidades con más errores.
-- Lector graduado con ayuda por palabra y envío a SRS.
-- Alfabeto con las cinco formas finales.
-- Vocalización y gramática separadas del flujo principal.
-- Importar/exportar progreso.
-- PWA instalable y preparada para Android.
-- Service Worker con caché versionada para evitar servir accidentalmente una versión vieja.
+## Incluye
+- 8 pestañas visibles también en móvil: Inicio, Curso, SRS, Lector, Alfabeto, Gramática, Progreso, Ajustes.
+- Curso de 30 sesiones reales del Bloque 1.
+- Estructura Bloque → Unidad → Sesión → Ejercicios.
+- Frases y gramática contextual enlazadas explícitamente.
+- Ruta de aprendizaje mediante ficha completa de cada palabra.
+- SRS solo incorpora vocabulario cuando se introduce en Curso o desde el Lector.
+- Sin avance automático.
+- Perfiles locales sin correo.
+- Persistencia IndexedDB, exportación/importación y PWA offline.
+- Se conserva el lector de Salmos y material de apoyo de versiones anteriores.
 
-## Estado honesto del contenido
-La aplicación contiene actualmente un núcleo inicial de 59 unidades léxicas, más alfabeto, vocalización, frases, gramática y lector. El curso tiene 180 planes diarios reales que reutilizan y espacian ese núcleo según fase y necesidad.
+## Estado
+Días 1–30: contenido curricular integrado.
+Días 31–180: la aplicación conserva la ruta de 180 días, pero el contenido definitivo se integrará por bloques posteriores.
 
-No se rellenaron 500 entradas artificiales sólo para alcanzar un número. La ampliación a 500+ unidades se hará a partir de fuentes léxicas/frecuenciales verificables y con revisión lingüística antes de incorporarlas al curso.
-
-## Probar en Windows
-Desde esta carpeta:
-
-```bash
-python -m http.server 8080
-```
-
-Luego abre `http://localhost:8080` en Chrome.
-
-## Android
-Para instalación PWA real se recomienda HTTPS. Publica esta carpeta en GitHub Pages, Netlify, Cloudflare Pages u otro hosting HTTPS y abre la URL con Chrome Android. Desde el menú de Chrome puedes instalar la aplicación.
-
-## Datos y privacidad
-No requiere cuenta. El progreso se guarda en IndexedDB del dispositivo. Usa Exportar progreso para crear una copia JSON antes de cambiar de dispositivo.
-
-## Próximos pasos
-- ampliar el núcleo a 500+ unidades verificadas;
-- incorporar más textos bíblicos auténticos y ayudas morfológicas;
-- sustituir el SRS simplificado por FSRS o equivalente probado;
-- incorporar audio humano grabado con licencia adecuada;
-- sincronización opcional con cuenta y respaldo entre dispositivos.
-
-
-## v4.3 — Lector graduado con Salmos
-- 5 niveles de lectura con desbloqueo progresivo por día del curso.
-- 15 lecturas auténticas de Salmos 1, 23 y 121, con referencia de salmo/versículo.
-- Selección de texto, traducción de estudio, pregunta de comprensión y ayuda por palabra.
-- 168 unidades léxicas en el núcleo de datos, sin contar formas obsoletas marcadas para compatibilidad.
-- Los textos se han tomado como base del texto hebreo bíblico con vocalización; el lector sigue siendo una herramienta didáctica, no una edición crítica.
-
-
-## v4.6
-Perfiles locales sin correo, progreso separado, restablecimiento por usuario, importación/exportación por perfil y corpus ampliado de Salmos.
-
-
-## v4.6
-- Perfiles locales con selector al iniciar, sin correo ni cuenta obligatoria.
-- Restablecimiento y eliminación de perfiles con confirmación.
-- Ayudas morfológicas estructuradas para formas seleccionadas del lector.
-- Nuevo `data/morphology.json`.
-- Lector conserva análisis léxico y ahora distingue lema, raíz, categoría y morfología cuando existe ficha.
-- IDs de lecturas corregidos para que sean únicos.
-
-
-## v4.7
-- SRS vinculado al currículo: no incorpora automáticamente tarjetas nuevas no estudiadas.
-- El SRS repasa únicamente unidades que ya poseen una tarjeta/progreso.
-- El Curso puede reforzar unidades débiles, pero solo entre las unidades introducidas hasta el día actual.
-- Las unidades nuevas entran al SRS desde el trabajo del Curso o mediante incorporación explícita desde el Lector.
+## Publicación
+No subas esta carpeta parcialmente. Para GitHub Pages, sube el contenido de esta carpeta completa preservando `index.html`, `data/`, `src/`, `icons/`, `manifest.webmanifest` y `sw.js`.
