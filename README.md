@@ -1,4 +1,4 @@
-# Mikhael v5.4.1 · Bloque 1
+# Mikhael v5.5.0 · Bloque 1
 
 Versión reconstruida del Bloque 1 con progresión independiente del calendario.
 
@@ -12,7 +12,7 @@ Versión reconstruida del Bloque 1 con progresión independiente del calendario.
 1. **Comprensión**: explicación del concepto, palabra hebrea, fonética y botón Revelar. La revelación incluye significado, lema, datos léxicos disponibles y explicación gramatical contextual.
 2. **Escritura**: construcción por fichas de letras hebreas desordenadas + 3 distractores. Un error reinicia el intento.
 3. **Reconocimiento**: cuatro opciones únicas, una sola correcta. Solo se continúa tras acertar.
-4. **Gramática como ejercicio**: eliminada del flujo de la lección. La explicación gramatical vive en Comprensión y en la sección Gramática.
+4. **Gramática fuera del flujo**: no cuenta como ejercicio de la lección. La explicación gramatical contextual aparece en Comprensión y el desarrollo completo vive en la sección Gramática.
 
 ## Repaso
 - Solo recopila palabras ya vistas en las lecciones.
