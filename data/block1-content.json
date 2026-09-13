@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "5.1-block1-real-content",
+  "schemaVersion": "5.1-block1-interactive",
   "app": "Mikhael",
-  "status": "content_ready_for_integration",
+  "status": "prototype-interactive; scholarly review still required",
   "scope": {
     "block": 1,
     "days": "1-30",
@@ -274,7 +274,8 @@
         "v043",
         "v044",
         "v045",
-        "v046"
+        "v046",
+        "v047"
       ],
       "reviewVocab": [
         "v017",
@@ -319,9 +320,7 @@
       "title": "Identificar derecha→izquierda",
       "phase": "comprension",
       "objective": "Reconoce el orden de lectura en palabras vocalizadas.",
-      "phraseIds": [
-        "p001"
-      ],
+      "phraseIds": [],
       "readingIds": [],
       "exerciseIds": [
         "D001-E1",
@@ -331,7 +330,12 @@
         "D001-E5",
         "D001-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [],
+      "reviewVocab": [],
+      "contextualGrammarIds": [
+        "g01"
+      ]
     },
     {
       "id": "D002",
@@ -340,9 +344,7 @@
       "title": "Leer palabras con niqqud básico",
       "phase": "reconocimiento",
       "objective": "Lee אֵל y אֱלֹהִים sin transliteración.",
-      "phraseIds": [
-        "p001"
-      ],
+      "phraseIds": [],
       "readingIds": [],
       "exerciseIds": [
         "D002-E1",
@@ -352,7 +354,14 @@
         "D002-E5",
         "D002-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v001"
+      ],
+      "reviewVocab": [],
+      "contextualGrammarIds": [
+        "g01"
+      ]
     },
     {
       "id": "D003",
@@ -371,7 +380,14 @@
         "D003-E5",
         "D003-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [],
+      "reviewVocab": [
+        "v001"
+      ],
+      "contextualGrammarIds": [
+        "g02"
+      ]
     },
     {
       "id": "D004",
@@ -390,7 +406,14 @@
         "D004-E5",
         "D004-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [],
+      "reviewVocab": [
+        "v001"
+      ],
+      "contextualGrammarIds": [
+        "g02"
+      ]
     },
     {
       "id": "D005",
@@ -409,7 +432,16 @@
         "D005-E5",
         "D005-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v002"
+      ],
+      "reviewVocab": [
+        "v001"
+      ],
+      "contextualGrammarIds": [
+        "g02"
+      ]
     },
     {
       "id": "D006",
@@ -428,7 +460,15 @@
         "D006-E5",
         "D006-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [],
+      "reviewVocab": [
+        "v001",
+        "v002"
+      ],
+      "contextualGrammarIds": [
+        "g02"
+      ]
     },
     {
       "id": "D007",
@@ -449,7 +489,15 @@
         "D007-E5",
         "D007-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v003",
+        "v004"
+      ],
+      "reviewVocab": [],
+      "contextualGrammarIds": [
+        "g03"
+      ]
     },
     {
       "id": "D008",
@@ -470,7 +518,19 @@
         "D008-E5",
         "D008-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v005",
+        "v006",
+        "v007"
+      ],
+      "reviewVocab": [
+        "v003",
+        "v004"
+      ],
+      "contextualGrammarIds": [
+        "g03"
+      ]
     },
     {
       "id": "D009",
@@ -491,7 +551,20 @@
         "D009-E5",
         "D009-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v008",
+        "v009"
+      ],
+      "reviewVocab": [
+        "v004",
+        "v005",
+        "v006",
+        "v007"
+      ],
+      "contextualGrammarIds": [
+        "g04"
+      ]
     },
     {
       "id": "D010",
@@ -501,7 +574,7 @@
       "phase": "produccion",
       "objective": "Construye/reconoce preguntas con מִי y respuesta nominal breve.",
       "phraseIds": [
-        "p004"
+        "p003"
       ],
       "readingIds": [],
       "exerciseIds": [
@@ -512,7 +585,20 @@
         "D010-E5",
         "D010-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v010",
+        "v011"
+      ],
+      "reviewVocab": [
+        "v006",
+        "v007",
+        "v008",
+        "v009"
+      ],
+      "contextualGrammarIds": [
+        "g04"
+      ]
     },
     {
       "id": "D011",
@@ -533,7 +619,21 @@
         "D011-E5",
         "D011-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v012",
+        "v013",
+        "v014"
+      ],
+      "reviewVocab": [
+        "v008",
+        "v009",
+        "v010",
+        "v011"
+      ],
+      "contextualGrammarIds": [
+        "g04"
+      ]
     },
     {
       "id": "D012",
@@ -543,7 +643,7 @@
       "phase": "integracion",
       "objective": "Recupera pronombres sin lista y resuelve una secuencia de identificación.",
       "phraseIds": [
-        "p003"
+        "p004"
       ],
       "readingIds": [],
       "exerciseIds": [
@@ -554,7 +654,20 @@
         "D012-E5",
         "D012-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v015",
+        "v016"
+      ],
+      "reviewVocab": [
+        "v011",
+        "v012",
+        "v013",
+        "v014"
+      ],
+      "contextualGrammarIds": [
+        "g04"
+      ]
     },
     {
       "id": "D013",
@@ -575,7 +688,15 @@
         "D013-E5",
         "D013-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v017",
+        "v018"
+      ],
+      "reviewVocab": [],
+      "contextualGrammarIds": [
+        "g05"
+      ]
     },
     {
       "id": "D014",
@@ -596,7 +717,18 @@
         "D014-E5",
         "D014-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v019",
+        "v020"
+      ],
+      "reviewVocab": [
+        "v017",
+        "v018"
+      ],
+      "contextualGrammarIds": [
+        "g05"
+      ]
     },
     {
       "id": "D015",
@@ -617,7 +749,20 @@
         "D015-E5",
         "D015-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v021",
+        "v022"
+      ],
+      "reviewVocab": [
+        "v017",
+        "v018",
+        "v019",
+        "v020"
+      ],
+      "contextualGrammarIds": [
+        "g06"
+      ]
     },
     {
       "id": "D016",
@@ -627,7 +772,7 @@
       "phase": "comprension",
       "objective": "Distingue בֵּן y בַּת.",
       "phraseIds": [
-        "p007"
+        "p006"
       ],
       "readingIds": [],
       "exerciseIds": [
@@ -638,7 +783,20 @@
         "D016-E5",
         "D016-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v023",
+        "v024"
+      ],
+      "reviewVocab": [
+        "v019",
+        "v020",
+        "v021",
+        "v022"
+      ],
+      "contextualGrammarIds": [
+        "g06"
+      ]
     },
     {
       "id": "D017",
@@ -659,7 +817,20 @@
         "D017-E5",
         "D017-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v025",
+        "v026"
+      ],
+      "reviewVocab": [
+        "v021",
+        "v022",
+        "v023",
+        "v024"
+      ],
+      "contextualGrammarIds": [
+        "g06"
+      ]
     },
     {
       "id": "D018",
@@ -669,7 +840,7 @@
       "phase": "integracion",
       "objective": "Explica por qué טוֹבָה aparece con אִשָּׁה.",
       "phraseIds": [
-        "p006"
+        "p007"
       ],
       "readingIds": [],
       "exerciseIds": [
@@ -680,7 +851,20 @@
         "D018-E5",
         "D018-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v037",
+        "v038"
+      ],
+      "reviewVocab": [
+        "v023",
+        "v024",
+        "v025",
+        "v026"
+      ],
+      "contextualGrammarIds": [
+        "g06"
+      ]
     },
     {
       "id": "D019",
@@ -701,7 +885,15 @@
         "D019-E5",
         "D019-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v027",
+        "v028"
+      ],
+      "reviewVocab": [],
+      "contextualGrammarIds": [
+        "g07"
+      ]
     },
     {
       "id": "D020",
@@ -722,7 +914,17 @@
         "D020-E5",
         "D020-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v029"
+      ],
+      "reviewVocab": [
+        "v027",
+        "v028"
+      ],
+      "contextualGrammarIds": [
+        "g07"
+      ]
     },
     {
       "id": "D021",
@@ -743,7 +945,19 @@
         "D021-E5",
         "D021-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v030",
+        "v031"
+      ],
+      "reviewVocab": [
+        "v027",
+        "v028",
+        "v029"
+      ],
+      "contextualGrammarIds": [
+        "g07"
+      ]
     },
     {
       "id": "D022",
@@ -753,7 +967,7 @@
       "phase": "comprension",
       "objective": "Distingue דֶּרֶךְ y שָׂדֶה.",
       "phraseIds": [
-        "p010"
+        "p009"
       ],
       "readingIds": [],
       "exerciseIds": [
@@ -764,7 +978,20 @@
         "D022-E5",
         "D022-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v032",
+        "v033"
+      ],
+      "reviewVocab": [
+        "v028",
+        "v029",
+        "v030",
+        "v031"
+      ],
+      "contextualGrammarIds": [
+        "g07"
+      ]
     },
     {
       "id": "D023",
@@ -785,7 +1012,19 @@
         "D023-E5",
         "D023-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v034"
+      ],
+      "reviewVocab": [
+        "v030",
+        "v031",
+        "v032",
+        "v033"
+      ],
+      "contextualGrammarIds": [
+        "g07"
+      ]
     },
     {
       "id": "D024",
@@ -795,7 +1034,7 @@
       "phase": "integracion",
       "objective": "Lee grupos nominales del entorno trabajado sin traducir cada palabra aislada.",
       "phraseIds": [
-        "p009"
+        "p010"
       ],
       "readingIds": [],
       "exerciseIds": [
@@ -806,7 +1045,20 @@
         "D024-E5",
         "D024-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v035",
+        "v036"
+      ],
+      "reviewVocab": [
+        "v031",
+        "v032",
+        "v033",
+        "v034"
+      ],
+      "contextualGrammarIds": [
+        "g07"
+      ]
     },
     {
       "id": "D025",
@@ -827,7 +1079,14 @@
         "D025-E5",
         "D025-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v039"
+      ],
+      "reviewVocab": [],
+      "contextualGrammarIds": [
+        "g08"
+      ]
     },
     {
       "id": "D026",
@@ -848,7 +1107,17 @@
         "D026-E5",
         "D026-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v041",
+        "v042"
+      ],
+      "reviewVocab": [
+        "v039"
+      ],
+      "contextualGrammarIds": [
+        "g08"
+      ]
     },
     {
       "id": "D027",
@@ -869,7 +1138,18 @@
         "D027-E5",
         "D027-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v043"
+      ],
+      "reviewVocab": [
+        "v039",
+        "v041",
+        "v042"
+      ],
+      "contextualGrammarIds": [
+        "g09"
+      ]
     },
     {
       "id": "D028",
@@ -890,7 +1170,19 @@
         "D028-E5",
         "D028-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v044"
+      ],
+      "reviewVocab": [
+        "v039",
+        "v041",
+        "v042",
+        "v043"
+      ],
+      "contextualGrammarIds": [
+        "g09"
+      ]
     },
     {
       "id": "D029",
@@ -911,7 +1203,20 @@
         "D029-E5",
         "D029-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v045",
+        "v046"
+      ],
+      "reviewVocab": [
+        "v041",
+        "v042",
+        "v043",
+        "v044"
+      ],
+      "contextualGrammarIds": [
+        "g09"
+      ]
     },
     {
       "id": "D030",
@@ -932,7 +1237,19 @@
         "D030-E5",
         "D030-E6"
       ],
-      "autoAdvance": false
+      "autoAdvance": false,
+      "targetVocab": [
+        "v047"
+      ],
+      "reviewVocab": [
+        "v043",
+        "v044",
+        "v045",
+        "v046"
+      ],
+      "contextualGrammarIds": [
+        "g09"
+      ]
     }
   ],
   "vocab": [
@@ -1430,7 +1747,10 @@
       "category": "adjetivo",
       "gender": "masculino",
       "number": "singular",
-      "frequency": null
+      "frequency": null,
+      "relatedForms": [
+        "v047"
+      ]
     },
     {
       "id": "v045",
@@ -1455,6 +1775,23 @@
       "gender": "masculino",
       "number": "singular",
       "frequency": null
+    },
+    {
+      "id": "v047",
+      "form": "חֲכָמָה",
+      "lemma": "חָכָם",
+      "root": null,
+      "family": "חכם",
+      "meaning": "sabia",
+      "category": "adjetivo",
+      "gender": "femenino",
+      "number": "singular",
+      "frequency": null,
+      "introductionUnit": "U05",
+      "relatedForms": [
+        "v044"
+      ],
+      "notes": "Forma femenina; se introduce para practicar concordancia."
     }
   ],
   "phrases": [
@@ -1717,7 +2054,7 @@
         },
         {
           "surface": "חֲכָמָה",
-          "vocabId": "v044"
+          "vocabId": "v047"
         }
       ],
       "note": "חֲכָמָה es la forma femenina de חָכָם; se introduce aquí para concordancia."
