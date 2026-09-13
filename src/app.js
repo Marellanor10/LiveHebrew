@@ -1,4 +1,4 @@
-const DB='mikhael-v5.4.2',VER=1,STORE='profiles',META='meta';
+const DB='mikhael-v5.5.2',VER=1,STORE='profiles',META='meta';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const DEFAULT={activeDays:[],streak:0,lastActive:null,completedLessons:[],cards:{},history:[],grammarMastery:{},skills:{comprension:0,reconocimiento:0,produccion:0},settings:{largeText:false,reduceMotion:false,haptic:true},readerDone:{},courseStartedAt:null,reviewSessionNo:0};
 let D={curr:null,vocab:[],units:[],sessions:[],phrases:[],ctxGrammar:[],exercises:{},blocks:[],alphabet:[],vocal:[],reader:[],morph:[],grammarFull:[],readerVocab:[]};
@@ -33,7 +33,7 @@ function unitUnlocked(u){return prereqMet(u)}
 function nextSession(){for(const u of D.units){if(!unitUnlocked(u))continue;const s=sessionsForUnit(u.id).find(x=>!state.completedLessons.includes(x.id));if(s)return s}return null}
 function show(view){currentView=view;$$('.view').forEach(x=>x.classList.toggle('hidden',x.id!==view));$$('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));if(view==='course')renderCourse();if(view==='review')renderReview();if(view==='reader')renderReader();if(view==='alphabet')renderAlphabet();if(view==='grammar')renderGrammar();if(view==='stats')renderStats();if(view==='settings')renderProfilePanel();renderGlobal();scrollTo({top:0,behavior:'auto'})}
 function renderGlobal(){const due=eligibleReviewCards(false).length;$('#profileName').textContent=profileName;$('#dueBadge').textContent=due;$('#mobileDue').textContent=due;$('#homeDay').textContent=state.activeDays.length;$('#homeDue').textContent=due;$('#homeDueInline').textContent=due;$('#homeStreak').textContent=state.streak;const n=nextSession();$('#homeGoal').textContent=n?`${unit(n.unitId)?.title||''} · ${n.title}`:'Ruta completada';const pct=Math.round(state.completedLessons.length/D.sessions.length*100);$('#dayProgress').style.width=pct+'%';$('#sessionSummary').textContent=`${state.completedLessons.length} de ${D.sessions.length} lecciones completadas · ${pct}% del curso.`;$('#adaptiveAdvice').textContent=due?`Hay ${due} tarjetas disponibles para repaso. Se priorizan errores y conceptos débiles.`:'Elige una unidad y una lección. Puedes hacer varias en un mismo día.'}
-function renderCourse(){let u=unit(selectedUnitId);if(!u){const n=nextSession();selectedUnitId=n?.unitId||D.units[0]?.id}u=unit(selectedUnitId);if(!u)return;const ss=sessionsForUnit(u.id);if(!selectedSessionId||!ss.some(s=>s.id===selectedSessionId))selectedSessionId=ss.find(s=>!state.completedLessons.includes(s.id))?.id||ss[0]?.id;const s=session(selectedSessionId);$('#courseTitle').textContent=`Unidad ${u.id} · ${u.title}`;$('#courseObjective').textContent=u.objective;const done=ss.filter(x=>state.completedLessons.includes(x.id)).length;$('#courseMeta').innerHTML=`<span>Bloque 1</span><span>${ss.length} lecciones</span><span>${done}/${ss.length} completadas</span><span>Sin límite diario</span>`;renderUnitNavigator(u);if(s)renderLesson(s,u)}
+function renderCourse(){let u=unit(selectedUnitId);if(!u){const n=nextSession();selectedUnitId=n?.unitId||D.units[0]?.id}u=unit(selectedUnitId);if(!u)return;const ss=sessionsForUnit(u.id);if(!selectedSessionId||!ss.some(s=>s.id===selectedSessionId))selectedSessionId=ss.find(s=>!state.completedLessons.includes(s.id))?.id||ss[0]?.id;const s=session(selectedSessionId);$('#courseTitle').textContent=`Unidad ${u.id} · ${u.title}`;$('#courseObjective').textContent=u.objective;const done=ss.filter(x=>state.completedLessons.includes(x.id)).length;$('#courseMeta').innerHTML=`<span>Bloque 1</span><span>${ss.length} lecciones</span><span>${done}/${ss.length} completadas</span><span>Sin límite diario</span>`;if(s)renderLesson(s,u);renderUnitNavigator(u)}
 function renderUnitNavigator(active){const host=$('#unitNavigator');host.innerHTML=D.blocks.map(b=>`<div class="unit-block"><div class="eyebrow">Bloque ${b.id} · ${esc(b.title)}</div><div class="unit-list">${D.units.filter(u=>u.block===b.id).map(u=>{const unlocked=unitUnlocked(u),done=sessionsForUnit(u.id).filter(s=>state.completedLessons.includes(s.id)).length;return `<button class="unit-card ${u.id===active.id?'active':''} ${unlocked?'':'locked'}" data-unit="${u.id}" ${unlocked?'':'disabled'}><div class="unit-title">${esc(u.id)} · ${esc(u.title)}</div><div class="muted small">${esc(u.objective)}</div><div class="unit-meta"><span>${done}/${sessionsForUnit(u.id).length} lecciones</span><span>${unlocked?'Disponible':'Bloqueada'}</span></div></button>`}).join('')}</div></div>`).join('');$$('[data-unit]').forEach(b=>b.onclick=()=>{selectedUnitId=b.dataset.unit;selectedSessionId=sessionsForUnit(selectedUnitId).find(s=>!state.completedLessons.includes(s.id))?.id||sessionsForUnit(selectedUnitId)[0]?.id;lessonState={step:0,done:{},writing:[],item:0,writingComplete:false};renderCourse()});const ss=sessionsForUnit(active.id);host.insertAdjacentHTML('beforeend',`<div class="card unit-lesson-header"><div><h2>Lecciones de ${esc(active.id)}</h2><p class="muted">Puedes hacer una, varias o todas las lecciones de esta unidad en el mismo día. El calendario no limita el avance.</p></div><div class="lesson-list">${ss.map(s=>`<button class="lesson-choice ${s.id===selectedSessionId?'active':''} ${state.completedLessons.includes(s.id)?'done':''}" data-session="${s.id}"><span><b>${esc(s.id)} · ${esc(s.title)}</b><small class="muted">${esc(s.objective)}</small></span><strong>${state.completedLessons.includes(s.id)?'✓':'›'}</strong></button>`).join('')}</div></div>`);$$('[data-session]').forEach(b=>b.onclick=()=>{selectedSessionId=b.dataset.session;lessonState={step:0,done:{},writing:[],item:0,writingComplete:false};renderCourse()})}
 function currentExercises(s){return (s.exerciseIds||[]).map(id=>D.exercises[id]).filter(Boolean)}
 function currentPhrase(s){return (s.phraseIds||[]).map(phrase).find(Boolean)}
@@ -50,10 +50,141 @@ else if(cur.type==='writing'){const w=items[idx];const tiles=writingTiles(w);con
 else if(cur.type==='recognition'){const r=items[idx];body=`<div class="card exercise-card"><span class="eyebrow">3 · Reconocimiento · ${idx+1}/${items.length}</span><h2>Reconoce el significado</h2><div class="he big-he">${esc(r.stimulus||v?.form||'')}</div><div class="roman pronunciation">${esc(r.phonetic||v?.translit||'')}</div><div class="choice-list">${r.options.map((o,i)=>`<button class="choice" data-choice="${i}" data-correct="${String(i===r.correctIndex)}" ${lessonState.done[2]?'disabled':''}>${esc(o)}</button>`).join('')}</div><p id="recFb" class="feedback"></p></div>`}
 const labels=['Comprensión','Escritura','Reconocimiento'];const last=lessonState.step===2;body+=`<div class="card"><div class="exercise-progress"><button class="secondary" id="prevStep" ${lessonState.step===0?'disabled':''}>← Anterior</button><span class="eyebrow">${labels[lessonState.step]} · ${lessonState.step+1}/3</span><button class="primary" id="nextStep" ${lessonState.done[lessonState.step]?'':'disabled'}>${last?'Finalizar lección':'Continuar →'}</button></div></div>`;$('#lessonArea').innerHTML=body;wireLesson(s,u,cur,idx,items.length)}
 function markStepDone(n){lessonState.done[n]=true}
-async function wireLesson(s,u,cur,idx,total){const reveal=$('#revealInfo');if(reveal)reveal.onclick=()=>{if(!lessonState.done[0]){lessonState.done[0]=true;renderLesson(s,u)}else if(idx+1<total){lessonState.item=idx+1;lessonState.done[0]=false;renderLesson(s,u)}else{renderLesson(s,u)}};
-if(cur.type==='writing'){const w=lessonItems(cur)[idx];const tiles=writingTiles(w);const answer=writingAnswerChars(w.answer);if(!Array.isArray(lessonState.writing))lessonState.writing=[];$$('#lessonArea [data-tile]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.tile),t=tiles[i];if(!t?.ch||lessonState.done[1])return;lessonState.writing.push(t.ch);const n=lessonState.writing.length;const correctSoFar=lessonState.writing.every((ch,j)=>ch===answer[j]);const out=$('#writtenWord');if(out)out.textContent=lessonState.writing.join('');if(!correctSoFar){lessonState.writing=[];const fb=$('#writeFb');if(fb)fb.textContent='Orden incorrecto. Se reinicia el ejercicio.';vibrate(30);setTimeout(()=>renderLesson(s,u),300);return}if(n===answer.length){lessonState.writingComplete=true;if(idx+1>=total){lessonState.done[1]=true;lessonState.item=0;state.skills.produccion++;touch();introduce(cur.targetVocabIds||[])}vibrate(10);save().then(()=>renderLesson(s,u))}});const nextWriting=$('#nextWriting');if(nextWriting)nextWriting.onclick=()=>{lessonState.item=idx+1;lessonState.writing=[];lessonState.writingComplete=false;renderLesson(s,u)};const clear=$('#clearWriting');if(clear)clear.onclick=()=>{lessonState.writing=[];lessonState.writingComplete=false;renderLesson(s,u)}}
-if(cur.type==='recognition'){const r=lessonItems(cur)[idx];$$('#lessonArea [data-choice]').forEach(b=>b.onclick=async()=>{if(lessonState.done[2])return;const ok=b.dataset.correct==='true';if(ok){if(idx+1<total){lessonState.item=idx+1;state.skills.reconocimiento++;touch();introduce([r.targetVocabId]);vibrate(10);await save();renderLesson(s,u)}else{lessonState.done[2]=true;lessonState.item=0;state.skills.reconocimiento++;touch();introduce(cur.targetVocabIds||[]);vibrate(10);const fb=$('#recFb');if(fb)fb.textContent='✓ Correcto. Puedes continuar.';await save();renderLesson(s,u)}}else{b.classList.remove('bad');void b.offsetWidth;b.classList.add('bad');const fb=$('#recFb');if(fb)fb.textContent='No esta vez. Inténtalo de nuevo.';vibrate(30)}})}
-$('#prevStep').onclick=()=>{if(lessonState.step>0){lessonState.step--;lessonState.item=0;lessonState.writing=[];lessonState.writingComplete=false;renderLesson(s,u)}};$('#nextStep').onclick=async()=>{if(!lessonState.done[lessonState.step])return;if(lessonState.step<2){lessonState.step++;lessonState.item=0;lessonState.writing=[];lessonState.writingComplete=false;renderLesson(s,u)}else await completeSelectedLesson()}}
+async function wireLesson(s,u,cur,idx,total){
+  const area=$('#lessonArea');
+  if(!area)return;
+  const reveal=$('#revealInfo');
+  if(reveal)reveal.onclick=()=>{
+    if(!lessonState.done[0]){
+      lessonState.done[0]=true;
+      renderLesson(s,u);
+    }else if(idx+1<total){
+      lessonState.item=idx+1;
+      lessonState.done[0]=false;
+      renderLesson(s,u);
+    }
+  };
+
+  if(cur.type==='writing'){
+    const w=lessonItems(cur)[idx];
+    const tiles=writingTiles(w);
+    const answer=writingAnswerChars(w.answer);
+    if(!Array.isArray(lessonState.writing))lessonState.writing=[];
+    area.querySelectorAll('[data-tile]').forEach(b=>{
+      b.addEventListener('click',()=>{
+        if(lessonState.done[1]||lessonState.writingComplete)return;
+        const i=Number(b.dataset.tile), t=tiles[i];
+        if(!t?.ch)return;
+        const expected=answer[lessonState.writing.length];
+        const pressed=String(t.ch);
+        if(pressed!==expected){
+          lessonState.writing=[];
+          lessonState.writingComplete=false;
+          const fb=$('#writeFb');
+          if(fb)fb.textContent='Orden incorrecto. Se reinicia el ejercicio.';
+          vibrate(30);
+          setTimeout(()=>renderLesson(s,u),250);
+          return;
+        }
+        lessonState.writing.push(pressed);
+        const out=$('#writtenWord');
+        if(out)out.textContent=lessonState.writing.join('');
+        if(lessonState.writing.length===answer.length){
+          lessonState.writingComplete=true;
+          const finalWord=w.displayForm||w.answer;
+          const fb=$('#writeFb');
+          if(fb)fb.textContent='✓ Correcto';
+          vibrate(10);
+          if(idx+1>=total){
+            lessonState.done[1]=true;
+            lessonState.item=0;
+            lessonState.writing=[];
+            lessonState.writingComplete=false;
+            state.skills.produccion++;
+            touch();
+            introduce(cur.targetVocabIds||[]);
+            renderLesson(s,u);
+            save().catch(()=>{});
+          }else{
+            renderLesson(s,u);
+          }
+        }
+      });
+    });
+    const nextWriting=$('#nextWriting');
+    if(nextWriting)nextWriting.onclick=()=>{
+      lessonState.item=idx+1;
+      lessonState.writing=[];
+      lessonState.writingComplete=false;
+      renderLesson(s,u);
+    };
+    const clear=$('#clearWriting');
+    if(clear)clear.onclick=()=>{
+      lessonState.writing=[];
+      lessonState.writingComplete=false;
+      renderLesson(s,u);
+    };
+  }
+
+  if(cur.type==='recognition'){
+    const r=lessonItems(cur)[idx];
+    area.querySelectorAll('[data-choice]').forEach(b=>{
+      b.addEventListener('click',async()=>{
+        if(lessonState.done[2])return;
+        const selected=Number(b.dataset.choice);
+        const correct=Number(r.correctIndex);
+        const ok=selected===correct;
+        if(!ok){
+          b.classList.remove('bad');
+          void b.offsetWidth;
+          b.classList.add('bad');
+          const fb=$('#recFb');
+          if(fb)fb.textContent='No esta vez. Inténtalo de nuevo.';
+          vibrate(30);
+          return;
+        }
+        b.classList.add('good');
+        area.querySelectorAll('[data-choice]').forEach(x=>x.disabled=true);
+        vibrate(10);
+        state.skills.reconocimiento++;
+        touch();
+        introduce([r.targetVocabId]);
+        if(idx+1<total){
+          lessonState.item=idx+1;
+          await save().catch(()=>{});
+          renderLesson(s,u);
+        }else{
+          lessonState.done[2]=true;
+          lessonState.item=0;
+          await save().catch(()=>{});
+          renderLesson(s,u);
+        }
+      });
+    });
+  }
+
+  const prev=$('#prevStep');
+  if(prev)prev.onclick=()=>{
+    if(lessonState.step>0){
+      lessonState.step--;
+      lessonState.item=0;
+      lessonState.writing=[];
+      lessonState.writingComplete=false;
+      renderLesson(s,u);
+    }
+  };
+  const next=$('#nextStep');
+  if(next)next.onclick=async()=>{
+    if(!lessonState.done[lessonState.step])return;
+    if(lessonState.step<2){
+      lessonState.step++;
+      lessonState.item=0;
+      lessonState.writing=[];
+      lessonState.writingComplete=false;
+      renderLesson(s,u);
+    }else await completeSelectedLesson();
+  };
+}
 async function completeSelectedLesson(){const s=session(selectedSessionId);if(!s)return;const ex=currentExercises(s);if(!ex.every((e,i)=>lessonState.done[i]))return;introduce(s.targetVocabIds||[]);if(!state.completedLessons.includes(s.id)){state.completedLessons.push(s.id);touch();if(!state.courseStartedAt)state.courseStartedAt=Date.now();await save()}lessonState={step:0,done:{},writing:[],item:0,writingComplete:false};const ss=sessionsForUnit(s.unitId);const next=ss.find(x=>!state.completedLessons.includes(x.id));if(next)selectedSessionId=next.id;renderCourse()}
 function routeWord(id){const v=courseVocab(id);if(!v)return;const c=state.cards[id];const related=D.sessions.filter(s=>(s.targetVocabIds||[]).includes(id));const phrases=D.phrases.filter(p=>(p.tokens||[]).some(t=>t.vocabId===id));const forms=D.morph.filter(m=>m.surface&&normalize(m.surface)===normalize(v.form));const relatedForms=v.relatedForms||[];$('#routeCard').innerHTML=`<div class="card"><span class="eyebrow">Ruta de aprendizaje · ${esc(id)}</span><div class="he big-he">${esc(v.form)}</div><div class="roman">${esc(v.translit||'')}</div><h2>${esc(v.meaning)}</h2><p><b>Lema:</b> ${esc(v.lemma||v.form)} · <b>Categoría:</b> ${esc(v.category||'—')}</p>${v.gender?`<p><b>Género:</b> ${esc(v.gender)} · <b>Número:</b> ${esc(v.number||'')}</p>`:''}${v.root?`<p><b>Raíz:</b> ${esc(v.root)}</p>`:''}<p><b>Familia:</b> ${esc(v.family||'—')}</p><p><b>Unidad:</b> ${esc(v.unitId||related[0]?.unitId||'—')}</p><p><b>Lecciones:</b> ${related.map(s=>esc(s.id)).join(', ')||'—'}</p>${relatedForms.length?`<p><b>Formas relacionadas:</b> ${relatedForms.map(x=>esc(x)).join(', ')}</p>`:''}<p><b>Frases:</b> ${phrases.map(p=>esc(p.text)).join(' · ')||'—'}</p>${forms.length?`<div class="morph-card"><b>Morfología disponible</b>${forms.map(m=>`<div class="morph-grid"><div><b>Forma</b><span class="he morph-he">${esc(m.surface)}</span></div><div><b>Lema</b><span>${esc(m.lemma||'—')}</span></div><div><b>Raíz</b><span>${esc(m.root||'—')}</span></div><div><b>Análisis</b><span>${esc(m.morphology||'—')}</span></div></div><p class="morph-note">${esc(m.note||m.gloss||'')}</p>`).join('')}</div>`:''}<hr><p><b>Estado del Banco:</b> ${c?'vista / en aprendizaje':'no vista aún'}</p>${c?`<p><b>Repasos:</b> ${c.reps} · <b>Errores:</b> ${c.errors} · <b>Última valoración:</b> ${esc(c.lastRating||'—')}</p>`:''}<p>${esc(v.note||'')}</p></div>`;show('stats')}
 function reviewEligible(c,n){if(c.status==='mastered')return false;if(c.status==='new')return n>=Number(c.nextReviewSession||1);if(c.status==='again')return n>=Number(c.nextReviewSession||n);if(c.status==='mal')return n===Number(c.nextReviewSession);if(c.status==='regular')return n>=Number(c.nextReviewSession)&&n<=Number(c.regularUntil);return false}
@@ -69,7 +200,7 @@ async function markGrammar(id,val){state.grammarMastery[id]=val;touch();await sa
 function renderGrammar(){const contextual=D.ctxGrammar.map(g=>{const m=Number(state.grammarMastery[g.id]||0);return `<article class="card grammar-card"><span class="eyebrow">Concepto contextual · ${esc(g.unitId)}</span><h2>${esc(g.title)}</h2><p><b>${esc(g.phenomenon)}</b></p><p>${esc(g.explanation)}</p><div class="grammar-examples">${g.examples.map(e=>`<div class="grammar-example"><div class="he">${esc(e)}</div></div>`).join('')}</div><details><summary>Por qué importa</summary><p>${esc(g.why)}</p></details><div class="notice"><b>¿Cuánto lo comprendes?</b><div class="mastery-buttons"><button class="secondary ${m===3?'selected':''}" data-gm="${g.id}" data-value="3">Bien</button><button class="secondary ${m===2?'selected':''}" data-gm="${g.id}" data-value="2">Regular</button><button class="danger ${m===1?'selected':''}" data-gm="${g.id}" data-value="1">Mal</button></div><p class="muted small">«Mal» aumenta la prioridad de las tarjetas de las lecciones relacionadas en el repaso.</p></div></article>`}).join('');const full=D.grammarFull.map(g=>`<article class="card grammar-card"><span class="eyebrow">Referencia completa</span><h2>${esc(g.title)}</h2><p>${esc(g.summary)}</p><div class="he">${esc(g.example)}</div><p><b>${esc(g.translation)}</b></p><details><summary>Explicación</summary><p>${esc(g.note)}</p>${(g.examples||[]).map(e=>`<div class="grammar-example"><div class="he">${esc(e.hebrew)}</div><b>${esc(e.meaning)}</b><div class="muted small">${esc(e.analysis)}</div></div>`).join('')}</details></article>`).join('');$('#grammarGrid').innerHTML=contextual+`<div class="card"><h2>Referencia gramatical completa</h2><p class="muted">Consulta general, separada de los ejercicios del curso.</p></div>`+full;$$('#grammarGrid [data-gm]').forEach(b=>b.onclick=()=>markGrammar(b.dataset.gm,Number(b.dataset.value)))}
 function renderStats(){const total=state.history.length,correct=state.history.filter(x=>x.rating==='bien').length;$('#stSessions').textContent=state.completedLessons.length;$('#stAccuracy').textContent=total?Math.round(correct/total*100)+'%':'0%';$('#stMastered').textContent=Object.values(state.cards).filter(c=>c.status==='mastered').length;$('#stReviews').textContent=total;$('#skillBars').innerHTML=Object.entries(state.skills).map(([k,v])=>`<p><b>${esc(k)}</b></p><div class="progress"><i style="width:${Math.min(100,v)}%"></i></div>`).join('');$('#activityText').textContent=`${state.activeDays.length} días activos · ${state.completedLessons.length}/${D.sessions.length} lecciones completadas · ${Object.keys(state.cards).length} tarjetas en el Banco.`;renderBank()}
 function renderProfilePanel(){metaGet('profiles').then(p=>{$('#profilePanel').innerHTML=`<div class="card profile-box"><span class="eyebrow">Perfil local</span><h2>${esc(profileName)}</h2><p class="muted small">Cada perfil mantiene curso, Banco, repaso y progreso por separado.</p><select id="profileSelect">${p.map(x=>`<option value="${x.id}" ${x.id===profileId?'selected':''}>${esc(x.name)}</option>`).join('')}</select><div class="row"><input id="newProfileName" maxlength="28" placeholder="Nuevo usuario"><button class="secondary" id="createProfile">Crear</button></div><button class="secondary" id="resetProfile">Restablecer progreso</button></div>`;$('#profileSelect').onchange=async e=>{profileId=e.target.value;await metaPut('activeProfile',profileId);state=structuredClone(DEFAULT);await initProfiles();renderProfilePanel();show('home')};$('#createProfile').onclick=async()=>{const n=$('#newProfileName').value.trim();if(!n)return;const p=await metaGet('profiles')||[];if(p.some(x=>x.name.toLowerCase()===n.toLowerCase()))return alert('Ese perfil ya existe.');const x={id:'p_'+Date.now(),name:n,createdAt:Date.now()};p.push(x);await metaPut('profiles',p);await metaPut('activeProfile',x.id);await initProfiles();renderProfilePanel();show('home')};$('#resetProfile').onclick=async()=>{if(confirm('¿Restablecer este perfil?')){state=structuredClone(DEFAULT);await save();show('home')}}})}
-function setup(){document.addEventListener('click',e=>{const b=e.target.closest('[data-view]');if(b)show(b.dataset.view)});$('#exportBtn').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify({app:'Mikhael',version:'5.4.2',profile:{id:profileId,name:profileName},state},null,2)],{type:'application/json'}));a.download='mikhael-progreso-v5.4.2.json';a.click()};$('#importBtn').onclick=()=>$('#fileInput').click();$('#fileInput').onchange=e=>{const r=new FileReader();r.onload=async()=>{try{const x=JSON.parse(r.result);state={...structuredClone(DEFAULT),...x.state,skills:{...DEFAULT.skills,...(x.state?.skills||{})},settings:{...DEFAULT.settings,...(x.state?.settings||{})},grammarMastery:x.state?.grammarMastery||{},cards:x.state?.cards||{}};await save();alert('Progreso importado.')}catch(err){alert('No se pudo importar: '+err.message)}};r.readAsText(e.target.files[0])};$('#storageInfo').onclick=()=>navigator.storage?.persist?.().then(ok=>alert(ok?'Almacenamiento persistente solicitado.':'El navegador no confirmó persistencia.'));['largeText','reduceMotion','haptic'].forEach(id=>$('#'+id).onchange=e=>{state.settings[id]=e.target.checked;applySettings();save()});renderProfilePanel()}
+function setup(){document.addEventListener('click',e=>{const b=e.target.closest('[data-view]');if(b)show(b.dataset.view)});$('#exportBtn').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify({app:'Mikhael',version:'5.5.2',profile:{id:profileId,name:profileName},state},null,2)],{type:'application/json'}));a.download='mikhael-progreso-v5.5.2.json';a.click()};$('#importBtn').onclick=()=>$('#fileInput').click();$('#fileInput').onchange=e=>{const r=new FileReader();r.onload=async()=>{try{const x=JSON.parse(r.result);state={...structuredClone(DEFAULT),...x.state,skills:{...DEFAULT.skills,...(x.state?.skills||{})},settings:{...DEFAULT.settings,...(x.state?.settings||{})},grammarMastery:x.state?.grammarMastery||{},cards:x.state?.cards||{}};await save();alert('Progreso importado.')}catch(err){alert('No se pudo importar: '+err.message)}};r.readAsText(e.target.files[0])};$('#storageInfo').onclick=()=>navigator.storage?.persist?.().then(ok=>alert(ok?'Almacenamiento persistente solicitado.':'El navegador no confirmó persistencia.'));['largeText','reduceMotion','haptic'].forEach(id=>$('#'+id).onchange=e=>{state.settings[id]=e.target.checked;applySettings();save()});renderProfilePanel()}
 function applySettings(){document.body.classList.toggle('large-he',state.settings.largeText);document.body.classList.toggle('reduce-motion',state.settings.reduceMotion);if($('#largeText'))$('#largeText').checked=!!state.settings.largeText;if($('#reduceMotion'))$('#reduceMotion').checked=!!state.settings.reduceMotion;if($('#haptic'))$('#haptic').checked=!!state.settings.haptic}
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;$('#installBtn').hidden=false});$('#installBtn').onclick=async()=>{if(deferred){deferred.prompt();deferred=null;$('#installBtn').hidden=true}};
-(async()=>{try{await load();await initProfiles();applySettings();setup();show('home');if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});}catch(e){document.body.innerHTML=`<main class="wrap"><div class="card"><h1>Error al cargar Mikhael v5.4.2</h1><p>${esc(e.message)}</p></div></main>`}})();
+(async()=>{try{await load();await initProfiles();applySettings();setup();show('home');if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});}catch(e){document.body.innerHTML=`<main class="wrap"><div class="card"><h1>Error al cargar Mikhael v5.5.2</h1><p>${esc(e.message)}</p></div></main>`}})();
