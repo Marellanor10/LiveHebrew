@@ -1,1 +1,47 @@
-{"name":"Mikhael · Hebreo Bíblico","short_name":"Mikhael","start_url":"./","display":"standalone","background_color":"#f7f5f0","theme_color":"#243447","lang":"es","description":"Aprendizaje de Hebreo Bíblico en contexto, offline-first.","icons":[{"src":"./icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "Mikhael · Hebreo Bíblico",
+  "short_name": "Mikhael",
+  "description": "Curso offline-first de adquisición de Hebreo Bíblico con referencia práctica de lectura sefardí.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf8f3",
+  "theme_color": "#243447",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Continuar lección",
+      "short_name": "Continuar",
+      "url": "./?view=course",
+      "icons": [
+        {
+          "src": "./icons/icon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Repasar SRS",
+      "short_name": "SRS",
+      "url": "./?view=review",
+      "icons": [
+        {
+          "src": "./icons/icon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
